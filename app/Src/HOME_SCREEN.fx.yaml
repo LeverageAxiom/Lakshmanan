@@ -10,6 +10,7 @@ HOME_SCREEN As screen:
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =140
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
@@ -17,8 +18,9 @@ HOME_SCREEN As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =290
-        Y: =391
+        Width: =100
+        X: =271
+        Y: =314
         ZIndex: =2
 
     TextInput1 As text:

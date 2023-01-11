@@ -12,7 +12,7 @@
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =147
+        Height: =87
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -26,9 +26,9 @@
         RadiusTopRight: =30
         Size: =24
         Text: ="FSR Form"
-        Width: =310
-        X: =182
-        Y: =324
+        Width: =255
+        X: =348
+        Y: =439
         ZIndex: =1
 
     Button6_1 As button:
@@ -40,7 +40,7 @@
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =147
+        Height: =76
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -53,10 +53,10 @@
         RadiusTopLeft: =30
         RadiusTopRight: =30
         Size: =24
-        Text: ="FSR Tracker"
-        Width: =310
-        X: =182
-        Y: =614
+        Text: ="   FSR Tracker"
+        Width: =254
+        X: =344
+        Y: =569
         ZIndex: =2
 
     Icon6 As icon.ListScrollWatchlist:
@@ -74,8 +74,8 @@
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =194
-        Y: =663
+        X: =344
+        Y: =582
         ZIndex: =3
 
     Icon7 As icon.AddDocument:
@@ -93,7 +93,8 @@
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =194
-        Y: =373
+        Width: =46
+        X: =362
+        Y: =458
         ZIndex: =4
 
