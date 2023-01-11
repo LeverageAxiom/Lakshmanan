@@ -1,5 +1,5 @@
 HOME_SCREEN As screen:
-    BackgroundImage: ='Home Screen Image'
+    BackgroundImage: ='997194'
     ImagePosition: =ImagePosition.Stretch
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
