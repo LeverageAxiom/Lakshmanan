@@ -1,0 +1,38 @@
+{
+  "e6f39e1e-f2c1-4e64-8c9a-75a4ea1d5a7b": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://leverageaxiom.sharepoint.com/sites/ShaktimanRentalApp": {
+        "dataSources": {
+          "Client List DB": {
+            "tableName": "233da6a6-9cb0-446b-a529-0f85de4e54c3"
+          },
+          "LoginDB": {
+            "tableName": "57209a7a-7665-4525-b534-93fcb84bca50"
+          },
+          "Visitor Reg DB": {
+            "tableName": "ee130013-ed6d-4c9b-972d-e19016f0c96c"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Visitor Reg DB",
+      "Client List DB",
+      "LoginDB"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e6f39e1e-f2c1-4e64-8c9a-75a4ea1d5a7b"
+  }
+}
