@@ -115,12 +115,13 @@
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
                 InputTextPlaceholder: ="Select Company Name"
-                Items: ='Client List DB'.field_3
+                IsSearchable: =false
+                Items: ='Client List DB-'.field_3
                 PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(135, 100, 184, 1)
                 SearchFields: =["field_3"]
-                SearchItems: =Search('Client List DB'.field_3,DataCardValue3.SearchText,"field_3")
+                SearchItems: =[]
                 SelectionFill: =RGBA(135, 100, 184, 1)
                 SelectMultiple: =false
                 Size: =21

@@ -1,38 +1,51 @@
 {
-  "e6f39e1e-f2c1-4e64-8c9a-75a4ea1d5a7b": {
+  "71e95593-2791-4577-94bb-f451d9939c3c": {
     "connectionParameters": {
       "sku": "Enterprise"
     },
     "connectionRef": {
-      "apiTier": "Standard",
       "displayName": "SharePoint",
       "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
-      "parameterHints": {},
-      "parameterHintsV2": {}
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
     },
     "datasets": {
-      "https://leverageaxiom.sharepoint.com/sites/ShaktimanRentalApp": {
+      "https://pioneerindia.sharepoint.com/sites/ShakthimanRentalApp": {
         "dataSources": {
-          "Client List DB": {
-            "tableName": "233da6a6-9cb0-446b-a529-0f85de4e54c3"
+          "Call Status Dropdown": {
+            "tableName": "a526f333-cfd3-4096-b59d-def1c2868618"
+          },
+          "Call Type Dropdown": {
+            "tableName": "dc6db549-cd8f-48d6-8848-3fb66302c474"
+          },
+          "Client List DB-": {
+            "tableName": "51c26fa5-4b3b-431c-aa0c-df84c2da3a09"
+          },
+          "Documents": {
+            "tableName": "e24f7ff0-54f3-48f1-a25d-b70864f2b7f3"
           },
           "LoginDB": {
-            "tableName": "57209a7a-7665-4525-b534-93fcb84bca50"
+            "tableName": "a2bda3c2-80a4-4045-8613-f192f6eac7fe"
+          },
+          "Service Req Form": {
+            "tableName": "6ccd09dd-48a9-4c7e-bcb2-752b21cf5c7b"
           },
           "Visitor Reg DB": {
-            "tableName": "ee130013-ed6d-4c9b-972d-e19016f0c96c"
+            "tableName": "51476b97-35c9-47ad-893f-90c547187894"
           }
         }
       }
     },
     "dataSources": [
-      "Visitor Reg DB",
-      "Client List DB",
-      "LoginDB"
+      "Call Status Dropdown",
+      "Call Type Dropdown",
+      "Client List DB-",
+      "Documents",
+      "LoginDB",
+      "Service Req Form",
+      "Visitor Reg DB"
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "e6f39e1e-f2c1-4e64-8c9a-75a4ea1d5a7b"
+    "id": "71e95593-2791-4577-94bb-f451d9939c3c"
   }
 }

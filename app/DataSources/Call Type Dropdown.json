@@ -29,17 +29,15 @@
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
-      "field_1": "Password",
-      "field_2": "Emp Mobile",
       "ID": "ID",
       "Modified": "Modified",
-      "Title": "Title"
+      "Title": "Column1"
     },
     "DatasetName": "https://pioneerindia.sharepoint.com/sites/ShakthimanRentalApp",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "LoginDB",
+    "Name": "Call Type Dropdown",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

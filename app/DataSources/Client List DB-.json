@@ -29,8 +29,13 @@
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
-      "field_1": "Password",
-      "field_2": "Emp Mobile",
+      "field_1": "Customer name",
+      "field_2": "FAB NO",
+      "field_3": "Location",
+      "field_4": "Model",
+      "field_5": "AMC STARTS",
+      "field_6": "AMC ENDS",
+      "field_8": "Mobile Number",
       "ID": "ID",
       "Modified": "Modified",
       "Title": "Title"
@@ -39,7 +44,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "LoginDB",
+    "Name": "Client List DB-",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
