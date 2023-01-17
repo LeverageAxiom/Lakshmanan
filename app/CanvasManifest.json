@@ -98,11 +98,11 @@
     "Id": "389eca3a-c2aa-4781-9a58-c24e4ed88dca",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "Name": "FSR_FORM",
+    "Name": "Shakthiman Rental App",
     "OriginatingVersion": "1.326"
   },
   "PublishInfo": {
-    "AppName": "FSR_FORM",
+    "AppName": "Shakthiman Rental App",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
