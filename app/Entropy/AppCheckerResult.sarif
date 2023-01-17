@@ -5252,6 +5252,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'SR No_DataCard2'.DataCardValue46.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'SR No_DataCard2'.DataCardValue46.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'SR No_DataCard2'.DataCardValue46"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard3'.DataCardValue48.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard3'.DataCardValue48.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Customer Company Name_DataCard3'.DataCardValue48"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'SR Date_DataCard2'.DataCardValue47.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'SR Date_DataCard2'.DataCardValue47.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'SR Date_DataCard2'.DataCardValue47"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "FSR_FORM_2.Gallery1.AccessibleLabel"
                 }
               ],
@@ -6224,6 +6314,156 @@
                 "member": "AccessibleLabel",
                 "module": "FSR_FORM_2",
                 "type": "FSR_FORM_2.frmIssueDetails.'Description of Work Done_DataCard1'.DataCardValue24"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Location_DataCard3'.DataCardValue49.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Location_DataCard3'.DataCardValue49.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Customer Location_DataCard3'.DataCardValue49"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Contact person Name_DataCard2'.DataCardValue50.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Contact person Name_DataCard2'.DataCardValue50.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Contact person Name_DataCard2'.DataCardValue50"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Contact person Designation_DataCard2'.DataCardValue51.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Contact person Designation_DataCard2'.DataCardValue51.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Contact person Designation_DataCard2'.DataCardValue51"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Contact person Number_DataCard2'.DataCardValue52.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Contact person Number_DataCard2'.DataCardValue52.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Contact person Number_DataCard2'.DataCardValue52"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Contact person Email Id_DataCard2'.DataCardValue53.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Contact person Email Id_DataCard2'.DataCardValue53.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Contact person Email Id_DataCard2'.DataCardValue53"
               }
             }
           ],
