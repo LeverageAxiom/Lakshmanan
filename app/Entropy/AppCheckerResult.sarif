@@ -4712,6 +4712,392 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 313,
+                  "snippet": {
+                    "text": "DataCardValue59"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 328,
+                  "snippet": {
+                    "text": "."
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 329,
+                  "snippet": {
+                    "text": "Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 359,
+                  "snippet": {
+                    "text": ")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 492,
+                  "snippet": {
+                    "text": "}"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "CurlyClose",
+              "ParenClose"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 329,
+                  "snippet": {
+                    "text": "Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 313,
+                  "snippet": {
+                    "text": "DataCardValue59"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 149,
+                  "charOffset": 234,
+                  "snippet": {
+                    "text": "StartsWith(\r\n                            'FAB NO'\r\n                            DataCardValue59.Text\r\n                        )\r\n                    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "1",
+              "2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArity",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 452,
+                  "snippet": {
+                    "text": "Result"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Result"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 107,
+                  "snippet": {
+                    "text": "("
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Fab No_DataCard1'.Label5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "1",
+              "2",
+              "3"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArityRange",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "FSR_FORM_2.Gallery1.AccessibleLabel"
                 }
               ],
@@ -4735,7 +5121,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -4765,7 +5151,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -4795,7 +5181,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -4825,7 +5211,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -4855,7 +5241,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -4885,7 +5271,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -4915,7 +5301,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -4945,7 +5331,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -4975,7 +5361,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5005,7 +5391,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5035,7 +5421,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5065,7 +5451,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5095,7 +5481,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5125,7 +5511,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5154,7 +5540,7 @@
             "level": "Low"
           },
           "ruleId": "acc-AlternativeInputNeeded",
-          "ruleIndex": 7
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -5184,7 +5570,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5214,7 +5600,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5244,7 +5630,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5274,7 +5660,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5304,7 +5690,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5334,7 +5720,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5364,7 +5750,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5394,7 +5780,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5424,7 +5810,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5454,7 +5840,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5484,7 +5870,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5514,7 +5900,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5544,7 +5930,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5574,7 +5960,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5604,7 +5990,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5634,7 +6020,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5664,7 +6050,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5694,7 +6080,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5724,7 +6110,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5754,7 +6140,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -5784,7 +6170,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5814,7 +6200,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -5844,7 +6230,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5874,7 +6260,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5904,7 +6290,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5934,7 +6320,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5964,7 +6350,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -5994,7 +6380,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6024,7 +6410,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6054,7 +6440,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6084,7 +6470,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6114,7 +6500,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6144,7 +6530,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6174,7 +6560,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -6204,7 +6590,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6234,7 +6620,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6264,7 +6650,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6294,7 +6680,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6324,7 +6710,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6354,7 +6740,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6384,7 +6770,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6414,7 +6800,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6444,7 +6830,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6474,7 +6860,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6504,7 +6890,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6534,7 +6920,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6564,7 +6950,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6594,7 +6980,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -6624,7 +7010,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6654,7 +7040,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 8
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -6684,7 +7070,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 8
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -6714,7 +7100,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 8
+          "ruleIndex": 13
         }
       ],
       "tool": {
@@ -6789,6 +7175,85 @@
               "messageStrings": {
                 "issue": {
                   "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrOperatorExpected",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected operator. We expect an operator such as +, *, or & at this point in the formula."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit your formula so that it includes an operator between the operands."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadToken",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or replace the unexpected characters."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrExpectedFound-Ex-Fnd",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or replace the unexpected characters with an expected character."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadArity",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid number of arguments: received {0}, expected {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadArityRange",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid number of arguments: received {0}, expected {1}-{2}."
                 }
               },
               "properties": {
