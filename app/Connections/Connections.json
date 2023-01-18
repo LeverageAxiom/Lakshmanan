@@ -26,8 +26,8 @@
           "LoginDB": {
             "tableName": "a2bda3c2-80a4-4045-8613-f192f6eac7fe"
           },
-          "Service Req Form": {
-            "tableName": "6ccd09dd-48a9-4c7e-bcb2-752b21cf5c7b"
+          "Manual Service Creation": {
+            "tableName": "839d945f-aeb0-40ff-9e4e-2d37b05ff1b8"
           },
           "Visitor Reg DB": {
             "tableName": "51476b97-35c9-47ad-893f-90c547187894"
@@ -41,8 +41,8 @@
       "Client List DB-",
       "Documents",
       "LoginDB",
-      "Service Req Form",
-      "Visitor Reg DB"
+      "Visitor Reg DB",
+      "Manual Service Creation"
     ],
     "dependencies": {},
     "dependents": [],
