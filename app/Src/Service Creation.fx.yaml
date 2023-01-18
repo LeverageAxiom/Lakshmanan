@@ -191,7 +191,7 @@
                                 )
                             },
                             Left(
-                                Wordresult,
+                               Wordresult,
                                 Len(Wordresult)
                             )
                         )
