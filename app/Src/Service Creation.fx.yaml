@@ -228,6 +228,7 @@
                 SearchFields: =["ComplianceAssetId"]
                 SearchItems: =Search(Filter('Client List DB-', 'FAB NO' = DataCardValue56.Selected.Value),ComboBox1.SearchText,"ComplianceAssetId")
                 SelectionFill: =RGBA(135, 100, 184, 1)
+                SelectMultiple: =false
                 Size: =21
                 Width: =575
                 X: =32
