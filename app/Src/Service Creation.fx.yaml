@@ -67,6 +67,32 @@
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
+                OnChange: |
+                    =With(
+                        {
+                            wordmatch:
+                            If(
+                                !IsBlank(Self.Text),
+                                LookUp(
+                                    'Client List DB-',
+                                    StartsWith(
+                                        'FAB NO',
+                                        Self.Text
+                                    )
+                                ).Title
+                            )
+                        },
+                        UpdateContext(
+                            {
+                                varThematch:
+                                If(
+                                    !IsBlank(wordmatch),
+                                    wordmatch,
+                                    Self.Text
+                                )
+                            }
+                        )
+                    )
                 PaddingLeft: =5
                 PressedBorderColor: =RGBA(135, 100, 184, 1)
                 PressedColor: =RGBA(51, 51, 51, 1)
@@ -539,6 +565,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 CalendarHeaderFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 Color: =RGBA(51, 51, 51, 1)
+                DefaultDate: =If(Form1.Mode=FormMode.New, Today(), Parent.Default)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
