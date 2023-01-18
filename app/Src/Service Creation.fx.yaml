@@ -180,7 +180,7 @@
                                         Filter(
                                             'Client List DB-',
                                             StartsWith(
-                                                'FAB NO'
+                                                'FAB NO',
                                                 DataCardValue59.Text
                                             )
                                         ),

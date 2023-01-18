@@ -311,7 +311,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2023 09:58:02",
+  "HeaderLastSavedDateTimeUTC": "01/18/2023 10:00:08",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "71e95593-2791-4577-94bb-f451d9939c3c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c69eda498a0f43e8a2fdb022fb2691f8\""
@@ -1007,7 +1007,7 @@
       "typedDataCard": 51
     },
     "DeserializationLoadTime": 4.6139757,
-    "ErrorCount": 128
+    "ErrorCount": 118
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
