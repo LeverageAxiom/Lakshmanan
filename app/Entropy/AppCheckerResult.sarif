@@ -6301,19 +6301,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Service Creation'.Form1.Complaint_DataCard1.DataCardValue46.AccessibleLabel"
+                  "fullyQualifiedName": "'Service Creation'.Form1.Priority_DataCard2.DataCardValue51.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Service Creation'.Form1.Complaint_DataCard1.DataCardValue46.AccessibleLabel",
+                  "fullyQualifiedName": "'Service Creation'.Form1.Priority_DataCard2.DataCardValue51.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Service Creation",
-                "type": "'Service Creation'.Form1.Complaint_DataCard1.DataCardValue46"
+                "type": "'Service Creation'.Form1.Priority_DataCard2.DataCardValue51"
               }
             }
           ],
@@ -6331,19 +6331,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Service Creation'.Form1.Priority_DataCard1.DataCardValue47.AccessibleLabel"
+                  "fullyQualifiedName": "'Service Creation'.Form1.Complaint_DataCard2.DataCardValue50.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Service Creation'.Form1.Priority_DataCard1.DataCardValue47.AccessibleLabel",
+                  "fullyQualifiedName": "'Service Creation'.Form1.Complaint_DataCard2.DataCardValue50.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Service Creation",
-                "type": "'Service Creation'.Form1.Priority_DataCard1.DataCardValue47"
+                "type": "'Service Creation'.Form1.Complaint_DataCard2.DataCardValue50"
               }
             }
           ],
@@ -6511,19 +6511,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Service Creation'.Form1.Attachments_DataCard2.DataCardValue48.AccessibleLabel"
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Equipment Name_DataCard1'.DataCardValue49.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Service Creation'.Form1.Attachments_DataCard2.DataCardValue48.AccessibleLabel",
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Equipment Name_DataCard1'.DataCardValue49.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Service Creation",
-                "type": "'Service Creation'.Form1.Attachments_DataCard2.DataCardValue48"
+                "type": "'Service Creation'.Form1.'Equipment Name_DataCard1'.DataCardValue49"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Created By_DataCard2'.DataCardValue52.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Created By_DataCard2'.DataCardValue52.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Created By_DataCard2'.DataCardValue52"
               }
             }
           ],
