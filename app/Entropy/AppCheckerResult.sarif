@@ -4721,10 +4721,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 19,
+                  "charLength": 9,
                   "charOffset": 97,
                   "snippet": {
-                    "text": "\"ComplianceAssetId\""
+                    "text": "\"field_2\""
                   }
                 }
               },

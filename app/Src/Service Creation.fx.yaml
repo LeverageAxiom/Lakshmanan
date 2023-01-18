@@ -215,7 +215,7 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["ComplianceAssetId"]
+                DisplayFields: =["field_2"]
                 Font: =Font.'Segoe UI'
                 Height: =70
                 HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
@@ -225,8 +225,8 @@
                 PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(135, 100, 184, 1)
-                SearchFields: =["ComplianceAssetId"]
-                SearchItems: =Search(Filter('Client List DB-', 'FAB NO' = DataCardValue56.Selected.Value),ComboBox1.SearchText,"ComplianceAssetId")
+                SearchFields: =["field_2"]
+                SearchItems: =Search(Filter('Client List DB-', 'FAB NO' = DataCardValue56.Selected.Value),ComboBox1.SearchText,"field_2")
                 SelectionFill: =RGBA(135, 100, 184, 1)
                 SelectMultiple: =false
                 Size: =21
