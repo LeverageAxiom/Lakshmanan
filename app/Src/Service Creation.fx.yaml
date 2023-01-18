@@ -793,7 +793,7 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey43.Y + DataCardKey43.Height + 5
+                Y: =73
                 ZIndex: =2
 
             ErrorMessage43 As label:
