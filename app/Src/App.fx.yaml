@@ -5,6 +5,19 @@ App As appinfo:
         clearcollect(
             colviews,
             {
-                viewname: "All Tasks",viewcolumns: ["Title", "SR date", "Fab No"]},
-        {viewname: "My Tasks", viewcolumns: ["Title","SR date","Fab No",]})
+                viewname: "All Tasks",
+                viewcolumns: [
+                    "Title",
+                    "SR date",
+                    "Fab No"
+                    ]
+                },{
+                    viewname: "My Tasks",
+                    viewcolumns: [
+                            "Title",
+                            "SR date",
+                            "Fab No"
+                    ]
+                }
+            )
 

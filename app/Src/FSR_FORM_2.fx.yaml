@@ -216,23 +216,24 @@
                 Y: =DataCardKey20.Y
                 ZIndex: =4
 
-        "'Equipment Type_DataCard1' As typedDataCard.comboBoxEditCard":
+        "'Engine Model_DataCard1' As typedDataCard.textualEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="EquipmentType"
-            Default: =ThisItem.'Equipment Type'
+            DataField: ="field_18"
+            Default: =ThisItem.'Engine Model'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"EquipmentType")
+            DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"field_18")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
+            MaxLength: =DataSourceInfo([@'FSR _Form'], DataSourceInfo.MaxLength, "field_18")
             Required: =false
-            Update: =DataCardValue8.Selected
+            Update: =DataCardValue10.Text
             Width: =640
             X: =0
-            Y: =3
+            Y: =1
             ZIndex: =1
 
-            DataCardKey6 As label:
+            DataCardKey10 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -253,43 +254,39 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue8 As combobox:
+            DataCardValue10 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =RGBA(255, 255, 255, 1)
-                ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-                ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-                ChevronFill: =RGBA(33, 33, 33, 1)
-                ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-                ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                DefaultSelectedItems: =Parent.Default
+                Default: =Parent.Default
+                DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
                 HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
-                HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =Choices([@'FSR _Form'].'Equipment Type')
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =RGBA(135, 100, 184, 1)
-                SearchFields: =["Value"]
-                SearchItems: =Choices('FSR _Form'.'Equipment Type',DataCardValue8.SearchText)
-                SelectionFill: =RGBA(135, 100, 184, 1)
-                SelectMultiple: =false
+                HoverFill: =RGBA(255, 255, 255, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                PressedBorderColor: =RGBA(135, 100, 184, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
                 ZIndex: =2
 
-            ErrorMessage6 As label:
+            ErrorMessage10 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -311,10 +308,10 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue8.Y + DataCardValue8.Height
+                Y: =DataCardValue10.Y + DataCardValue10.Height
                 ZIndex: =3
 
-            StarVisible6 As label:
+            StarVisible10 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -325,83 +322,15 @@
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey6.Height
+                Height: =DataCardKey10.Height
                 PaddingLeft: =0
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey6.Y
+                Y: =DataCardKey10.Y
                 ZIndex: =4
-
-        DataCard1 As typedDataCard.blankCard:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =125
-            Width: =640
-            X: =0
-            Y: =13
-            ZIndex: =1
-
-            Button3_8 As button:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(135, 100, 184, 1)
-                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =59
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
-                OnSelect: =Navigate(FSR_FORM_2,Fade)
-                PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =18
-                Text: ="Next"
-                Width: =202
-                X: =366
-                Y: =43
-                ZIndex: =1
-
-            Button3_9 As button:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(237, 237, 237, 1)
-                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Semibold
-                Height: =59
-                HoverBorderColor: =RGBA(0, 0, 0, 0)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
-                OnSelect: =Navigate(HOME_SCREEN)
-                PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =18
-                Text: ="Back"
-                Width: =202
-                X: =40
-                Y: =40
-                ZIndex: =2
 
         "'Equipment No_DataCard1' As typedDataCard.textualEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -519,24 +448,23 @@
                 Y: =DataCardKey9.Y
                 ZIndex: =4
 
-        "'Engine Model_DataCard1' As typedDataCard.textualEditCard":
+        "'Equipment Type_DataCard1' As typedDataCard.comboBoxEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="field_18"
-            Default: =ThisItem.'Engine Model'
+            DataField: ="EquipmentType"
+            Default: =ThisItem.'Equipment Type'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"field_18")
+            DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"EquipmentType")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'FSR _Form'], DataSourceInfo.MaxLength, "field_18")
             Required: =false
-            Update: =DataCardValue10.Text
+            Update: =DataCardValue8.Selected
             Width: =640
             X: =0
-            Y: =1
+            Y: =3
             ZIndex: =1
 
-            DataCardKey10 As label:
+            DataCardKey6 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -557,39 +485,43 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue10 As text:
+            DataCardValue8 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                ChevronFill: =RGBA(33, 33, 33, 1)
+                ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                ChevronHoverFill: =RGBA(33, 33, 33, 1)
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
+                DefaultSelectedItems: =Parent.Default
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
                 HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
-                HoverFill: =RGBA(255, 255, 255, 1)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                PressedBorderColor: =RGBA(135, 100, 184, 1)
-                PressedColor: =RGBA(51, 51, 51, 1)
-                PressedFill: =RGBA(255, 255, 255, 1)
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                HoverFill: =RGBA(212, 212, 212, 1)
+                Items: =Choices([@'FSR _Form'].'Equipment Type')
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(135, 100, 184, 1)
+                SearchFields: =["Value"]
+                SearchItems: =Choices('FSR _Form'.'Equipment Type',DataCardValue8.SearchText)
+                SelectionFill: =RGBA(135, 100, 184, 1)
+                SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
                 ZIndex: =2
 
-            ErrorMessage10 As label:
+            ErrorMessage6 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -611,10 +543,10 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue10.Y + DataCardValue10.Height
+                Y: =DataCardValue8.Y + DataCardValue8.Height
                 ZIndex: =3
 
-            StarVisible10 As label:
+            StarVisible6 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -625,14 +557,14 @@
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey10.Height
+                Height: =DataCardKey6.Height
                 PaddingLeft: =0
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey10.Y
+                Y: =DataCardKey6.Y
                 ZIndex: =4
 
         "'OEM (Make)_DataCard1' As typedDataCard.comboBoxEditCard":
@@ -1683,6 +1615,74 @@
                 Wrap: =false
                 Y: =DataCardKey19.Y
                 ZIndex: =4
+
+        DataCard1 As typedDataCard.blankCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =125
+            Width: =640
+            X: =0
+            Y: =13
+            ZIndex: =1
+
+            Button3_8 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(135, 100, 184, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =59
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
+                OnSelect: =Navigate(FSR_FORM_2,Fade)
+                PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =18
+                Text: ="Next"
+                Width: =202
+                X: =366
+                Y: =43
+                ZIndex: =1
+
+            Button3_9 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(237, 237, 237, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =59
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
+                OnSelect: =Navigate(HOME_SCREEN)
+                PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =18
+                Text: ="Back"
+                Width: =202
+                X: =40
+                Y: =40
+                ZIndex: =2
 
     Form3 As form:
         BorderColor: =RGBA(166, 166, 166, 1)

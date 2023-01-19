@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 181,
+                  "charLength": 375,
                   "charOffset": 25,
                   "snippet": {
-                    "text": "clearcollect(\r\n    colviews,\r\n    {\r\n        viewname: \"All Tasks\",viewcolumns: [\"Title\", \"SR date\", \"Fab No\"]},\r\n{viewname: \"My Tasks\", viewcolumns: [\"Title\",\"SR date\",\"Fab No\",]})"
+                    "text": "clearcollect(\r\n    colviews,\r\n    {\r\n        viewname: \"All Tasks\",\r\n        viewcolumns: [\r\n            \"Title\",\r\n            \"SR date\",\r\n            \"Fab No\"\r\n            ]\r\n        },{\r\n            viewname: \"My Tasks\",\r\n            viewcolumns: [\r\n                    \"Title\",\r\n                    \"SR date\",\r\n                    \"Fab No\"\r\n            ]\r\n        }\r\n    )"
                   }
                 }
               },
