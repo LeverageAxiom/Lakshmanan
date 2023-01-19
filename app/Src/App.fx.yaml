@@ -39,6 +39,6 @@ App As appinfo:
                     "Assigned To"
                 ]
             }
-        )
+        );
     StartScreen: =HOME_SCREEN
 
