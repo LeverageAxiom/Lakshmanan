@@ -3,7 +3,7 @@ App As appinfo:
     OnStart: |-
         =Set(varTabSelected, 1);
         clearcollect(
-            colviews,
+            Coltask,
             {
                 viewname: "All Tasks",
                 viewcolumns: [
