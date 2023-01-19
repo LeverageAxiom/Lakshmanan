@@ -1913,6 +1913,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Name_DataCard1'.DataCardValue5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Name_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FSR_FORM_1",
+                "type": "FSR_FORM_1.frmSrDetails.'Contact Person Name_DataCard1'.DataCardValue5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.997194"
                 }
               ],
