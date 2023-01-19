@@ -15,7 +15,7 @@
         "'Fab No_DataCard1' As typedDataCard.textualEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="FabNo"
+            DataField: ="FabNo0"
             Default: =ThisItem.'Fab No'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"FabNo0")
@@ -158,50 +158,6 @@
                 Wrap: =false
                 Y: =DataCardKey60.Y
                 ZIndex: =4
-
-            Label5 As label:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Height: =70
-                Size: =21
-                Text: |-
-                    =If(
-                        !IsBlank(DataCardValue59.Text),
-                        With(
-                            {
-                                Wordresult:
-                                Concat(
-                                    Distinct(
-                                        Filter(
-                                            'Client List DB-',
-                                            StartsWith(
-                                                'FAB NO',
-                                                DataCardValue59.Text
-                                            )
-                                        ),
-                                        'FAB NO'
-                                    ),
-                                    Result & "; "
-                    
-                                )
-                            },
-                            Left(
-                               Wordresult,
-                                Len(Wordresult)
-                            )
-                        )
-                    )
-                Visible: =false
-                Width: =560
-                X: =30
-                Y: =133
-                ZIndex: =5
 
             ComboBox3 As combobox:
                 BorderColor: =RGBA(166, 166, 166, 1)
