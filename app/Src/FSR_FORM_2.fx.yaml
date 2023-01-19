@@ -2229,7 +2229,7 @@
                 Text: ="Back"
                 Width: =202
                 X: =40
-                Y: =40
+                Y: =43
                 ZIndex: =2
 
     frmPerformanceCheck As form:
