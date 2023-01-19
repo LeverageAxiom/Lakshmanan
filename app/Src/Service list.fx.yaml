@@ -73,3 +73,177 @@
         Y: =18
         ZIndex: =4
 
+    DataTable1 As dataTable.datatable:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.Solid
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        HeadingColor: =RGBA(255, 255, 255, 1)
+        HeadingFill: =RGBA(135, 100, 184, 1)
+        HeadingFont: =Font.'Segoe UI'
+        HeadingFontWeight: =FontWeight.Normal
+        HeadingSize: =21
+        Height: =1065
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(135, 100, 184, 1)
+        InputFill: =RGBA(255, 255, 255, 1)
+        InvertedColor: =RGBA(255, 255, 255, 1)
+        Items: ='Manual Service Creation'
+        LinkColor: =RGBA(0, 134, 208, 1)
+        PrimaryColor1: =RGBA(135, 100, 184, 1)
+        PrimaryColor2: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+        PrimaryColor3: =ColorFade(RGBA(135, 100, 184, 1), -50%)
+        SelectedColor: =RGBA(51, 51, 51, 1)
+        SelectedFill: =RGBA(135, 100, 184, .2)
+        Size: =21
+        Width: =640
+        X: =0
+        Y: =67
+        ZIndex: =5
+
+        Title_Column1 As dataTableColumn.textualColumn:
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="SR No"
+            FieldName: ="Title"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.Title
+            Width: =122
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        "'SR Date_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="SR Date"
+            FieldName: ="FabNo"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.'SR Date'
+            Width: =100
+            X: =132
+            Y: =0
+            ZIndex: =2
+
+        "'Customer Company Name_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Customer Company Name"
+            FieldName: ="CustomerName"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.'Customer Company Name'
+            Width: =350
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+        "'Customer Location_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Customer Location"
+            FieldName: ="CustomerLocation"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.'Customer Location'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =4
+
+        "'Customer Number_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Customer Number"
+            FieldName: ="CustomerNumber"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.'Customer Number'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+        Complaint_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Complaint"
+            FieldName: ="Complaint"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =9
+            Text: =ThisItem.Complaint.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
+
+        Priority_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Priority"
+            FieldName: ="Priority"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =10
+            Text: =ThisItem.Priority.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+        "'Customer Mail Id_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Customer Mail Id"
+            FieldName: ="CustomerMailId"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.'Customer Mail Id'
+            Width: =100
+            X: =813
+            Y: =0
+            ZIndex: =8
+
+        "'Equipment Name_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Equipment Name"
+            FieldName: ="EquipmentName"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =8
+            Text: =ThisItem.'Equipment Name'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =9
+
+        "'Fab No_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Fab No"
+            FieldName: ="FabNo0"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.'Fab No'
+            Width: =100
+            X: =480
+            Y: =0
+            ZIndex: =10
+
