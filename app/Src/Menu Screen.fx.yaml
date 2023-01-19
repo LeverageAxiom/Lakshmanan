@@ -24,7 +24,7 @@
         RadiusBottomRight: =30
         RadiusTopLeft: =30
         RadiusTopRight: =30
-        Size: =24
+        Size: =18
         Text: ="FSR Form"
         Width: =254
         X: =336
@@ -52,7 +52,7 @@
         RadiusBottomRight: =30
         RadiusTopLeft: =30
         RadiusTopRight: =30
-        Size: =24
+        Size: =18
         Text: ="FSR Tracker"
         Width: =254
         X: =336
@@ -80,7 +80,7 @@
         RadiusBottomRight: =30
         RadiusTopLeft: =30
         RadiusTopRight: =30
-        Size: =24
+        Size: =18
         Text: ="Service Creation"
         Width: =254
         X: =40
@@ -108,7 +108,7 @@
         RadiusBottomRight: =30
         RadiusTopLeft: =30
         RadiusTopRight: =30
-        Size: =24
+        Size: =18
         Text: ="Service List"
         Width: =254
         X: =40

@@ -43,7 +43,7 @@
                 Height: =48
                 PaddingLeft: =0
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: ="FAB No"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -976,7 +976,7 @@
                 Text: ="Next"
                 Width: =202
                 X: =366
-                Y: =43
+                Y: =40
                 ZIndex: =1
 
             Button3_7 As button:
@@ -993,7 +993,7 @@
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
-                OnSelect: =Navigate(HOME_SCREEN)
+                OnSelect: =Navigate(HOME_SCREEN,Fade)
                 PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
