@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 375,
-                  "charOffset": 0,
+                  "charLength": 374,
+                  "charOffset": 25,
                   "snippet": {
-                    "text": "clearcollect(\r\n    ColViews,\r\n    {\r\n        viewname: \"All Tasks\",\r\n        viewcolumns: [\r\n            \"Title\",\r\n            \"SR date\",\r\n            \"Fab No\"\r\n            ]\r\n        },{\r\n            viewname: \"My Tasks\",\r\n            viewcolumns: [\r\n                    \"Title\",\r\n                    \"SR date\",\r\n                    \"Fab No\"\r\n            ]\r\n        }\r\n    )"
+                    "text": "clearcollect(\r\n    Coltask,\r\n    {\r\n        viewname: \"All Tasks\",\r\n        viewcolumns: [\r\n            \"Title\",\r\n            \"SR date\",\r\n            \"Fab No\"\r\n            ]\r\n        },{\r\n            viewname: \"My Tasks\",\r\n            viewcolumns: [\r\n                    \"Title\",\r\n                    \"SR date\",\r\n                    \"Fab No\"\r\n            ]\r\n        }\r\n    )"
                   }
                 }
               },
@@ -63,10 +63,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 8,
-                  "charOffset": 19,
+                  "charLength": 7,
+                  "charOffset": 44,
                   "snippet": {
-                    "text": "ColViews"
+                    "text": "Coltask"
                   }
                 }
               },
@@ -79,7 +79,7 @@
           ],
           "message": {
             "arguments": [
-              "ColViews"
+              "Coltask"
             ],
             "id": "issue"
           },
