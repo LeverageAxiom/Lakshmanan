@@ -1,7 +1,8 @@
 App As appinfo:
     BackEnabled: =false
     OnStart: |-
-        =clearcollect(
+        =Set(varTabSelected, 1);
+        ClearCollect(
             ColViews,
             {
                 viewname: "All Tasks",
