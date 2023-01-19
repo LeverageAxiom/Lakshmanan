@@ -834,7 +834,7 @@
       "Properties": [
         {
           "Category": "Data",
-          "NameMap": "{\"Value\":\"Value\"}",
+          "NameMap": "{\"Value\":\"viewname\"}",
           "PropertyName": "Items",
           "RuleProviderType": "Unknown"
         },
