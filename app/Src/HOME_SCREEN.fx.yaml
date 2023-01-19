@@ -1,11 +1,11 @@
 HOME_SCREEN As screen:
-    BackgroundImage: ='Home Screen Image'
+    BackgroundImage: ='white-gradient-blue-linear-1536x2048-c2-87cefa-ffffff-a-90-f-14'
     ImagePosition: =ImagePosition.Stretch
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
     Icon2 As icon.Person:
         BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(255, 255, 0, 1)
+        Color: =RGBA(135, 100, 184, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
