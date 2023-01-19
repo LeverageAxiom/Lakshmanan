@@ -1368,7 +1368,8 @@
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
         OnSelect: |-
-            =Notify("Register Successfully");
+            =SubmitForm(Form1);
+            Notify("Register Successfully");
             Navigate('Menu Screen')
         PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
