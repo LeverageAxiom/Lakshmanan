@@ -101,7 +101,7 @@ HOME_SCREEN As screen:
                         Title = TextInput1.Text && Password = TextInput1_1.Text
                     )
                 ),
-                Navigate(FSR_FORM_1),
+                Navigate('Menu Screen'),
                 Notify("Invalid Login Details", NotificationType.Error)
                 //Navigate('PwdWrong Page')
             );
