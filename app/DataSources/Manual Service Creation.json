@@ -23,6 +23,7 @@
       "{TriggerWindowEndToken}": "Trigger Window End Token",
       "{TriggerWindowStartToken}": "Trigger Window Start Token",
       "{VersionNumber}": "Version number",
+      "AssignedTo": "Assigned To",
       "Author": "Created By",
       "Author#Claims": "Created By Claims",
       "Complaint": "Complaint",
@@ -42,6 +43,8 @@
       "Modified": "Modified",
       "Priority": "Priority",
       "Priority#Id": "Priority Id",
+      "SRStatus": "SR Status",
+      "SRStatus#Id": "SR Status Id",
       "Title": "Title"
     },
     "DatasetName": "https://pioneerindia.sharepoint.com/sites/ShakthimanRentalApp",
