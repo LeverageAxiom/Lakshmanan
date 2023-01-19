@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 158,
-                  "charOffset": 0,
+                  "charLength": 181,
+                  "charOffset": 25,
                   "snippet": {
-                    "text": "clearcollect(colview,{viewname: \"All Tasks\",viewcolumns: [\"Title\", \"SR date\", \"Fab No\"]},\r\n{viewname: \"My Tasks\", viewcolumns: [\"Title\",\"SR date\",\"Fab No\",]})"
+                    "text": "clearcollect(\r\n    colviews,\r\n    {\r\n        viewname: \"All Tasks\",viewcolumns: [\"Title\", \"SR date\", \"Fab No\"]},\r\n{viewname: \"My Tasks\", viewcolumns: [\"Title\",\"SR date\",\"Fab No\",]})"
                   }
                 }
               },
@@ -63,10 +63,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 7,
-                  "charOffset": 13,
+                  "charLength": 8,
+                  "charOffset": 44,
                   "snippet": {
-                    "text": "colview"
+                    "text": "colviews"
                   }
                 }
               },
@@ -79,7 +79,7 @@
           ],
           "message": {
             "arguments": [
-              "colview"
+              "colviews"
             ],
             "id": "issue"
           },
