@@ -12,7 +12,7 @@
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =76
+        Height: =232
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -27,8 +27,8 @@
         Size: =24
         Text: ="FSR Form"
         Width: =254
-        X: =323
-        Y: =167
+        X: =336
+        Y: =153
         ZIndex: =1
 
     Button6_1 As button:
@@ -40,7 +40,7 @@
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =76
+        Height: =232
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -55,8 +55,8 @@
         Size: =24
         Text: ="FSR Tracker"
         Width: =254
-        X: =323
-        Y: =284
+        X: =336
+        Y: =522
         ZIndex: =2
 
     Button6_2 As button:
@@ -68,7 +68,7 @@
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =76
+        Height: =232
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -84,7 +84,7 @@
         Text: ="Service Creation"
         Width: =254
         X: =40
-        Y: =167
+        Y: =153
         ZIndex: =5
 
     Button6_3 As button:
@@ -96,7 +96,7 @@
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =76
+        Height: =232
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -112,7 +112,7 @@
         Text: ="Service List"
         Width: =254
         X: =40
-        Y: =406
+        Y: =522
         ZIndex: =6
 
     Button6_4 As button:
@@ -139,7 +139,7 @@
         Size: =24
         Text: ="To be Assign"
         Width: =254
-        X: =40
-        Y: =284
+        X: =196
+        Y: =934
         ZIndex: =7
 

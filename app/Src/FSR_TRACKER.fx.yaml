@@ -6,7 +6,7 @@ FSR_TRACKER As screen:
     "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =955
-        Items: ='Visitor Reg DB'
+        Items: ='FSR _Form'
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
@@ -43,7 +43,7 @@ FSR_TRACKER As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =18
-            Text: =ThisItem.'Contact Person Mobile No'
+            Text: =ThisItem.'SR Date'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -54,18 +54,17 @@ FSR_TRACKER As screen:
             Color: =RGBA(51, 51, 51, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =Font.'Segoe UI'
-            Height: =Self.Size * 4
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
             Size: =16
-            Text: =ThisItem.'Contact Person Email ID'
+            Text: =ThisItem.'Customer Company Name'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
-            Y: =Subtitle2.Y + Subtitle2.Height + 4
+            Y: =62
             ZIndex: =3
 
         NextArrow2 As icon.ChevronRight:
