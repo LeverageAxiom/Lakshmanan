@@ -106,17 +106,16 @@
         ZIndex: =5
 
         Title_Column1 As dataTableColumn.textualColumn:
-            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="SR No"
+            FieldDisplayName: ="Title"
             FieldName: ="Title"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =1
             Text: =ThisItem.Title
-            Width: =122
-            X: =0
+            Width: =100
+            X: =208
             Y: =0
             ZIndex: =1
 
@@ -130,12 +129,11 @@
             Order: =2
             Text: =ThisItem.'SR Date'
             Width: =100
-            X: =132
+            X: =0
             Y: =0
             ZIndex: =2
 
         "'Customer Company Name_Column1' As dataTableColumn.textualColumn":
-            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Customer Company Name"
             FieldName: ="CustomerName"
@@ -144,7 +142,7 @@
             LayoutHeight: =Parent.Height
             Order: =4
             Text: =ThisItem.'Customer Company Name'
-            Width: =350
+            Width: =100
             X: =0
             Y: =0
             ZIndex: =3
@@ -215,7 +213,7 @@
             Order: =7
             Text: =ThisItem.'Customer Mail Id'
             Width: =100
-            X: =813
+            X: =0
             Y: =0
             ZIndex: =8
 
@@ -243,7 +241,35 @@
             Order: =3
             Text: =ThisItem.'Fab No'
             Width: =100
-            X: =480
+            X: =0
             Y: =0
             ZIndex: =10
+
+        "'Assigned To_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Assigned To"
+            FieldName: ="AssignedTo"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =11
+            Text: =ThisItem.'Assigned To'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =11
+
+        "'SR Status_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="SR Status"
+            FieldName: ="SRStatus"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =12
+            Text: =ThisItem.'SR Status'.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =12
 
