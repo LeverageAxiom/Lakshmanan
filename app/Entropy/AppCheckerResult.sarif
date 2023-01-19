@@ -528,10 +528,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 8,
+                  "charLength": 7,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "colviews"
+                    "text": "colview"
                   }
                 }
               },
@@ -544,7 +544,7 @@
           ],
           "message": {
             "arguments": [
-              "colviews"
+              "colview"
             ],
             "id": "issue"
           },
