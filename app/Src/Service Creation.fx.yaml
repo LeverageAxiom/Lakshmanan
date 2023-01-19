@@ -23,7 +23,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "FabNo0")
             Required: =false
-            Update: =DataCardValue59.Text
+            Update: =ComboBox3.Selected.'FAB NO'
             Width: =640
             X: =0
             Y: =2
