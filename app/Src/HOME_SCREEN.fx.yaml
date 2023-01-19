@@ -10,7 +10,7 @@ HOME_SCREEN As screen:
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =140
+        Height: =76
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
@@ -18,9 +18,9 @@ HOME_SCREEN As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =100
+        Width: =96
         X: =271
-        Y: =314
+        Y: =378
         ZIndex: =2
 
     TextInput1 As text:
@@ -171,4 +171,44 @@ HOME_SCREEN As screen:
         X: =430
         Y: =605
         ZIndex: =7
+
+    Label7 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =156
+        Italic: =true
+        Size: =25
+        Text: ="Sakthiman Rental Application"
+        Width: =560
+        X: =51
+        Y: =40
+        ZIndex: =8
+
+    Icon6 As icon.Cars:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(135, 100, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =50
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Cars
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =50
+        X: =34
+        Y: =93
+        ZIndex: =9
 

@@ -7,4 +7,5 @@ App As appinfo:
             {
                 viewname: "All Tasks",viewcolumns: ["Title", "SR date", "Fab No"]},
         {viewname: "My Tasks", viewcolumns: ["Title","SR date","Fab No",]})
+    StartScreen: =HOME_SCREEN
 
