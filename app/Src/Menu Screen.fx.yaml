@@ -54,6 +54,7 @@
         RadiusTopRight: =30
         Size: =24
         Text: ="FSR Tracker"
+        Visible: =false
         Width: =254
         X: =336
         Y: =522
@@ -138,6 +139,7 @@
         RadiusTopRight: =30
         Size: =24
         Text: ="To be Assign"
+        Visible: =false
         Width: =254
         X: =196
         Y: =934
