@@ -15,7 +15,7 @@
         "'Fab No_DataCard1' As typedDataCard.textualEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="FabNo0"
+            DataField: ="FabNo"
             Default: =ThisItem.'Fab No'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"FabNo0")
