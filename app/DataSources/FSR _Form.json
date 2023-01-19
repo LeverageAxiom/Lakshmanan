@@ -29,14 +29,13 @@
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
+      "EquipmentType": "Equipment Type",
+      "EquipmentType#Id": "Equipment Type Id",
       "field_1": "Customer Company Name",
-      "field_10": "Call Type",
-      "field_11": "Call Status",
       "field_12": "Remarks",
       "field_13": "Image",
       "field_14": "Location",
       "field_15": "Engine Serial No",
-      "field_16": "Equipment Type",
       "field_17": "Equipment No",
       "field_18": "Engine Model",
       "field_19": "DG Set",
@@ -67,7 +66,6 @@
       "field_41": "Reason for Open",
       "field_42": "Remarks for Open Status",
       "field_43": "Digital Signature",
-      "field_45": "Title2",
       "field_5": "Contact Person Email ID",
       "field_6": "Attended Date",
       "field_7": "Contact Person Name",
@@ -81,7 +79,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Visitor Reg DB",
+    "Name": "FSR _Form",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

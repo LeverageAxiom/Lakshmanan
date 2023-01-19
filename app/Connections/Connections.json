@@ -23,14 +23,14 @@
           "Documents": {
             "tableName": "e24f7ff0-54f3-48f1-a25d-b70864f2b7f3"
           },
+          "FSR _Form": {
+            "tableName": "51476b97-35c9-47ad-893f-90c547187894"
+          },
           "LoginDB": {
             "tableName": "a2bda3c2-80a4-4045-8613-f192f6eac7fe"
           },
           "Manual Service Creation": {
             "tableName": "839d945f-aeb0-40ff-9e4e-2d37b05ff1b8"
-          },
-          "Visitor Reg DB": {
-            "tableName": "51476b97-35c9-47ad-893f-90c547187894"
           }
         }
       }
@@ -41,8 +41,8 @@
       "Client List DB-",
       "Documents",
       "LoginDB",
-      "Visitor Reg DB",
-      "Manual Service Creation"
+      "Manual Service Creation",
+      "FSR _Form"
     ],
     "dependencies": {},
     "dependents": [],
