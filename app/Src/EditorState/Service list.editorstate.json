@@ -242,11 +242,6 @@
           "RuleProviderType": "Unknown"
         },
         {
-          "Category": "Data",
-          "PropertyName": "AutoWidth",
-          "RuleProviderType": "Unknown"
-        },
-        {
           "Category": "Design",
           "PropertyName": "LayoutHeight",
           "RuleProviderType": "Unknown"
@@ -2097,11 +2092,6 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "AutoWidth",
           "RuleProviderType": "Unknown"
         },
         {
