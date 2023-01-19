@@ -87,7 +87,7 @@
         HeadingFont: =Font.'Segoe UI'
         HeadingFontWeight: =FontWeight.Normal
         HeadingSize: =21
-        Height: =1065
+        Height: =1000
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(135, 100, 184, 1)
         InputFill: =RGBA(255, 255, 255, 1)
@@ -102,7 +102,7 @@
         Size: =21
         Width: =640
         X: =0
-        Y: =67
+        Y: =132
         ZIndex: =5
 
         Title_Column1 As dataTableColumn.textualColumn:

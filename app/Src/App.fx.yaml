@@ -1,4 +1,6 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: =Set(varTabSelected,1)
+    OnStart: |-
+        =clearcollect(colview,{viewname: "All Tasks",viewcolumns: ["Title", "SR date", "Fab No"]},
+        {viewname: "My Tasks", viewcolumns: ["Title","SR date","Fab No",]})
 
