@@ -54,10 +54,9 @@
         RadiusTopRight: =30
         Size: =24
         Text: ="FSR Tracker"
-        Visible: =false
         Width: =254
         X: =336
-        Y: =522
+        Y: =418
         ZIndex: =2
 
     Button6_2 As button:
@@ -113,7 +112,7 @@
         Text: ="Service List"
         Width: =254
         X: =40
-        Y: =522
+        Y: =418
         ZIndex: =6
 
     Button6_4 As button:
