@@ -12,7 +12,7 @@
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =69
+        Height: =76
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -26,7 +26,7 @@
         RadiusTopRight: =30
         Size: =24
         Text: ="FSR Form"
-        Width: =255
+        Width: =254
         X: =323
         Y: =167
         ZIndex: =1
@@ -53,7 +53,7 @@
         RadiusTopLeft: =30
         RadiusTopRight: =30
         Size: =24
-        Text: ="   FSR Tracker"
+        Text: ="FSR Tracker"
         Width: =254
         X: =323
         Y: =284
@@ -68,7 +68,7 @@
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =70
+        Height: =76
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -82,7 +82,7 @@
         RadiusTopRight: =30
         Size: =24
         Text: ="Service Creation"
-        Width: =255
+        Width: =254
         X: =40
         Y: =167
         ZIndex: =5
