@@ -14,12 +14,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Name_DataCard1'.Update"
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.Title_DataCard2.Update"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Name_DataCard1'.Update",
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.Title_DataCard2.Update",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -32,8 +32,8 @@
               },
               "properties": {
                 "member": "Update",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.'Contact Person Name_DataCard1'"
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.Title_DataCard2"
               }
             }
           ],
@@ -54,12 +54,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Name_DataCard1'.Update"
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.Title_DataCard2.Update"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Name_DataCard1'.Update",
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.Title_DataCard2.Update",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -72,8 +72,547 @@
               },
               "properties": {
                 "member": "Update",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.'Contact Person Name_DataCard1'"
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.Title_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Customer Company Name_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Customer Company Name_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue8"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Customer Company Name_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue8"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Customer Company Name_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Customer Company Name_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 14,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Customer Company Name_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Customer Location_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Customer Location_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue9"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Customer Location_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue9"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Customer Location_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Customer Location_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 14,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Customer Location_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Mobile No_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Mobile No_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue10"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Contact Person Mobile No_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue10"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Mobile No_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Mobile No_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Contact Person Mobile No_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.Model_DataCard1.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.Model_DataCard1.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue11"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.Model_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue11"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.Model_DataCard1.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.Model_DataCard1.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.Model_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Email ID_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Email ID_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue12"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Contact Person Email ID_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue12"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Email ID_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Email ID_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Contact Person Email ID_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Attended Date_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Attended Date_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue13"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Attended Date_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue13"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Attended Date_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Attended Date_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Attended Date_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Name_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Name_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue14"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Contact Person Name_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue14"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Name_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_2.frmAssetDetails.'Contact Person Name_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_2",
+                "type": "FSR_FORM_2.frmAssetDetails.'Contact Person Name_DataCard1'"
               }
             }
           ],
@@ -476,246 +1015,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 351,
-                  "snippet": {
-                    "text": "frmAssetDetails"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "HOME_SCREEN",
-                "type": "HOME_SCREEN.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "frmAssetDetails"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 341,
-                  "snippet": {
-                    "text": "ResetForm(frmAssetDetails)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "HOME_SCREEN",
-                "type": "HOME_SCREEN.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ResetForm"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 378,
-                  "snippet": {
-                    "text": "frmIssueDetails"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "HOME_SCREEN",
-                "type": "HOME_SCREEN.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "frmIssueDetails"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 368,
-                  "snippet": {
-                    "text": "ResetForm(frmIssueDetails)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "HOME_SCREEN",
-                "type": "HOME_SCREEN.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ResetForm"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 405,
-                  "snippet": {
-                    "text": "frmPerformanceCheck"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "HOME_SCREEN",
-                "type": "HOME_SCREEN.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "frmPerformanceCheck"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HOME_SCREEN.Button1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 30,
-                  "charOffset": 395,
-                  "snippet": {
-                    "text": "ResetForm(frmPerformanceCheck)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "HOME_SCREEN",
-                "type": "HOME_SCREEN.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ResetForm"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Service Creation'.Form1.'Fab No_DataCard1'.ComboBox3.SearchItems"
                 }
               ],
@@ -749,7 +1048,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -779,7 +1078,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -809,7 +1108,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -839,7 +1138,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -869,7 +1168,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -899,7 +1198,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -929,7 +1228,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -959,7 +1258,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -989,7 +1288,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1019,7 +1318,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1049,7 +1348,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1079,7 +1378,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1109,7 +1408,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1139,7 +1438,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1169,7 +1468,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1199,7 +1498,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1229,7 +1528,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1259,7 +1558,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1289,7 +1588,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1319,7 +1618,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1349,7 +1648,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1379,7 +1678,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1409,7 +1708,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1439,7 +1738,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1469,7 +1768,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1499,7 +1798,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1529,7 +1828,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1559,7 +1858,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1589,7 +1888,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1619,7 +1918,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1649,7 +1948,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1679,7 +1978,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1709,7 +2008,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1739,7 +2038,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1769,7 +2068,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1799,7 +2098,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1829,7 +2128,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 6
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1859,7 +2158,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 6
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1889,7 +2188,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 6
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1919,7 +2218,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 6
+          "ruleIndex": 5
         }
       ],
       "tool": {
@@ -1949,20 +2248,6 @@
               "messageStrings": {
                 "issue": {
                   "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
                 }
               },
               "properties": {
