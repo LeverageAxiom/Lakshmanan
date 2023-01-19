@@ -242,6 +242,7 @@
     "Separator2": 134,
     "Service Breakdown Type_DataCard1": 286,
     "Service Creation": 61,
+    "Service list": 306,
     "Service Representative Name_DataCard1": 173,
     "Service Request Type_DataCard2": 281,
     "Signature_DataCard1": 203,
@@ -307,7 +308,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/19/2023 05:39:30",
+  "HeaderLastSavedDateTimeUTC": "01/19/2023 05:41:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "71e95593-2791-4577-94bb-f451d9939c3c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c69eda498a0f43e8a2fdb022fb2691f8\""
@@ -598,6 +599,7 @@
     "Separator2": {},
     "Service Breakdown Type_DataCard1": {},
     "Service Creation": {},
+    "Service list": {},
     "Service Representative Name_DataCard1": {},
     "Service Request Type_DataCard2": {},
     "Signature_DataCard1": {},
@@ -903,6 +905,7 @@
     "Separator2": 298,
     "Service Breakdown Type_DataCard1": 204,
     "Service Creation": 253,
+    "Service list": 0,
     "Service Representative Name_DataCard1": 91,
     "Service Request Type_DataCard2": 199,
     "Signature_DataCard1": 121,
