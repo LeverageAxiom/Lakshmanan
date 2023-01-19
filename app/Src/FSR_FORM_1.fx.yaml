@@ -490,7 +490,7 @@
             Update: =DataCardValue7.Text
             Width: =640
             X: =0
-            Y: =5
+            Y: =4
             ZIndex: =1
 
             DataCardKey8 As label:
@@ -606,7 +606,7 @@
             Update: =DataCardValue21.Text
             Width: =640
             X: =0
-            Y: =6
+            Y: =5
             ZIndex: =1
 
             DataCardKey21 As label:
@@ -722,7 +722,7 @@
             Update: =DataCardValue6.Text
             Width: =640
             X: =0
-            Y: =7
+            Y: =6
             ZIndex: =1
 
             DataCardKey7 As label:
@@ -838,7 +838,7 @@
             Update: =DataCardValue38.Text
             Width: =640
             X: =0
-            Y: =8
+            Y: =7
             ZIndex: =1
 
             DataCardKey35 As label:
@@ -940,23 +940,6 @@
                 Y: =DataCardKey35.Y
                 ZIndex: =4
 
-        "'Contact Person Name_DataCard1' As typedDataCard.textualEditCard":
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="field_7"
-            Default: =ThisItem.'Contact Person Name'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"field_7")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'FSR _Form'], DataSourceInfo.MaxLength, "field_7")
-            Required: =false
-            Update: =DataCardValue5.Text
-            Width: =640
-            X: =0
-            Y: =4
-            ZIndex: =1
-
         DataCard4 As typedDataCard.blankCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -965,7 +948,7 @@
             Height: =158
             Width: =640
             X: =0
-            Y: =9
+            Y: =8
             ZIndex: =1
 
             Button3_6 As button:
