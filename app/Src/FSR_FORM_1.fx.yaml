@@ -142,7 +142,7 @@
             Update: =DataCardValue3.Text
             Width: =640
             X: =0
-            Y: =2
+            Y: =1
             ZIndex: =1
 
             DataCardKey3 As label:
@@ -258,7 +258,7 @@
             Update: =DataCardValue2.Text
             Width: =640
             X: =0
-            Y: =1
+            Y: =2
             ZIndex: =1
 
             DataCardKey2 As label:
@@ -490,7 +490,7 @@
             Update: =DataCardValue7.Text
             Width: =640
             X: =0
-            Y: =6
+            Y: =5
             ZIndex: =1
 
             DataCardKey8 As label:
@@ -606,7 +606,7 @@
             Update: =DataCardValue21.Text
             Width: =640
             X: =0
-            Y: =7
+            Y: =6
             ZIndex: =1
 
             DataCardKey21 As label:
@@ -722,7 +722,7 @@
             Update: =DataCardValue6.Text
             Width: =640
             X: =0
-            Y: =5
+            Y: =7
             ZIndex: =1
 
             DataCardKey7 As label:

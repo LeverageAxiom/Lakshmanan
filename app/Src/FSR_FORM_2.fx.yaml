@@ -90,3 +90,21 @@
         X: =11
         ZIndex: =8
 
+    frmAssetDetails As form:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        DataSource: ='FSR _Form'
+        Height: =993
+        Item: =Defaults('FSR _Form')
+        Visible: =varTabSelected=1
+        Width: =Parent.Width
+        Y: =143
+        ZIndex: =9
+
+    Form3 As form:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Height: =995
+        Visible: =varTabSelected=2
+        Width: =640
+        Y: =141
+        ZIndex: =10
+
