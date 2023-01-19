@@ -107,7 +107,7 @@ HOME_SCREEN As screen:
             );
             Reset(TextInput1);
             Reset(TextInput1_1);
-            ResetForm(frmSrDetails);ResetForm(frmAssetDetails);ResetForm(frmIssueDetails);ResetForm(frmAssetDetails)
+            ResetForm(frmSrDetails);ResetForm(frmAssetDetails);ResetForm(frmIssueDetails);ResetForm(frmAssetDetails);ResetForm(frmPerformanceCheck);
         PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
