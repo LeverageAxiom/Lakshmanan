@@ -1,24 +1,44 @@
 App As appinfo:
     BackEnabled: =false
     OnStart: |-
-        =Set(varTabSelected, 1);
+        =Set(
+            varTabSelected,
+            1
+        );
         ClearCollect(
             ColViews,
             {
-                viewname: "All Tasks",
+                viewname: "To be Assigned",
                 viewcolumns: [
                     "Title",
                     "SR date",
                     "Fab No"
-                    ]
-                },{
-                    viewname: "My Tasks",
-                    viewcolumns: [
-                            "Title",
-                            "SR date",
-                            "Assigned To"
-                    ]
-                }
-            )
+                ]
+            },
+            {
+                viewname: "Assigned",
+                viewcolumns: [
+                    "Title",
+                    "SR date",
+                    "Assigned To"
+                ]
+            },
+            {
+                viewname: "Completed",
+                viewcolumns: [
+                    "Title",
+                    "SR date",
+                    "Assigned To"
+                ]
+            },
+            {
+                viewname: "Cancelled",
+                viewcolumns: [
+                    "Title",
+                    "SR date",
+                    "Assigned To"
+                ]
+            }
+        )
     StartScreen: =HOME_SCREEN
 
