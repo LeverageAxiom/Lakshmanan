@@ -519,6 +519,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Service list'.Dropdown1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service list'.Dropdown1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "colviews"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Service list",
+                "type": "'Service list'.Dropdown1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colviews"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "SUCCESS_SCREEN.Icon1.AccessibleLabel"
                 }
               ],
