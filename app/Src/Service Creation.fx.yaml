@@ -228,6 +228,7 @@
                 SearchFields: =["field_2"]
                 SearchItems: =Search('Client List DB-',ComboBox3.SearchText,"field_2")
                 SelectionFill: =RGBA(135, 100, 184, 1)
+                SelectMultiple: =false
                 Size: =21
                 Width: =575
                 X: =35
