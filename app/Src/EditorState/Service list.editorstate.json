@@ -26,7 +26,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Assigned To_Column1",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -399,7 +399,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Customer Mail Id_Column1",
-      "ParentIndex": 9,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -793,7 +793,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Equipment Name_Column1",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1865,7 +1865,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "SR Date_Column1",
-      "ParentIndex": 7,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1958,7 +1958,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "SR Status_Column1",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2066,7 +2066,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Title_Column1",
-      "ParentIndex": 0,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
