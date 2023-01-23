@@ -26,7 +26,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Assigned To_Column1",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -119,7 +119,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Complaint_Column1",
-      "ParentIndex": 8,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -213,7 +213,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Customer Company Name_Column1",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -306,7 +306,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Customer Location_Column1",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -492,7 +492,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Customer Number_Column1",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1161,7 +1161,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Fab No_Column1",
-      "ParentIndex": 2,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2130,7 +2130,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Priority_Column1",
-      "ParentIndex": 9,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2409,7 +2409,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "SR Date_Column1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2502,7 +2502,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "SR Status_Column1",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2610,7 +2610,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Title_Column1",
-      "ParentIndex": 0,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

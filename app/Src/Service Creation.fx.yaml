@@ -43,7 +43,7 @@
                 Height: =48
                 PaddingLeft: =0
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: =Equipment
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -177,12 +177,12 @@
                 HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
-                Items: ='Client List DB-'
+                Items: ='Asset List_1'
                 PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(135, 100, 184, 1)
                 SearchFields: =["field_2"]
-                SearchItems: =Search('Client List DB-',ComboBox3.SearchText,"field_2")
+                SearchItems: =Search('Asset List_1',ComboBox3.SearchText,"field_2")
                 SelectionFill: =RGBA(135, 100, 184, 1)
                 SelectMultiple: =false
                 Size: =21
