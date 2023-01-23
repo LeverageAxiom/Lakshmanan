@@ -1,5 +1,5 @@
 "'Menu Screen' As screen":
-    BackgroundImage: ='Service Request'
+    BackgroundImage: ='white-gradient-blue-linear-1536x2048-c2-87cefa-ffffff-a-90-f-14'
     ImagePosition: =ImagePosition.Stretch
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
