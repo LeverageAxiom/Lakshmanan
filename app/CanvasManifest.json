@@ -121,6 +121,7 @@
     "SUCCESS_SCREEN",
     "FSR_TRACKER",
     "Service list",
-    "Asset List"
+    "Asset List",
+    "ASSET_LIST_MG"
   ]
 }
