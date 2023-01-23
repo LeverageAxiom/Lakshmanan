@@ -16,14 +16,15 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="FabNo0"
-            Default: =ThisItem.'Fab No'
+            Default: =ThisItem.'Eqmnt No'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"FabNo0")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "FabNo0")
             Required: =false
-            Update: =ComboBox3.Selected.'FAB NO'
+            Update: |-
+                =ComboBox3.Selected.'EQMNT NO:'
             Width: =640
             X: =0
             Y: =2
@@ -43,7 +44,7 @@
                 Height: =48
                 PaddingLeft: =0
                 Size: =21
-                Text: =Equipment
+                Text: ="Equipment No"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -233,7 +234,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =ComboBox3.Selected.Equipment
+                Default: =ComboBox3.Selected.'ENGINE MAKE'
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -593,7 +594,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =ComboBox3.Selected.'Customer name'
+                Default: =ComboBox3.Selected.'Customer Name'
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -709,7 +710,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =ComboBox3.Selected.Location
+                Default: =ComboBox3.Selected.'Customer City'
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -825,8 +826,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: |
-                    =ComboBox3.Selected.'Mobile Number'
+                Default: =ComboBox3.Selected.'Cust Phone Number'
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -942,7 +942,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =ComboBox3.Selected.'Email Id'
+                Default: =ComboBox3.Selected.'Cust Email Id'
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1020,7 +1020,7 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Complaint"
-            Default: =ThisItem.Complaint
+            Default: =ThisItem.'Service Request Type'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"Complaint")
             Fill: =RGBA(0, 0, 0, 0)
@@ -1073,13 +1073,13 @@
                 HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =Choices([@'Manual Service Creation'].Complaint)
+                Items: =Choices([@'Manual Service Creation'].'Service Request Type')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(135, 100, 184, 1)
                 SearchFields: =["Value"]
-                SearchItems: =Choices('Manual Service Creation'.Complaint,DataCardValue56.SearchText)
+                SearchItems: =Choices('Manual Service Creation'.'Service Request Type',DataCardValue56.SearchText)
                 SelectionFill: =RGBA(135, 100, 184, 1)
                 SelectMultiple: =false
                 Size: =21

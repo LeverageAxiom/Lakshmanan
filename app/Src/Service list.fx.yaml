@@ -183,7 +183,7 @@
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =9
-            Text: =ThisItem.Complaint.Value
+            Text: =ThisItem.'Service Request Type'.Value
             Width: =100
             X: =0
             Y: =0
@@ -239,7 +239,7 @@
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =3
-            Text: =ThisItem.'Fab No'
+            Text: =ThisItem.'Eqmnt No'
             Width: =100
             X: =0
             Y: =0
