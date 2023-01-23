@@ -338,7 +338,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/23/2023 09:12:23",
+  "HeaderLastSavedDateTimeUTC": "01/23/2023 09:13:05",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "71e95593-2791-4577-94bb-f451d9939c3c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c67a681d6e894ef5b27c192ea81f8048\""
@@ -361,10 +361,11 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
+    "Asset List_1": 9,
     "Call Status Dropdown": 0,
     "Call Type Dropdown": 1,
     "Client List DB-": 2,
-    "ColViews": 9,
+    "ColViews": 10,
     "ComboBoxSample": 3,
     "CustomGallerySample": 4,
     "DropDownSample": 5,
@@ -1112,7 +1113,7 @@
       "typedDataCard": 48
     },
     "DeserializationLoadTime": 3.6224356,
-    "ErrorCount": 8
+    "ErrorCount": 1
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
