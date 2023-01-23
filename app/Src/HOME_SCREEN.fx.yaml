@@ -1,5 +1,5 @@
 HOME_SCREEN As screen:
-    BackgroundImage: ='white-gradient-blue-linear-1536x2048-c2-87cefa-ffffff-a-90-f-14'
+    BackgroundImage: ='Home Screen Image'
     ImagePosition: =ImagePosition.Stretch
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
@@ -187,28 +187,9 @@ HOME_SCREEN As screen:
         Italic: =true
         Size: =25
         Text: ="Sakthiman Rental Application"
+        Visible: =false
         Width: =560
         X: =51
         Y: =40
         ZIndex: =8
-
-    Icon6 As icon.Cars:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(135, 100, 184, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =50
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Manufacture
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =50
-        X: =34
-        Y: =93
-        ZIndex: =9
 
