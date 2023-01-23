@@ -203,7 +203,7 @@ HOME_SCREEN As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Cars
+        Icon: =Icon.Manufacture
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)

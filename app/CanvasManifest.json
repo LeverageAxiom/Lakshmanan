@@ -88,9 +88,9 @@
     "DocumentAppType": "Phone",
     "DocumentLayoutHeight": 1136,
     "DocumentLayoutLockOrientation": false,
-    "DocumentLayoutMaintainAspectRatio": true,
+    "DocumentLayoutMaintainAspectRatio": false,
     "DocumentLayoutOrientation": "portrait",
-    "DocumentLayoutScaleToFit": true,
+    "DocumentLayoutScaleToFit": false,
     "DocumentLayoutWidth": 640,
     "DocumentType": "App",
     "EnableInstrumentation": false,
@@ -120,6 +120,7 @@
     "Service Creation",
     "SUCCESS_SCREEN",
     "FSR_TRACKER",
-    "Service list"
+    "Service list",
+    "Asset List"
   ]
 }
