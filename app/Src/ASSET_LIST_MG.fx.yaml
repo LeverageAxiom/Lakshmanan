@@ -24,7 +24,7 @@ ASSET_LIST_MG As screen:
             PaddingTop: =0
             Size: =20
             Text: |-
-                =ThisItem.'EQMNT NO:'
+                ="ID : " & ThisItem.'EQMNT NO:'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -42,7 +42,8 @@ ASSET_LIST_MG As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =18
-            Text: =ThisItem.'ENGINE MAKE'
+            Text: |-
+                ="Engine Make : " & ThisItem.'ENGINE MAKE'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -60,7 +61,8 @@ ASSET_LIST_MG As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =16
-            Text: =ThisItem.'Customer Address'
+            Text: |-
+                ="Engine SR.No : " & ThisItem.'ENGINE SR.NO:'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32

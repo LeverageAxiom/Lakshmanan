@@ -147,6 +147,7 @@
     "DG Set_DataCard1": 260,
     "Digital Signature_DataCard1": 226,
     "Dropdown1": 66,
+    "Edit_Ass": 335,
     "Engine Model_DataCard1": 240,
     "Engine Serial No_DataCard2": 235,
     "Equipment Name_Column1": 76,
@@ -338,7 +339,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/23/2023 09:16:52",
+  "HeaderLastSavedDateTimeUTC": "01/23/2023 10:47:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "71e95593-2791-4577-94bb-f451d9939c3c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c67a681d6e894ef5b27c192ea81f8048\""
@@ -555,6 +556,7 @@
     "DG Set_DataCard1": {},
     "Digital Signature_DataCard1": {},
     "Dropdown1": {},
+    "Edit_Ass": {},
     "Engine Model_DataCard1": {},
     "Engine Serial No_DataCard2": {},
     "Equipment Name_Column1": {},
@@ -891,6 +893,7 @@
     "DG Set_DataCard1": 168,
     "Digital Signature_DataCard1": 134,
     "Dropdown1": 291,
+    "Edit_Ass": 0,
     "Engine Model_DataCard1": 148,
     "Engine Serial No_DataCard2": 143,
     "Equipment Name_Column1": 301,
