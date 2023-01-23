@@ -2273,6 +2273,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Engine No_DataCard1'.DataCardValue35.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Engine No_DataCard1'.DataCardValue35.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Engine No_DataCard1'.DataCardValue35"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.997194"
                 }
               ],

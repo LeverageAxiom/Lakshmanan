@@ -107,7 +107,7 @@
 
         Title_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Title"
+            FieldDisplayName: ="SR No"
             FieldName: ="Title"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
@@ -115,7 +115,7 @@
             Order: =1
             Text: =ThisItem.Title
             Width: =100
-            X: =208
+            X: =0
             Y: =0
             ZIndex: =1
 
@@ -175,14 +175,14 @@
             Y: =0
             ZIndex: =5
 
-        Complaint_Column1 As dataTableColumn.textualColumn:
+        "'Service Request Type_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Complaint"
+            FieldDisplayName: ="Service Request Type"
             FieldName: ="Complaint"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =9
+            Order: =11
             Text: =ThisItem.'Service Request Type'.Value
             Width: =100
             X: =0
@@ -196,7 +196,7 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =10
+            Order: =12
             Text: =ThisItem.Priority.Value
             Width: =100
             X: =0
@@ -231,9 +231,9 @@
             Y: =0
             ZIndex: =9
 
-        "'Fab No_Column1' As dataTableColumn.textualColumn":
+        "'Eqmnt No_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Fab No"
+            FieldDisplayName: ="Eqmnt No"
             FieldName: ="FabNo0"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
@@ -252,7 +252,7 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =11
+            Order: =14
             Text: =ThisItem.'Assigned To'
             Width: =100
             X: =0
@@ -266,12 +266,54 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =12
+            Order: =15
             Text: =ThisItem.'SR Status'.Value
             Width: =100
             X: =0
             Y: =0
             ZIndex: =12
+
+        "'Capacity(Kva)_Column2' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Capacity(Kva)"
+            FieldName: ="Capacity_x0028_Kva_x0029_"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =10
+            Text: =ThisItem.'Capacity(Kva)'
+            Width: =100
+            X: =480
+            Y: =0
+            ZIndex: =13
+
+        "'Service Request Action_Column2' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Service Request Action"
+            FieldName: ="ServiceRequestAction"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =13
+            Text: =ThisItem.'Service Request Action'.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =14
+
+        "'Engine No_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Engine No"
+            FieldName: ="EngineNo"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =9
+            Text: =ThisItem.'Engine No'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =15
 
     Label6 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
