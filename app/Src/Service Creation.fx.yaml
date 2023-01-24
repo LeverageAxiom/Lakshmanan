@@ -1061,7 +1061,7 @@
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
-                    =If(Form1.Mode=FormMode.New, "CL-"&(Last('Manual Service Creation').ID+1),Parent.Default)
+                    =If(Form1.Mode=FormMode.New, "CL-"&(Last(Split('Manual Service Creation',"-")).Result*1)+1,Parent.Default)
                     //If(Form1.Mode=FormMode.New, "CL-"&(Last('Manual Service Creation').Title+1),Parent.Default)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
