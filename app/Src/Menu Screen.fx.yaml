@@ -28,7 +28,7 @@
         Text: ="FSR Form"
         Width: =254
         X: =336
-        Y: =259
+        Y: =463
         ZIndex: =1
 
     Button6_1 As button:
@@ -56,7 +56,7 @@
         Text: ="FSR Tracker"
         Width: =254
         X: =336
-        Y: =418
+        Y: =622
         ZIndex: =2
 
     Button6_2 As button:
@@ -84,8 +84,8 @@
         Text: ="Service Creation"
         Width: =254
         X: =40
-        Y: =259
-        ZIndex: =5
+        Y: =463
+        ZIndex: =3
 
     Button6_3 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -112,8 +112,8 @@
         Text: ="Service List"
         Width: =254
         X: =40
-        Y: =418
-        ZIndex: =6
+        Y: =622
+        ZIndex: =4
 
     Button6_4 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -136,12 +136,12 @@
         RadiusBottomRight: =30
         RadiusTopLeft: =30
         RadiusTopRight: =30
-        Size: =20
+        Size: =18
         Text: ="Asset List"
         Width: =254
         X: =336
-        Y: =110
-        ZIndex: =7
+        Y: =314
+        ZIndex: =5
 
     Button6_5 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -164,23 +164,24 @@
         RadiusBottomRight: =30
         RadiusTopLeft: =30
         RadiusTopRight: =30
-        Size: =20
+        Size: =18
         Text: ="New Asset "
         Width: =254
         X: =40
-        Y: =110
-        ZIndex: =8
+        Y: =314
+        ZIndex: =6
 
     Button5 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(127, 178, 57, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =44
+        Height: =54
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -192,10 +193,66 @@
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Size: =21
+        Size: =18
         Text: ="Logout"
-        Width: =106
-        X: =512
-        Y: =16
-        ZIndex: =9
+        Width: =128
+        X: =256
+        Y: =942
+        ZIndex: =10
+
+    Group1_4 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =14
+
+        Rectangle1_5 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(135, 100, 184, 1)
+            FocusedBorderThickness: =4
+            Height: =75
+            HoverFill: =RGBA(135, 100, 184, 1)
+            PressedFill: =RGBA(135, 100, 184, 1)
+            Width: =Parent.Width
+            ZIndex: =7
+
+        Label2_5 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =75
+            Size: =18
+            Text: ="Main Screen"
+            Width: =490
+            X: =80
+            ZIndex: =8
+
+        Icon4_6 As icon.Edit:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =75
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Filter
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =38
+            X: =11
+            ZIndex: =9
 
