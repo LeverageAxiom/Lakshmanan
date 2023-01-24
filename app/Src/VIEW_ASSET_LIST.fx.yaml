@@ -145,6 +145,25 @@ VIEW_ASSET_LIST As screen:
             Y: =119
             ZIndex: =8
 
+        Label9 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(255, 191, 0, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =46
+            Size: =21
+            Text: ="Unallocated"
+            Width: =163
+            X: =393
+            Y: =54
+            ZIndex: =9
+
     ComboBox4 As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
         ChevronBackground: =RGBA(255, 255, 255, 1)
