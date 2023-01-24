@@ -122,6 +122,7 @@
     "FSR_TRACKER",
     "Service list",
     "Asset List",
-    "ASSET_LIST_MG"
+    "VIEW_ASSET_LIST",
+    "EDIT_ASSET_LIST"
   ]
 }

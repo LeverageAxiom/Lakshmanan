@@ -119,7 +119,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Assigned To_Column1",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -677,7 +677,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Customer Mail Id_Column1",
-      "ParentIndex": 9,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1346,7 +1346,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Engine No_Column1",
-      "ParentIndex": 6,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1439,7 +1439,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Eqmnt No_Column1",
-      "ParentIndex": 11,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1532,7 +1532,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Equipment Name_Column1",
-      "ParentIndex": 10,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2594,7 +2594,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Priority_Column1",
-      "ParentIndex": 8,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3059,7 +3059,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "SR Status_Column1",
-      "ParentIndex": 13,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3132,7 +3132,14 @@
         "FieldName",
         "Order",
         "FieldVariantName",
-        "FieldDisplayName",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FieldDisplayName",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "LayoutHeight",
         "X",
         "Y",
