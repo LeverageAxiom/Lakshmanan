@@ -127,7 +127,7 @@
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =2
-            Text: =ThisItem.'SR Date'
+            Text: =ThisItem.'Call Log Date'
             Width: =100
             X: =0
             Y: =0
@@ -183,7 +183,7 @@
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =11
-            Text: =ThisItem.'Service Request Type'.Value
+            Text: =ThisItem.'Call Log Type'.Value
             Width: =100
             X: =0
             Y: =0
@@ -281,7 +281,7 @@
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =10
-            Text: =ThisItem.'Capacity(Kva)'
+            Text: =ThisItem.Product
             Width: =100
             X: =480
             Y: =0
@@ -295,7 +295,7 @@
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =13
-            Text: =ThisItem.'Service Request Action'.Value
+            Text: =ThisItem.'Activity initiated'.Value
             Width: =100
             X: =0
             Y: =0
