@@ -180,7 +180,7 @@
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =54
+        Height: =44
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
@@ -192,10 +192,10 @@
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Size: =24
+        Size: =21
         Text: ="Logout"
-        Width: =136
-        X: =485
-        Y: =28
+        Width: =106
+        X: =512
+        Y: =16
         ZIndex: =9
 
