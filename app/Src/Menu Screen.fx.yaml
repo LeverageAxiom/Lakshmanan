@@ -171,3 +171,31 @@
         Y: =110
         ZIndex: =8
 
+    Button5 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(127, 178, 57, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
+        OnSelect: =Navigate(HOME_SCREEN, Fade)
+        PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =24
+        Text: ="Logout"
+        Width: =136
+        X: =485
+        Y: =28
+        ZIndex: =9
+
