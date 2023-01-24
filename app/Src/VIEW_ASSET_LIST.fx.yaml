@@ -4,7 +4,8 @@ VIEW_ASSET_LIST As screen:
     "Gallery3 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         BorderColor: =RGBA(166, 166, 166, 1)
         Height: =850
-        Items: ='Asset List_1'
+        Items: |-
+            =Search(Filter('Asset List_1',StartsWith('EQMNT NO:',TextInput2.Text)),)
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
@@ -24,7 +25,7 @@ VIEW_ASSET_LIST As screen:
             PaddingTop: =0
             Size: =20
             Text: |-
-                ="ID : " &ThisItem.'EQMNT NO:'
+                ="EQP NO : " &ThisItem.'EQMNT NO:'
             VerticalAlign: =VerticalAlign.Top
             Width: =249
             X: =32
@@ -100,7 +101,7 @@ VIEW_ASSET_LIST As screen:
             PaddingTop: =0
             Size: =18
             Text: |-
-                ="Engine Make : "&ThisItem.'ENGINE MAKE'
+                ="Alternator Make : "&ThisItem.'ALTERNATOR MAKE'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -119,7 +120,7 @@ VIEW_ASSET_LIST As screen:
             PaddingTop: =0
             Size: =18
             Text: |-
-                ="Alternator Make : "&ThisItem.'ALTERNATOR MAKE'
+                ="Engine Make : "&ThisItem.'ENGINE MAKE'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -189,7 +190,34 @@ VIEW_ASSET_LIST As screen:
         SelectionFill: =RGBA(135, 100, 184, 1)
         Size: =21
         Width: =261
-        X: =20
-        Y: =32
+        X: =254
+        Y: =214
         ZIndex: =2
+
+    TextInput2 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =70
+        HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(135, 100, 184, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =560
+        X: =26
+        Y: =40
+        ZIndex: =3
 
