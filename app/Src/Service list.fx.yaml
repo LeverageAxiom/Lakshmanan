@@ -107,7 +107,7 @@
 
         Title_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="SR No"
+            FieldDisplayName: ="Title"
             FieldName: ="Title"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
@@ -119,9 +119,9 @@
             Y: =0
             ZIndex: =1
 
-        "'SR Date_Column1' As dataTableColumn.textualColumn":
+        "'Call Log Date_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="SR Date"
+            FieldDisplayName: ="Call Log Date"
             FieldName: ="FabNo"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
@@ -140,7 +140,7 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =4
+            Order: =5
             Text: =ThisItem.'Customer Company Name'
             Width: =100
             X: =0
@@ -154,7 +154,7 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =5
+            Order: =6
             Text: =ThisItem.'Customer Location'
             Width: =100
             X: =0
@@ -168,16 +168,16 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =6
+            Order: =7
             Text: =ThisItem.'Customer Number'
             Width: =100
             X: =0
             Y: =0
             ZIndex: =5
 
-        "'Service Request Type_Column1' As dataTableColumn.textualColumn":
+        "'Call Log Type_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Service Request Type"
+            FieldDisplayName: ="Call Log Type"
             FieldName: ="Complaint"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
@@ -196,7 +196,7 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =12
+            Order: =13
             Text: =ThisItem.Priority.Value
             Width: =100
             X: =0
@@ -210,7 +210,7 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =7
+            Order: =14
             Text: =ThisItem.'Customer Mail Id'
             Width: =100
             X: =0
@@ -238,7 +238,7 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =3
+            Order: =4
             Text: =ThisItem.'Eqmnt No'
             Width: =100
             X: =0
@@ -252,7 +252,7 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =14
+            Order: =15
             Text: =ThisItem.'Assigned To'
             Width: =100
             X: =0
@@ -266,16 +266,16 @@
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =15
+            Order: =16
             Text: =ThisItem.'SR Status'.Value
             Width: =100
             X: =0
             Y: =0
             ZIndex: =12
 
-        "'Capacity(Kva)_Column2' As dataTableColumn.textualColumn":
+        Product_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Capacity(Kva)"
+            FieldDisplayName: ="Product"
             FieldName: ="Capacity_x0028_Kva_x0029_"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
@@ -283,18 +283,18 @@
             Order: =10
             Text: =ThisItem.Product
             Width: =100
-            X: =480
+            X: =0
             Y: =0
             ZIndex: =13
 
-        "'Service Request Action_Column2' As dataTableColumn.textualColumn":
+        "'Activity initiated_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Service Request Action"
+            FieldDisplayName: ="Activity initiated"
             FieldName: ="ServiceRequestAction"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =13
+            Order: =17
             Text: =ThisItem.'Activity initiated'.Value
             Width: =100
             X: =0
@@ -314,6 +314,48 @@
             X: =0
             Y: =0
             ZIndex: =15
+
+        "'Equipment Type_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Equipment Type"
+            FieldName: ="EquipmentType"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.'Equipment Type'.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =16
+
+        "'Contract Person_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Contract Person"
+            FieldName: ="ContractPerson"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =18
+            Text: =ThisItem.'Contract Person'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =17
+
+        Remarks_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Remarks"
+            FieldName: ="Remarks"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =12
+            Text: =ThisItem.Remarks
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =18
 
     Label6 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
