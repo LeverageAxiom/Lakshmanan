@@ -791,6 +791,9 @@
             MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "Remarks")
             Required: =false
             Update: =DataCardValue37.Text
+            Visible: |-
+                =If(DataCardValue56.Selected.Value = "Other",true,false)
+                //true
             Width: =640
             X: =0
             Y: =12
