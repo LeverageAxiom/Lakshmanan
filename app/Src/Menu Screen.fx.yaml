@@ -1,5 +1,5 @@
 "'Menu Screen' As screen":
-    BackgroundImage: =App1
+    BackgroundImage: =App2
     Fill: =RGBA(255, 255, 0, 1)
     ImagePosition: =ImagePosition.Fill
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)

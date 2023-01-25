@@ -1,4 +1,5 @@
 EDIT_ASSET_LIST As screen:
+    BackgroundImage: =App3
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
     frmViewAssetList As form:

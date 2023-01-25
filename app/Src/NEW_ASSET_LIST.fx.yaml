@@ -1,4 +1,6 @@
 NEW_ASSET_LIST As screen:
+    BackgroundImage: =App1
+    ImagePosition: =ImagePosition.Fill
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
     Form2 As form:
@@ -966,7 +968,7 @@ NEW_ASSET_LIST As screen:
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
             DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(135, 100, 184, 1)
+            Fill: =RGBA(0, 134, 208, 1)
             FocusedBorderThickness: =4
             Height: =75
             HoverFill: =RGBA(135, 100, 184, 1)

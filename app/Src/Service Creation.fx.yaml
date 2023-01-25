@@ -1,5 +1,5 @@
 "'Service Creation' As screen":
-    BackgroundImage: =App8
+    BackgroundImage: =App1
     ImagePosition: =ImagePosition.Fill
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
@@ -916,7 +916,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
+                Color: =RGBA(0, 0, 0, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -1181,7 +1181,7 @@
                 DisabledBorderColor: =RGBA(255, 255, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =DisplayMode.Disabled
+                DisplayMode: =DisplayMode.View
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
@@ -1873,17 +1873,17 @@
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =67
+        Height: =37
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Edit
+        Icon: =Icon.LineWeight
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =50
-        X: =22
-        Y: =21
+        Width: =42
+        X: =41
+        Y: =29
         ZIndex: =4
 
     Button3 As button:
