@@ -203,6 +203,7 @@ EDIT_ASSET_LIST As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(230, 230, 230, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
@@ -273,6 +274,7 @@ EDIT_ASSET_LIST As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(230, 230, 230, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
@@ -344,6 +346,7 @@ EDIT_ASSET_LIST As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(230, 230, 230, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
@@ -414,6 +417,7 @@ EDIT_ASSET_LIST As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(230, 230, 230, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
@@ -484,6 +488,7 @@ EDIT_ASSET_LIST As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(230, 230, 230, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
@@ -554,6 +559,7 @@ EDIT_ASSET_LIST As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(230, 230, 230, 1)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
@@ -656,7 +662,7 @@ EDIT_ASSET_LIST As screen:
     frmEditAssetList As form:
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: ='Asset List_1'
-        Height: =643
+        Height: =639
         Item: =galAssetList.Selected
         Width: =640
         Y: =75
@@ -786,13 +792,13 @@ EDIT_ASSET_LIST As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"CustomerAddress")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =116
             MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "CustomerAddress")
             Required: =false
             Update: =DataCardValue74.Text
             Width: =640
             X: =0
-            Y: =1
+            Y: =3
             ZIndex: =1
 
             DataCardKey76 As label:
@@ -827,11 +833,12 @@ EDIT_ASSET_LIST As screen:
                 DisplayMode: =Parent.DisplayMode
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
-                Height: =70
+                Height: =106
                 HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
+                Mode: =TextMode.MultiLine
                 PaddingLeft: =5
                 PressedBorderColor: =RGBA(135, 100, 184, 1)
                 PressedColor: =RGBA(51, 51, 51, 1)
@@ -1023,7 +1030,7 @@ EDIT_ASSET_LIST As screen:
             Update: =DataCardValue76.Text
             Width: =640
             X: =0
-            Y: =3
+            Y: =1
             ZIndex: =1
 
             DataCardKey78 As label:
@@ -1240,6 +1247,61 @@ EDIT_ASSET_LIST As screen:
                 Y: =DataCardKey79.Y
                 ZIndex: =4
 
+        Status_DataCard1 As typedDataCard.comboBoxEditCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Status"
+            Default: =ThisItem.Status
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"Status")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue65.Selected
+            Width: =640
+            X: =0
+            Y: =5
+            ZIndex: =1
+
+        DataCard5 As typedDataCard.blankCard:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =118
+            Width: =640
+            X: =0
+            Y: =6
+            ZIndex: =1
+
+            Button7 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(135, 100, 184, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
+                OnSelect: =SubmitForm(frmEditAssetList);Notify("Information Saved Successfully",Success);Navigate(VIEW_ASSET_LIST)
+                PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =18
+                Text: ="Save"
+                Width: =200
+                X: =220
+                Y: =24
+                ZIndex: =1
+
     Label10 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -1258,32 +1320,4 @@ EDIT_ASSET_LIST As screen:
         Width: =640
         Y: =716
         ZIndex: =8
-
-    Button7 As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(135, 100, 184, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =70
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
-        OnSelect: =SubmitForm(frmEditAssetList)
-        PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =18
-        Text: ="Save"
-        Width: =200
-        X: =215
-        Y: =601
-        ZIndex: =9
 
