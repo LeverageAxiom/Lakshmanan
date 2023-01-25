@@ -1,6 +1,16 @@
 EDIT_ASSET_LIST As screen:
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
+    frmViewAssetList As form:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        DataSource: ='Asset List_1'
+        DefaultMode: =FormMode.View
+        Height: =358
+        Item: =galAssetList.Selected
+        Width: =640
+        Y: =775
+        ZIndex: =6
+
     Group1_3 As group:
         Height: =5
         Width: =5
@@ -77,16 +87,6 @@ EDIT_ASSET_LIST As screen:
             X: =581
             Y: =17
             ZIndex: =5
-
-    frmViewAssetList As form:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        DataSource: ='Asset List_1'
-        DefaultMode: =FormMode.View
-        Height: =358
-        Item: =galAssetList.Selected
-        Width: =640
-        Y: =775
-        ZIndex: =6
 
     frmEditAssetList As form:
         BorderColor: =RGBA(166, 166, 166, 1)
