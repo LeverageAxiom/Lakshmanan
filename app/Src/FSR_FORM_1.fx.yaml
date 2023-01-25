@@ -26,7 +26,7 @@
             Update: =ComboBox1.Selected.'Customer name'
             Width: =640
             X: =0
-            Y: =0
+            Y: =1
             ZIndex: =1
 
             DataCardKey3 As label:
@@ -142,7 +142,7 @@
             Update: =DataCardValue1.Text
             Width: =640
             X: =0
-            Y: =1
+            Y: =0
             ZIndex: =1
 
             DataCardKey1 As label:
@@ -159,7 +159,7 @@
                 Height: =48
                 PaddingLeft: =0
                 Size: =21
-                Text: ="FAB No"
+                Text: ="FSR No"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
