@@ -299,7 +299,7 @@
         "'Contact Person Name_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_7"
-            Default: =ThisItem.'Contact Person Name'
+            Default: =ThisItem.field_7
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"field_7")
             Fill: =RGBA(0, 0, 0, 0)
@@ -518,7 +518,7 @@
         "'Contact Person Designation_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_8"
-            Default: =ThisItem.'Contact Person Designation'
+            Default: =ThisItem.field_8
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"field_8")
             Fill: =RGBA(0, 0, 0, 0)
