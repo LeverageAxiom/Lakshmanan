@@ -3,6 +3,15 @@ NEW_ASSET_LIST As screen:
     ImagePosition: =ImagePosition.Fill
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
+    frmNewAssetList As form:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        DataSource: ='Asset List_1'
+        Height: =1061
+        Item: =Defaults('Asset List_1')
+        Width: =640
+        Y: =75
+        ZIndex: =5
+
     Group1_5 As group:
         Height: =5
         Width: =5
@@ -79,13 +88,4 @@ NEW_ASSET_LIST As screen:
             X: =581
             Y: =13
             ZIndex: =4
-
-    frmNewAssetList As form:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        DataSource: ='Asset List_1'
-        Height: =1061
-        Item: =Defaults('Asset List_1')
-        Width: =640
-        Y: =75
-        ZIndex: =5
 
