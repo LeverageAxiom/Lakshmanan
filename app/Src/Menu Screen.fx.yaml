@@ -1,6 +1,7 @@
 "'Menu Screen' As screen":
-    BackgroundImage: ='white-gradient-blue-linear-1536x2048-c2-87cefa-ffffff-a-90-f-14'
-    ImagePosition: =ImagePosition.Stretch
+    BackgroundImage: =App1
+    Fill: =RGBA(255, 255, 0, 1)
+    ImagePosition: =ImagePosition.Fill
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
     Button6 As button:
@@ -28,7 +29,7 @@
         Text: ="FSR Form"
         Width: =254
         X: =336
-        Y: =329
+        Y: =499
         ZIndex: =1
 
     Button6_1 As button:
@@ -56,7 +57,7 @@
         Text: ="FSR Tracker"
         Width: =254
         X: =336
-        Y: =502
+        Y: =654
         ZIndex: =2
 
     Button6_2 As button:
@@ -84,7 +85,7 @@
         Text: ="Service Creation"
         Width: =254
         X: =49
-        Y: =329
+        Y: =499
         ZIndex: =3
 
     Button6_3 As button:
@@ -112,7 +113,7 @@
         Text: ="Service List"
         Width: =254
         X: =49
-        Y: =502
+        Y: =669
         ZIndex: =4
 
     Button6_4 As button:
@@ -140,7 +141,7 @@
         Text: ="Asset List"
         Width: =254
         X: =336
-        Y: =167
+        Y: =333
         ZIndex: =5
 
     Button6_5 As button:
@@ -167,37 +168,27 @@
         Size: =18
         Text: ="New Asset "
         Width: =254
-        X: =40
-        Y: =167
+        X: =49
+        Y: =333
         ZIndex: =6
 
-    Button5 As button:
+    Image2 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(0, 0, 0, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =54
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =70
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(135, 100, 184, 1), -10%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =Logout
         OnSelect: =Navigate(HOME_SCREEN, Fade)
-        PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =18
-        Text: ="Logout"
-        Width: =128
-        X: =256
-        Y: =942
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =114
+        X: =515
+        Y: =29
         ZIndex: =10
 
     Group1_4 As group:
@@ -217,6 +208,7 @@
             Height: =75
             HoverFill: =RGBA(135, 100, 184, 1)
             PressedFill: =RGBA(135, 100, 184, 1)
+            Visible: =false
             Width: =Parent.Width
             ZIndex: =7
 
@@ -232,10 +224,11 @@
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Bold
             Height: =75
-            Size: =24
+            Size: =30
             Text: ="Main Screen"
-            Width: =490
-            X: =80
+            Width: =377
+            X: =114
+            Y: =43
             ZIndex: =8
 
         Icon4_6 As icon.Edit:
@@ -245,15 +238,16 @@
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
-            Height: =75
+            Height: =97
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Filter
+            Icon: =Icon.Home
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =38
+            Width: =66
             X: =11
+            Y: =32
             ZIndex: =9
 
