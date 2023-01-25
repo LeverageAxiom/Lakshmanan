@@ -286,12 +286,12 @@ VIEW_ASSET_LIST As screen:
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Filter by Engine make"
-        Items: =Distinct('Asset List_1','ENGINE MAKE')
+        Items: =Sort(Distinct('Asset List_1','ENGINE MAKE'),Result,Ascending)
         PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(135, 100, 184, 1)
         SearchFields: =["Result"]
-        SearchItems: =Search(Distinct('Asset List_1','ENGINE MAKE'),ComboBox5.SearchText,"Result")
+        SearchItems: =Search(Sort(Distinct('Asset List_1','ENGINE MAKE'),Result,Ascending),ComboBox5.SearchText,"Result")
         SelectionFill: =RGBA(135, 100, 184, 1)
         SelectMultiple: =false
         Size: =16
