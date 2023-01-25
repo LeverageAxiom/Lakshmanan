@@ -117,9 +117,10 @@ HOME_SCREEN As screen:
         RadiusTopRight: =0
         Size: =18
         Text: ="Login"
+        Visible: =false
         Width: =217
         X: =213
-        Y: =710
+        Y: =912
         ZIndex: =5
 
     Icon3 As icon.View:
@@ -192,4 +193,37 @@ HOME_SCREEN As screen:
         X: =51
         Y: =40
         ZIndex: =8
+
+    Image3 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =80
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =Login
+        OnSelect: |-
+            =If(
+                !IsBlank(
+                    LookUp(
+                        LoginDB,
+                        Title = TextInput1.Text && Password = TextInput1_1.Text
+                    )
+                ),
+                Navigate('Menu Screen'),
+                Notify("Invalid Login Details", NotificationType.Error)
+                //Navigate('PwdWrong Page')
+            );
+            Reset(TextInput1);
+            Reset(TextInput1_1);
+            ResetForm(frmSrDetails);ResetForm(frmAssetDetails);ResetForm(frmIssueDetails);ResetForm(frmAssetDetails);ResetForm(frmPerformanceCheck);
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =258
+        X: =193
+        Y: =697
+        ZIndex: =9
 
