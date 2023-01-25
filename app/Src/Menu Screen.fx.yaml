@@ -28,8 +28,8 @@
         Size: =18
         Text: ="FSR Form"
         Width: =254
-        X: =336
-        Y: =499
+        X: =348
+        Y: =379
         ZIndex: =1
 
     Button6_1 As button:
@@ -56,8 +56,8 @@
         Size: =18
         Text: ="FSR Tracker"
         Width: =254
-        X: =336
-        Y: =654
+        X: =348
+        Y: =534
         ZIndex: =2
 
     Button6_2 As button:
@@ -85,7 +85,7 @@
         Text: ="Service Creation"
         Width: =254
         X: =49
-        Y: =499
+        Y: =379
         ZIndex: =3
 
     Button6_3 As button:
@@ -113,7 +113,7 @@
         Text: ="Service List"
         Width: =254
         X: =49
-        Y: =669
+        Y: =534
         ZIndex: =4
 
     Button6_4 As button:
@@ -140,8 +140,8 @@
         Size: =18
         Text: ="Asset List"
         Width: =254
-        X: =336
-        Y: =333
+        X: =348
+        Y: =213
         ZIndex: =5
 
     Button6_5 As button:
@@ -169,7 +169,7 @@
         Text: ="New Asset "
         Width: =254
         X: =49
-        Y: =333
+        Y: =213
         ZIndex: =6
 
     Image2 As image:
