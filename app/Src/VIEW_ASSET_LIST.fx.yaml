@@ -112,7 +112,7 @@ VIEW_ASSET_LIST As screen:
             PaddingTop: =0
             Size: =18
             Text: |-
-                ="Alternator Make : "&ThisItem.'ALTERNATOR MAKE'
+                ="Capacity : " & ThisItem.CAPACITY
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32

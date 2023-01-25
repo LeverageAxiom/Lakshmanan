@@ -5,10 +5,12 @@ EDIT_ASSET_LIST As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: ='Asset List_1'
         DefaultMode: =FormMode.View
-        Height: =358
+        Fill: =RGBA(230, 230, 230, 1)
+        Height: =338
         Item: =galAssetList.Selected
+        NumberOfColumns: =2
         Width: =640
-        Y: =775
+        Y: =798
         ZIndex: =6
 
         "'EQMNT NO:_DataCard2' As typedDataCard.textualEditCard":
@@ -24,7 +26,7 @@ EDIT_ASSET_LIST As screen:
             MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =DataCardValue47.Text
-            Width: =640
+            Width: =320
             X: =0
             Y: =0
             ZIndex: =7
@@ -44,10 +46,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue47.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue47 As text:
@@ -60,7 +62,7 @@ EDIT_ASSET_LIST As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(230, 230, 230, 1)
+                Fill: =RGBA(0, 0, 0, 0)
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Height: =70
@@ -78,9 +80,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey49.X + DataCardKey49.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey49.Y + DataCardKey49.Height + 5
                 ZIndex: =2
 
         "'ENGINE MAKE_DataCard2' As typedDataCard.textualEditCard":
@@ -95,9 +97,9 @@ EDIT_ASSET_LIST As screen:
             MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_1")
             Required: =false
             Update: =DataCardValue48.Text
-            Width: =640
-            X: =0
-            Y: =1
+            Width: =320
+            X: =1
+            Y: =0
             ZIndex: =7
 
             DataCardKey50 As label:
@@ -115,10 +117,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue48.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue48 As text:
@@ -149,9 +151,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey50.X + DataCardKey50.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey50.Y + DataCardKey50.Height + 5
                 ZIndex: =2
 
         "'ENGINE SR.NO:_DataCard2' As typedDataCard.textualEditCard":
@@ -167,9 +169,9 @@ EDIT_ASSET_LIST As screen:
             MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_2")
             Required: =false
             Update: =DataCardValue49.Text
-            Width: =640
+            Width: =320
             X: =0
-            Y: =2
+            Y: =1
             ZIndex: =7
 
             DataCardKey51 As label:
@@ -187,10 +189,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue49.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue49 As text:
@@ -221,9 +223,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey51.X + DataCardKey51.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey51.Y + DataCardKey51.Height + 5
                 ZIndex: =2
 
         "'ALTERNATOR MAKE_DataCard2' As typedDataCard.textualEditCard":
@@ -238,9 +240,9 @@ EDIT_ASSET_LIST As screen:
             MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_3")
             Required: =false
             Update: =DataCardValue50.Text
-            Width: =640
-            X: =0
-            Y: =3
+            Width: =320
+            X: =1
+            Y: =1
             ZIndex: =7
 
             DataCardKey62 As label:
@@ -258,10 +260,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue50.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue50 As text:
@@ -292,9 +294,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey62.X + DataCardKey62.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey62.Y + DataCardKey62.Height + 5
                 ZIndex: =2
 
         "'ALTERNATOR S.NO:_DataCard2' As typedDataCard.textualEditCard":
@@ -310,9 +312,9 @@ EDIT_ASSET_LIST As screen:
             MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_4")
             Required: =false
             Update: =DataCardValue61.Text
-            Width: =640
+            Width: =320
             X: =0
-            Y: =4
+            Y: =2
             ZIndex: =7
 
             DataCardKey63 As label:
@@ -330,10 +332,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue61.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue61 As text:
@@ -364,9 +366,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey63.X + DataCardKey63.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey63.Y + DataCardKey63.Height + 5
                 ZIndex: =2
 
         CAPACITY_DataCard2 As typedDataCard.textualEditCard:
@@ -381,9 +383,9 @@ EDIT_ASSET_LIST As screen:
             MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_5")
             Required: =false
             Update: =DataCardValue62.Text
-            Width: =640
-            X: =0
-            Y: =5
+            Width: =320
+            X: =1
+            Y: =2
             ZIndex: =7
 
             DataCardKey64 As label:
@@ -401,10 +403,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue62.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue62 As text:
@@ -435,9 +437,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey64.X + DataCardKey64.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey64.Y + DataCardKey64.Height + 5
                 ZIndex: =2
 
         "'ENG MODEL_DataCard2' As typedDataCard.textualEditCard":
@@ -452,9 +454,9 @@ EDIT_ASSET_LIST As screen:
             MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_6")
             Required: =false
             Update: =DataCardValue63.Text
-            Width: =640
+            Width: =320
             X: =0
-            Y: =6
+            Y: =3
             ZIndex: =7
 
             DataCardKey65 As label:
@@ -472,10 +474,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue63.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue63 As text:
@@ -506,9 +508,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey65.X + DataCardKey65.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey65.Y + DataCardKey65.Height + 5
                 ZIndex: =2
 
         "'ALT MODEL_DataCard2' As typedDataCard.textualEditCard":
@@ -523,9 +525,9 @@ EDIT_ASSET_LIST As screen:
             MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_7")
             Required: =false
             Update: =DataCardValue64.Text
-            Width: =640
-            X: =0
-            Y: =7
+            Width: =320
+            X: =1
+            Y: =3
             ZIndex: =7
 
             DataCardKey66 As label:
@@ -543,10 +545,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue64.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue64 As text:
@@ -577,9 +579,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey66.X + DataCardKey66.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey66.Y + DataCardKey66.Height + 5
                 ZIndex: =2
 
     Group1_3 As group:
@@ -662,7 +664,7 @@ EDIT_ASSET_LIST As screen:
     frmEditAssetList As form:
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: ='Asset List_1'
-        Height: =639
+        Height: =652
         Item: =galAssetList.Selected
         Width: =640
         Y: =75
@@ -700,10 +702,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue73.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue73 As text:
@@ -733,9 +735,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey75.X + DataCardKey75.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey75.Y + DataCardKey75.Height + 5
                 ZIndex: =2
 
             ErrorMessage75 As label:
@@ -816,10 +818,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue77.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue77 As text:
@@ -849,9 +851,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey79.X + DataCardKey79.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey79.Y + DataCardKey79.Height + 5
                 ZIndex: =2
 
             ErrorMessage79 As label:
@@ -932,9 +934,9 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 X: =30
-                Y: =10 + (DataCardValue74.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue74 As text:
@@ -965,9 +967,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey76.X + DataCardKey76.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey76.Y + DataCardKey76.Height + 5
                 ZIndex: =2
 
             ErrorMessage76 As label:
@@ -1048,10 +1050,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue75.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue75 As text:
@@ -1081,9 +1083,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey77.X + DataCardKey77.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey77.Y + DataCardKey77.Height + 5
                 ZIndex: =2
 
             ErrorMessage77 As label:
@@ -1164,9 +1166,9 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 X: =30
-                Y: =10 + (DataCardValue76.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue76 As text:
@@ -1196,9 +1198,9 @@ EDIT_ASSET_LIST As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey78.X + DataCardKey78.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey78.Y + DataCardKey78.Height + 5
                 ZIndex: =2
 
             ErrorMessage78 As label:
@@ -1278,10 +1280,10 @@ EDIT_ASSET_LIST As screen:
                 PaddingLeft: =0
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue53.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
             DataCardValue53 As combobox:
@@ -1316,9 +1318,9 @@ EDIT_ASSET_LIST As screen:
                 SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey54.X + DataCardKey54.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey54.Y + DataCardKey54.Height + 5
                 ZIndex: =2
 
             ErrorMessage49 As label:
@@ -1413,15 +1415,35 @@ EDIT_ASSET_LIST As screen:
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(135, 100, 184, 1)
+        Fill: =RGBA(128, 128, 128, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =60
-        PaddingLeft: =25
-        Size: =21
+        PaddingLeft: =90
+        Size: =18
         Text: ="Reference"
         Width: =640
-        Y: =716
+        Y: =736
         ZIndex: =8
+
+    Icon10 As icon.DocumentwithContent:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =45
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.DocumentWithContent
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =49
+        X: =11
+        Y: =740
+        ZIndex: =9
 
