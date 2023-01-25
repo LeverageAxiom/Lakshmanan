@@ -5,12 +5,12 @@ HOME_SCREEN As screen:
 
     Icon2 As icon.Person:
         BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(135, 100, 184, 1)
+        Color: =RGBA(102, 14, 235, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(255, 255, 255, 1)
         FocusedBorderThickness: =4
-        Height: =76
+        Height: =136
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
@@ -18,9 +18,9 @@ HOME_SCREEN As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =96
-        X: =271
-        Y: =378
+        Width: =113
+        X: =252
+        Y: =318
         ZIndex: =2
 
     TextInput1 As text:
@@ -85,7 +85,7 @@ HOME_SCREEN As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(135, 100, 184, 1)
+        Fill: =RGBA(86, 80, 204, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
@@ -145,7 +145,7 @@ HOME_SCREEN As screen:
 
     Button2 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(19, 18, 20, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(0,0,0,0)
