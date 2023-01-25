@@ -1,65 +1,36 @@
 "'Border Color Palatte' As screen":
-    LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
     "'Main Color' As rectangle":
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: |-
             =ColorValue("#F73F18")
-        FocusedBorderThickness: =4
         Height: =47
-        HoverFill: =RGBA(135, 100, 184, 1)
-        PressedFill: =RGBA(135, 100, 184, 1)
         Width: =267
         X: =283
         Y: =272
         ZIndex: =1
 
     "'Primary Color' As rectangle":
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: |-
             =ColorValue("#30F718")
-        FocusedBorderThickness: =4
         Height: =47
-        HoverFill: =RGBA(135, 100, 184, 1)
-        PressedFill: =RGBA(135, 100, 184, 1)
         Width: =267
         X: =283
         Y: =360
         ZIndex: =2
 
     "'secondary Color' As rectangle":
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: |-
             =ColorValue("#0D0E0D")
-        FocusedBorderThickness: =4
         Height: =47
-        HoverFill: =RGBA(135, 100, 184, 1)
-        PressedFill: =RGBA(135, 100, 184, 1)
         Width: =267
         X: =283
         Y: =445
         ZIndex: =3
 
     "'Third Color' As rectangle":
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: |-
             =ColorValue("#E42DF3")
-        FocusedBorderThickness: =4
         Height: =47
-        HoverFill: =RGBA(135, 100, 184, 1)
-        PressedFill: =RGBA(135, 100, 184, 1)
         Width: =267
         X: =283
         Y: =539

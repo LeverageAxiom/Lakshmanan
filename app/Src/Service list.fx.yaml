@@ -1,29 +1,13 @@
 "'Service list' As screen":
-    LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
     Rectangle2 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(232, 244, 217, 1)
-        FocusedBorderThickness: =4
         Height: =67
-        HoverFill: =RGBA(135, 100, 184, 1)
-        PressedFill: =RGBA(135, 100, 184, 1)
         Width: =640
         ZIndex: =1
 
     Label5 As label:
         Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =67
         Size: =21
@@ -33,72 +17,29 @@
         ZIndex: =2
 
     Icon7 As icon.BackArrow:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(135, 100, 184, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
         Height: =49
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.BackArrow
         OnSelect: =Navigate('Menu Screen')
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
         Width: =51
         X: =561
         Y: =9
         ZIndex: =3
 
     Icon8 As icon.DetailList:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(135, 100, 184, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
         Height: =40
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.DetailList
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
         Width: =59
         X: =8
         Y: =18
         ZIndex: =4
 
     DataTable1 As dataTable.datatable:
-        BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.Solid
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Normal
-        HeadingColor: =RGBA(255, 255, 255, 1)
-        HeadingFill: =RGBA(135, 100, 184, 1)
-        HeadingFont: =Font.'Segoe UI'
-        HeadingFontWeight: =FontWeight.Normal
         HeadingSize: =21
         Height: =1000
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(135, 100, 184, 1)
-        InputFill: =RGBA(255, 255, 255, 1)
-        InvertedColor: =RGBA(255, 255, 255, 1)
         Items: ='Manual Service Creation'
-        LinkColor: =RGBA(0, 134, 208, 1)
-        PrimaryColor1: =RGBA(135, 100, 184, 1)
-        PrimaryColor2: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        PrimaryColor3: =ColorFade(RGBA(135, 100, 184, 1), -50%)
-        SelectedColor: =RGBA(51, 51, 51, 1)
-        SelectedFill: =RGBA(135, 100, 184, .2)
         Size: =21
         Width: =640
         X: =0
@@ -358,14 +299,6 @@
             ZIndex: =18
 
     Label6 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =34
         Size: =21
@@ -376,31 +309,8 @@
         ZIndex: =6
 
     Dropdown1 As dropdown:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        ChevronBackground: =RGBA(255, 255, 255, 1)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(33, 33, 33, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Font: =Font.'Segoe UI'
         Height: =44
-        HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
         Items: =ColViews
-        PaddingBottom: =5
-        PaddingLeft: =12
-        PaddingRight: =5
-        PaddingTop: =5
-        PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(135, 100, 184, 1)
-        SelectionFill: =RGBA(135, 100, 184, 1)
         Size: =21
         Width: =289
         X: =88
