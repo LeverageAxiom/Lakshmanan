@@ -1,5 +1,5 @@
 "'Service Creation' As screen":
-    BackgroundImage: ='white-gradient-blue-linear-1536x2048-c2-87cefa-ffffff-a-90-f-14'
+    BackgroundImage: =App8
     ImagePosition: =ImagePosition.Fill
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
@@ -1058,6 +1058,7 @@
 
             DataCardValue51 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderStyle: =BorderStyle.Dotted
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
                 Default: =If(Form1.Mode=FormMode.New, Last('Manual Service Creation').Title+1,Parent.Default)
@@ -1963,23 +1964,6 @@
                 Y: =DataCardKey58.Y
                 ZIndex: =4
 
-    Label1 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(255, 191, 0, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =75
-        Size: =25
-        Text: ="Manual Service Creation"
-        Width: =640
-        ZIndex: =2
-
     Icon5_1 As icon.BackArrow:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -1997,7 +1981,7 @@
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =55
         X: =559
-        Y: =8
+        Y: =21
         ZIndex: =3
 
     Icon4_2 As icon.Edit:
@@ -2015,18 +1999,19 @@
         PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =50
-        X: =15
-        Y: =8
+        X: =22
+        Y: =21
         ZIndex: =4
 
     Button3 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(122, 90, 166, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(135, 100, 184, 1)
+        Fill: =RGBA(204, 231, 246, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
+        Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Semibold
         Height: =70
         HoverBorderColor: =RGBA(0, 0, 0, 0)
@@ -2049,4 +2034,25 @@
         X: =150
         Y: =1054
         ZIndex: =5
+
+    Label1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =62
+        Size: =24
+        Text: ="Manual Service Creation"
+        Underline: =true
+        Width: =415
+        X: =112
+        Y: =13
+        ZIndex: =6
 
