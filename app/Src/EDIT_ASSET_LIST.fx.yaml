@@ -45,7 +45,6 @@ EDIT_ASSET_LIST As screen:
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(0, 0, 0, 0)
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -92,7 +91,6 @@ EDIT_ASSET_LIST As screen:
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(230, 230, 230, 1)
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
