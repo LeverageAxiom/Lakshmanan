@@ -12,23 +12,6 @@
         Y: =72
         ZIndex: =1
 
-        "'Customer Company Name_DataCard2' As typedDataCard.textualEditCard":
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="CustomerName"
-            Default: =ThisItem.'Customer Company Name'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"CustomerName")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "CustomerName")
-            Required: =false
-            Update: =DataCardValue53.Text
-            Width: =640
-            X: =0
-            Y: =4
-            ZIndex: =1
-
         "'Equipment Type_DataCard2' As typedDataCard.comboBoxEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -327,6 +310,23 @@
                 X: =35
                 Y: =58
                 ZIndex: =6
+
+        "'Customer Company Name_DataCard2' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="CustomerName"
+            Default: =ThisItem.'Customer Company Name'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"CustomerName")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "CustomerName")
+            Required: =false
+            Update: =DataCardValue53.Text
+            Width: =640
+            X: =0
+            Y: =4
+            ZIndex: =1
 
         "'Equipment Name_DataCard1' As typedDataCard.textualEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -1321,7 +1321,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =ComboBox3.Selected.'Customer City'
+                Default: =ComboBox3.Selected.'Cust City'
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)

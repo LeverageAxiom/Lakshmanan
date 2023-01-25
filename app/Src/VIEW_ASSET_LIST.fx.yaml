@@ -7,9 +7,9 @@ VIEW_ASSET_LIST As screen:
         Items: |-
             =Filter(
                 'Asset List_1',
-                IsBlank(ComboBox5.SelectedItems) || IsEmpty(ComboBox5.SelectedItems) || field_1 = ComboBox5.Selected.Result,
+                IsBlank(ComboBox5.SelectedItems) || IsEmpty(ComboBox5.SelectedItems) || 'ENGINE MAKE' = ComboBox5.Selected.Result,
                 StartsWith(
-                    Title,
+                    'EQMNT NO:',
                     TextInput2.Text
                 ),
                 StartsWith(
@@ -284,12 +284,12 @@ VIEW_ASSET_LIST As screen:
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Filter by Engine make"
-        Items: =Distinct('Asset List_1',field_1)
+        Items: =Distinct('Asset List_1','ENGINE MAKE')
         PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(135, 100, 184, 1)
         SearchFields: =["Result"]
-        SearchItems: =Search(Distinct('Asset List_1',field_1),ComboBox5.SearchText,"Result")
+        SearchItems: =Search(Distinct('Asset List_1','ENGINE MAKE'),ComboBox5.SearchText,"Result")
         SelectionFill: =RGBA(135, 100, 184, 1)
         SelectMultiple: =false
         Size: =16
