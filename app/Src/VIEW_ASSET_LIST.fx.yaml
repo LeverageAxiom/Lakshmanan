@@ -149,7 +149,7 @@ VIEW_ASSET_LIST As screen:
     TextInput2 As text:
         Default: =""
         Height: =60
-        HintText: ="Filter by ID"
+        HintText: ="Filter by EQP No"
         Size: =16
         Width: =280
         X: =20
