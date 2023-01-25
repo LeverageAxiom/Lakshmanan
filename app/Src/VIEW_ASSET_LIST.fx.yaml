@@ -1,10 +1,8 @@
 VIEW_ASSET_LIST As screen:
     BackgroundImage: =App8
     ImagePosition: =ImagePosition.Fill
-    LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
     "galAssetList As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
-        BorderColor: =RGBA(166, 166, 166, 1)
         Height: =850
         Items: |-
             =Filter(
@@ -26,17 +24,12 @@ VIEW_ASSET_LIST As screen:
         ZIndex: =1
 
         Title3 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
             Height: =46
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =20
             Text: |-
                 ="EQP NO : " &ThisItem.'EQMNT NO:'
             VerticalAlign: =VerticalAlign.Top
@@ -46,9 +39,6 @@ VIEW_ASSET_LIST As screen:
             ZIndex: =1
 
         Subtitle3 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
             Height: =46
             OnSelect: =Select(Parent)
@@ -56,7 +46,6 @@ VIEW_ASSET_LIST As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =16
             Text: |-
                 ="Engine SR.NO : "&ThisItem.'ENGINE SR.NO:'
             VerticalAlign: =VerticalAlign.Top
@@ -67,25 +56,13 @@ VIEW_ASSET_LIST As screen:
 
         NextArrow3 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(135, 100, 184, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
             Height: =60
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.ChevronRight
             OnSelect: =Select(Parent);Navigate(EDIT_ASSET_LIST,Fade)
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
             PaddingTop: =10
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
             TabIndex: =0
             Tooltip: ="View item details"
             Width: =60
@@ -94,8 +71,6 @@ VIEW_ASSET_LIST As screen:
             ZIndex: =4
 
         Separator3 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =ColorFade(RGBA(135, 100, 184, 1), -30%)
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
@@ -103,16 +78,12 @@ VIEW_ASSET_LIST As screen:
             ZIndex: =5
 
         Subtitle3_1 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =18
             Text: |-
                 ="Capacity : " & ThisItem.CAPACITY
             VerticalAlign: =VerticalAlign.Top
@@ -122,16 +93,12 @@ VIEW_ASSET_LIST As screen:
             ZIndex: =6
 
         Subtitle3_2 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =18
             Text: |-
                 ="Engine Make : "&ThisItem.'ENGINE MAKE'
             VerticalAlign: =VerticalAlign.Top
@@ -141,16 +108,12 @@ VIEW_ASSET_LIST As screen:
             ZIndex: =7
 
         Subtitle3_3 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =18
             Text: |-
                 ="Customer Name : "&ThisItem.'Customer Name'
             VerticalAlign: =VerticalAlign.Top
@@ -161,49 +124,21 @@ VIEW_ASSET_LIST As screen:
 
         Label9 As label:
             Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
             Fill: =RGBA(255, 191, 0, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
             Height: =46
             Size: =18
             Text: ="Unallocated"
-            Width: =140
             X: =415
             Y: =54
             ZIndex: =9
 
     ComboBox4 As combobox:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        ChevronBackground: =RGBA(255, 255, 255, 1)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(33, 33, 33, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayFields: =["Value"]
-        Font: =Font.'Segoe UI'
         Height: =60
-        HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Filter by Status"
         Items: =["Allocated","Unallocated"]
-        PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(135, 100, 184, 1)
         SearchFields: =["Value"]
         SearchItems: =Search(["Allocated","Unallocated"],ComboBox4.SearchText,"Value")
-        SelectionFill: =RGBA(135, 100, 184, 1)
         SelectMultiple: =false
         Size: =16
         Width: =280
@@ -212,27 +147,9 @@ VIEW_ASSET_LIST As screen:
         ZIndex: =2
 
     TextInput2 As text:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
         Default: =""
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
         Height: =60
         HintText: ="Filter by ID"
-        HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
-        PressedBorderColor: =RGBA(135, 100, 184, 1)
-        PressedColor: =RGBA(51, 51, 51, 1)
-        PressedFill: =RGBA(255, 255, 255, 1)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
         Size: =16
         Width: =280
         X: =20
@@ -240,27 +157,9 @@ VIEW_ASSET_LIST As screen:
         ZIndex: =3
 
     TextInput2_1 As text:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
         Default: =""
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
         Height: =60
         HintText: ="Filter by Engine SR.No"
-        HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
-        PressedBorderColor: =RGBA(135, 100, 184, 1)
-        PressedColor: =RGBA(51, 51, 51, 1)
-        PressedFill: =RGBA(255, 255, 255, 1)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
         Size: =16
         Width: =280
         X: =331
@@ -268,31 +167,12 @@ VIEW_ASSET_LIST As screen:
         ZIndex: =4
 
     ComboBox5 As combobox:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        ChevronBackground: =RGBA(255, 255, 255, 1)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(33, 33, 33, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayFields: =["Result"]
-        Font: =Font.'Segoe UI'
         Height: =60
-        HoverBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Filter by Engine make"
         Items: =Sort(Distinct('Asset List_1','ENGINE MAKE'),Result,Ascending)
-        PressedBorderColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(135, 100, 184, 1)
         SearchFields: =["Result"]
         SearchItems: =Search(Sort(Distinct('Asset List_1','ENGINE MAKE'),Result,Ascending),ComboBox5.SearchText,"Result")
-        SelectionFill: =RGBA(135, 100, 184, 1)
         SelectMultiple: =false
         Size: =16
         Width: =280
@@ -301,21 +181,10 @@ VIEW_ASSET_LIST As screen:
         ZIndex: =5
 
     Icon6 As icon.Add:
-        BorderColor: =RGBA(0, 0, 0, 0)
         Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
         Height: =46
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.Add
         OnSelect: =Navigate(NEW_ASSET_LIST,Fade)
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
         Tooltip: ="Add New Asset"
         Width: =49
         X: =495
@@ -330,27 +199,13 @@ VIEW_ASSET_LIST As screen:
         ZIndex: =10
 
         Rectangle1_3 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(166, 166, 166, 1)
             Fill: =RGBA(39, 113, 194, 1)
-            FocusedBorderThickness: =4
             Height: =75
-            HoverFill: =RGBA(135, 100, 184, 1)
-            PressedFill: =RGBA(135, 100, 184, 1)
             Width: =Parent.Width
             ZIndex: =6
 
         Label2_3 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Bold
             Height: =75
             Size: =18
@@ -360,40 +215,18 @@ VIEW_ASSET_LIST As screen:
             ZIndex: =7
 
         Icon4_4 As icon.Edit:
-            BorderColor: =RGBA(0, 0, 0, 0)
             Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
             Height: =75
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Filter
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
             Width: =38
             X: =11
             ZIndex: =8
 
         Icon5_3 As icon.BackArrow:
-            BorderColor: =RGBA(0, 0, 0, 0)
             Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
             Height: =48
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.BackArrow
             OnSelect: =Navigate('Menu Screen',ScreenTransition.Fade)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
             Width: =48
             X: =581
             Y: =13
