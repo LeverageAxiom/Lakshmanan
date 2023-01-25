@@ -14,11 +14,22 @@ NEW_ASSET_LIST As screen:
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =225
+            Height: =161
             Width: =640
             X: =0
             Y: =8
             ZIndex: =1
+
+            Button7_1 As button:
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Height: =70
+                OnSelect: =SubmitForm(frmEditAssetList);Notify("Information Saved Successfully",Success);Navigate(VIEW_ASSET_LIST)
+                Size: =18
+                Text: ="Save"
+                Width: =200
+                X: =196
+                Y: =40
+                ZIndex: =1
 
         "'EQMNT NO:_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
@@ -615,7 +626,6 @@ NEW_ASSET_LIST As screen:
         ZIndex: =5
 
         Rectangle1_6 As rectangle:
-            Fill: =RGBA(122, 90, 166, 1)
             Height: =75
             Width: =Parent.Width
             ZIndex: =1
