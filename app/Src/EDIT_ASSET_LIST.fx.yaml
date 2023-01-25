@@ -1,83 +1,6 @@
 EDIT_ASSET_LIST As screen:
     LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
 
-    Group1_3 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =20
-        ZIndex: =6
-
-        Rectangle1_4 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(135, 100, 184, 1)
-            FocusedBorderThickness: =4
-            Height: =75
-            HoverFill: =RGBA(135, 100, 184, 1)
-            PressedFill: =RGBA(135, 100, 184, 1)
-            Width: =Parent.Width
-            ZIndex: =2
-
-        Label2_4 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Bold
-            Height: =75
-            Size: =18
-            Text: ="Edit Asset List"
-            Width: =490
-            X: =80
-            ZIndex: =3
-
-        Icon4_5 As icon.Edit:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =75
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Filter
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =38
-            X: =11
-            ZIndex: =4
-
-        Icon5_4 As icon.BackArrow:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =48
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.BackArrow
-            OnSelect: =Navigate(VIEW_ASSET_LIST,ScreenTransition.Fade)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =48
-            X: =581
-            Y: =17
-            ZIndex: =5
-
     frmViewAssetList As form:
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: ='Asset List_1'
@@ -652,6 +575,83 @@ EDIT_ASSET_LIST As screen:
                 X: =DataCardKey66.X + DataCardKey66.Width
                 Y: =10
                 ZIndex: =2
+
+    Group1_3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =6
+
+        Rectangle1_4 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(135, 100, 184, 1)
+            FocusedBorderThickness: =4
+            Height: =75
+            HoverFill: =RGBA(135, 100, 184, 1)
+            PressedFill: =RGBA(135, 100, 184, 1)
+            Width: =Parent.Width
+            ZIndex: =2
+
+        Label2_4 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =75
+            Size: =18
+            Text: ="Edit Asset List"
+            Width: =490
+            X: =80
+            ZIndex: =3
+
+        Icon4_5 As icon.Edit:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =75
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Filter
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =38
+            X: =11
+            ZIndex: =4
+
+        Icon5_4 As icon.BackArrow:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =48
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.BackArrow
+            OnSelect: =Navigate(VIEW_ASSET_LIST,ScreenTransition.Fade)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(135, 100, 184, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =48
+            X: =581
+            Y: =17
+            ZIndex: =5
 
     frmEditAssetList As form:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1284,6 +1284,6 @@ EDIT_ASSET_LIST As screen:
         Text: ="Save"
         Width: =200
         X: =215
-        Y: =596
+        Y: =601
         ZIndex: =9
 
