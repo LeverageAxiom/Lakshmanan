@@ -40,7 +40,7 @@ VIEW_ASSET_LIST As screen:
 
         Subtitle3 As label:
             FontWeight: =FontWeight.Semibold
-            Height: =46
+            Height: =61
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -129,7 +129,7 @@ VIEW_ASSET_LIST As screen:
             Size: =18
             Text: ="Unallocated"
             X: =415
-            Y: =54
+            Y: =67
             ZIndex: =9
 
     ComboBox4 As combobox:
