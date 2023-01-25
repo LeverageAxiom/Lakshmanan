@@ -32,7 +32,7 @@ FSR_TRACKER As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'SR Date'
+            Text: =ThisItem.'FSR Date'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
