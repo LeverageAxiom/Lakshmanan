@@ -141,7 +141,7 @@
         Text: ="Asset List"
         Width: =254
         X: =348
-        Y: =213
+        Y: =230
         ZIndex: =5
 
     Button6_5 As button:
@@ -169,7 +169,7 @@
         Text: ="New Asset "
         Width: =254
         X: =49
-        Y: =213
+        Y: =230
         ZIndex: =6
 
     Image2 As image:
