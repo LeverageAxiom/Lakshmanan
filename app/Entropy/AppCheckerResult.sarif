@@ -54,6 +54,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Menu Screen'.Image2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Menu Screen'.Image2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Menu Screen",
+                "type": "'Menu Screen'.Image2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Menu Screen'.Image2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Menu Screen'.Image2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Menu Screen",
+                "type": "'Menu Screen'.Image2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "NEW_ASSET_LIST.Icon5_5.AccessibleLabel"
                 }
               ],
@@ -114,19 +174,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'EQMNT NO:_DataCard1'.DataCardValue39.AccessibleLabel"
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DataCardValue39.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'EQMNT NO:_DataCard1'.DataCardValue39.AccessibleLabel",
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DataCardValue39.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.Form2.'EQMNT NO:_DataCard1'.DataCardValue39"
+                "type": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DataCardValue39"
               }
             }
           ],
@@ -144,19 +204,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ENGINE MAKE_DataCard1'.DataCardValue40.AccessibleLabel"
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.DataCardValue40.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ENGINE MAKE_DataCard1'.DataCardValue40.AccessibleLabel",
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.DataCardValue40.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.Form2.'ENGINE MAKE_DataCard1'.DataCardValue40"
+                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.DataCardValue40"
               }
             }
           ],
@@ -174,19 +234,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ENGINE SR.NO:_DataCard1'.DataCardValue41.AccessibleLabel"
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.DataCardValue41.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ENGINE SR.NO:_DataCard1'.DataCardValue41.AccessibleLabel",
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.DataCardValue41.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.Form2.'ENGINE SR.NO:_DataCard1'.DataCardValue41"
+                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.DataCardValue41"
               }
             }
           ],
@@ -204,19 +264,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ALTERNATOR MAKE_DataCard1'.DataCardValue42.AccessibleLabel"
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.DataCardValue42.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ALTERNATOR MAKE_DataCard1'.DataCardValue42.AccessibleLabel",
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.DataCardValue42.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.Form2.'ALTERNATOR MAKE_DataCard1'.DataCardValue42"
+                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.DataCardValue42"
               }
             }
           ],
@@ -234,19 +294,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ALTERNATOR S.NO:_DataCard1'.DataCardValue43.AccessibleLabel"
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.DataCardValue43.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ALTERNATOR S.NO:_DataCard1'.DataCardValue43.AccessibleLabel",
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.DataCardValue43.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.Form2.'ALTERNATOR S.NO:_DataCard1'.DataCardValue43"
+                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.DataCardValue43"
               }
             }
           ],
@@ -264,19 +324,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.CAPACITY_DataCard1.DataCardValue44.AccessibleLabel"
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.DataCardValue44.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.CAPACITY_DataCard1.DataCardValue44.AccessibleLabel",
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.DataCardValue44.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.Form2.CAPACITY_DataCard1.DataCardValue44"
+                "type": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.DataCardValue44"
               }
             }
           ],
@@ -294,19 +354,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ENG MODEL_DataCard1'.DataCardValue45.AccessibleLabel"
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.DataCardValue45.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ENG MODEL_DataCard1'.DataCardValue45.AccessibleLabel",
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.DataCardValue45.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.Form2.'ENG MODEL_DataCard1'.DataCardValue45"
+                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.DataCardValue45"
               }
             }
           ],
@@ -324,19 +384,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ALT MODEL_DataCard1'.DataCardValue46.AccessibleLabel"
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.DataCardValue46.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'ALT MODEL_DataCard1'.DataCardValue46.AccessibleLabel",
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.DataCardValue46.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.Form2.'ALT MODEL_DataCard1'.DataCardValue46"
+                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.DataCardValue46"
               }
             }
           ],
@@ -1434,49 +1494,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77.AccessibleLabel"
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.Status_DataCard1.DataCardValue53.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77.AccessibleLabel",
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.Status_DataCard1.DataCardValue53.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EDIT_ASSET_LIST",
-                "type": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EDIT_ASSET_LIST",
-                "type": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74"
+                "type": "EDIT_ASSET_LIST.frmEditAssetList.Status_DataCard1.DataCardValue53"
               }
             }
           ],
@@ -1554,19 +1584,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.Status_DataCard1.DataCardValue53.AccessibleLabel"
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.Status_DataCard1.DataCardValue53.AccessibleLabel",
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EDIT_ASSET_LIST",
-                "type": "EDIT_ASSET_LIST.frmEditAssetList.Status_DataCard1.DataCardValue53"
+                "type": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EDIT_ASSET_LIST",
+                "type": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77"
               }
             }
           ],
@@ -3293,66 +3353,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Menu Screen'.Image2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Menu Screen'.Image2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Menu Screen",
-                "type": "'Menu Screen'.Image2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Menu Screen'.Image2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Menu Screen'.Image2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Menu Screen",
-                "type": "'Menu Screen'.Image2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.997194"
                 }
               ],
@@ -3563,19 +3563,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'EQMNT NO:_DataCard1'.DataCardValue39.Default"
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DataCardValue39.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.Form2.'EQMNT NO:_DataCard1'.DataCardValue39.Default",
+                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DataCardValue39.Default",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Default",
                 "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.Form2.'EQMNT NO:_DataCard1'.DataCardValue39"
+                "type": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DataCardValue39"
               }
             }
           ],
