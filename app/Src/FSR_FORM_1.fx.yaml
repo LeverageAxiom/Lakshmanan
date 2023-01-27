@@ -616,10 +616,11 @@
             ZIndex: =6
 
         Label2 As label:
+            Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Bold
             Height: =75
-            Size: =18
+            Size: =20
             Text: ="FSR FORM"
             Width: =490
             X: =80
@@ -630,7 +631,7 @@
             Height: =75
             Icon: =Icon.Edit
             Width: =38
-            X: =11
+            X: =31
             ZIndex: =8
 
         Icon5 As icon.BackArrow:
