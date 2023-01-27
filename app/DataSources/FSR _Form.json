@@ -30,7 +30,6 @@
       "Author#Claims": "Created By Claims",
       "BreakdownIssues": "Service Breakdown Type",
       "BreakdownIssues#Id": "Service Breakdown Type Id",
-      "CCDate": "CL Date",
       "ComplianceAssetId": "Compliance Asset Id",
       "ControllerType": "Controller Type",
       "ControllerType#Id": "Controller Type Id",
@@ -78,7 +77,6 @@
       "ReasonforOpen#Id": "Reason for Open Id",
       "ServiceRequestType": "Service Request Type",
       "ServiceRequestType#Id": "Service Request Type Id",
-      "SRNo": "CL No",
       "Title": "Title",
       "TypeofCoolant": "Type of Coolant",
       "TypeofCoolant#Id": "Type of Coolant Id"
