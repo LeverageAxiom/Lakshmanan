@@ -120,11 +120,11 @@
     "Service Creation",
     "SUCCESS_SCREEN",
     "FSR_TRACKER",
-    "Service list",
     "Asset List",
     "VIEW_ASSET_LIST",
     "EDIT_ASSET_LIST",
     "NEW_ASSET_LIST",
-    "Border Color Palatte"
+    "Border Color Palatte",
+    "Service List"
   ]
 }
