@@ -42,12 +42,13 @@
         Y: =88
         ZIndex: =4
 
-        Label12 As label:
-            Height: =57
+        Label5 As label:
+            Height: =60
             OnSelect: =Select(Parent)
             Size: =21
-            Text: =ThisItem.CLNo
-            Width: =130
-            Y: =6
+            Text: =ThisItem.Asgn
+            Width: =205
+            X: =2
+            Y: =10
             ZIndex: =1
 
