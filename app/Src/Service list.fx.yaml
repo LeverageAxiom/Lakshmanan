@@ -51,32 +51,3 @@
             Y: =6
             ZIndex: =1
 
-        Label12_1 As label:
-            Height: =57
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.CLDate
-            Width: =130
-            X: =130
-            Y: =6
-            ZIndex: =2
-
-        Label12_2 As label:
-            Height: =57
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.EquipmentType
-            Width: =230
-            X: =260
-            Y: =6
-            ZIndex: =3
-
-        Label12_3 As label:
-            Height: =57
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.EquipmentType
-            Width: =230
-            X: =400
-            ZIndex: =4
-

@@ -369,9 +369,6 @@
     "Label10": 266,
     "Label11": 307,
     "Label12": 184,
-    "Label12_1": 504,
-    "Label12_2": 505,
-    "Label12_3": 506,
     "Label2": 297,
     "Label2_1": 338,
     "Label2_2": 482,
@@ -510,7 +507,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/27/2023 07:27:06",
+  "HeaderLastSavedDateTimeUTC": "01/27/2023 07:27:51",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "71e95593-2791-4577-94bb-f451d9939c3c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c69eda498a0f43e8a2fdb022fb2691f8\""
@@ -990,9 +987,6 @@
     "Label10": {},
     "Label11": {},
     "Label12": {},
-    "Label12_1": {},
-    "Label12_2": {},
-    "Label12_3": {},
     "Label2": {},
     "Label2_1": {},
     "Label2_2": {},
@@ -1498,9 +1492,6 @@
     "Label10": 15,
     "Label11": 104,
     "Label12": 476,
-    "Label12_1": 476,
-    "Label12_2": 476,
-    "Label12_3": 476,
     "Label2": 88,
     "Label2_1": 129,
     "Label2_2": 273,
@@ -1681,7 +1672,7 @@
       "typedDataCard": 83
     },
     "DeserializationLoadTime": 4.9318342,
-    "ErrorCount": 5
+    "ErrorCount": 3
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
