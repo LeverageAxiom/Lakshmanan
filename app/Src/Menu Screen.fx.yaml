@@ -1,6 +1,6 @@
 "'Menu Screen' As screen":
     BackgroundImage: =App1
-    Fill: =RGBA(255, 255, 0, 1)
+    Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Fill
 
     Button6 As button:
