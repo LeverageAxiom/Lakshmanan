@@ -867,6 +867,27 @@ EDIT_ASSET_LIST As screen:
                 Y: =DataCardKey54.Y
                 ZIndex: =4
 
+        DataCard5 As typedDataCard.blankCard:
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =118
+            Width: =640
+            X: =0
+            Y: =7
+            ZIndex: =1
+
+            Button7 As button:
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Height: =70
+                OnSelect: =SubmitForm(frmEditAssetList);Notify("Information Saved Successfully",Success);Navigate(VIEW_ASSET_LIST)
+                Size: =18
+                Text: ="Save"
+                Width: =200
+                X: =220
+                Y: =24
+                ZIndex: =1
+
         "'Previous Company_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="PreviousCompany"
@@ -938,27 +959,6 @@ EDIT_ASSET_LIST As screen:
                 Wrap: =false
                 Y: =DataCardKey1.Y
                 ZIndex: =4
-
-        DataCard5 As typedDataCard.blankCard:
-            BorderStyle: =BorderStyle.Solid
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =118
-            Width: =640
-            X: =0
-            Y: =7
-            ZIndex: =1
-
-            Button7 As button:
-                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-                Height: =70
-                OnSelect: =SubmitForm(frmEditAssetList);Notify("Information Saved Successfully",Success);Navigate(VIEW_ASSET_LIST)
-                Size: =18
-                Text: ="Save"
-                Width: =200
-                X: =220
-                Y: =24
-                ZIndex: =1
 
     Label10 As label:
         Color: =RGBA(255, 255, 255, 1)
