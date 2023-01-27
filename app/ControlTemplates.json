@@ -55,33 +55,19 @@
     "OverridableProperties": {},
     "Version": "2.4.0"
   },
-  "dataTable": {
+  "dataCard": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/dataTable",
+    "Id": "http://microsoft.com/appmagic/card",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": false,
     "LastModifiedTimestamp": "0",
-    "Name": "dataTable",
+    "Name": "dataCard",
     "OverridableProperties": {},
     "Version": "1.0.2"
-  },
-  "dataTableColumn": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/dataTableColumn",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "dataTableColumn",
-    "OverridableProperties": {},
-    "Version": "1.0.1"
   },
   "datepicker": {
     "CustomGroupControlTemplateName": "",
@@ -97,19 +83,19 @@
     "OverridableProperties": {},
     "Version": "2.6.0"
   },
-  "dropdown": {
+  "fluidGrid": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/dropdown",
+    "Id": "http://microsoft.com/appmagic/fluidGrid",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "dropdown",
+    "Name": "fluidGrid",
     "OverridableProperties": {},
-    "Version": "2.3.1"
+    "Version": "2.3.0"
   },
   "form": {
     "CustomGroupControlTemplateName": "",
