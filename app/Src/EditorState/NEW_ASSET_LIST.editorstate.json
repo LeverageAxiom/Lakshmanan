@@ -983,7 +983,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Cust Address_DataCard1",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1143,7 +1143,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Cust City_DataCard1",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1303,7 +1303,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Cust Email Id_DataCard2",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1463,7 +1463,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Cust Phone No_DataCard1",
-      "ParentIndex": 13,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1623,7 +1623,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Customer Name_DataCard2",
-      "ParentIndex": 9,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1728,7 +1728,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard6",
-      "ParentIndex": 14,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10174,7 +10174,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DATE OF PURCHASE_DataCard1",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
