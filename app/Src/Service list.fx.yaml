@@ -1,6 +1,6 @@
 "'Service List' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
     OnVisible: |-
-        =ClearCollect(Header,{CLNo:"CL No",CLDate:"CL Date",EquipmentType:"Eqmnt Type",Eqmntno:"Eqmnt No"})
+        =ClearCollect(Header,{CLNo:"CL No",CLDate:"CL Date",EqmntType:"Eqmnt Type",Eqmntno:"Eqmnt No",CCName:"Cust Name",CustLoca:"Cust Location",CustMobile:"Cust Mobile",CustEmailId:"Cust E-Id",EqmntName:"Eqmnt Name",EngNo:"Eng No",Prct:"Product",CLtype:"CL Type",Rmks:"Remarks",Prty:"Priority",Asgn:"Assigned To",CLStatus:"CL Status",CLAct:"Activity Initiated",CLCont:"Contract Person"})
 
     RectQuickActionBar1 As rectangle:
         Height: =88
