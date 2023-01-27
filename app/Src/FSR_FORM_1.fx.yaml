@@ -10,6 +10,22 @@
         Y: =Rectangle1.Height
         ZIndex: =5
 
+        Title_DataCard1 As typedDataCard.textualEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Title"
+            Default: =ThisItem.Title
+            DisplayMode: =Parent.DisplayMode.View
+            DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"Title")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'FSR _Form'], DataSourceInfo.MaxLength, "Title")
+            Required: =false
+            Update: =DataCardValue7.Text
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =1
+
         "'CL No_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="SRNo"
@@ -119,22 +135,6 @@
                 Wrap: =false
                 Y: =DataCardKey34.Y
                 ZIndex: =4
-
-        Title_DataCard1 As typedDataCard.textualEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Title"
-            Default: =ThisItem.Title
-            DisplayMode: =Parent.DisplayMode.View
-            DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"Title")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'FSR _Form'], DataSourceInfo.MaxLength, "Title")
-            Required: =false
-            Update: =DataCardValue7.Text
-            Width: =640
-            X: =0
-            Y: =0
-            ZIndex: =1
 
         "'Customer Company Name_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
