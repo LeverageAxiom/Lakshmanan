@@ -1,6 +1,6 @@
 "'Service List' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
     OnVisible: |-
-        =ClearCollect(Header,{Name:"Name"})
+        =ClearCollect(Header,{CLNo:"CL No",CLDate:"CL Date",EquipmentType:"Equipment Type",Eqmntno:"Equipment No"})
 
     RectQuickActionBar1 As rectangle:
         Height: =88
@@ -28,9 +28,26 @@
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =Parent.Height - 100
+            Height: =1040
             Width: =Parent.Width
             X: =0
             Y: =0
+            ZIndex: =1
+
+    Gallery5 As gallery.galleryVertical:
+        Height: =1048
+        Items: =Header
+        Layout: =Layout.Vertical
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Y: =88
+        ZIndex: =4
+
+        Label12 As label:
+            Height: =57
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =ThisItem.CLNo
+            Width: =130
+            Y: =6
             ZIndex: =1
 

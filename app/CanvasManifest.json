@@ -118,13 +118,13 @@
     "FSR_FORM_1",
     "FSR_FORM_2",
     "Service Creation",
+    "Service List",
     "SUCCESS_SCREEN",
     "FSR_TRACKER",
     "Asset List",
     "VIEW_ASSET_LIST",
     "EDIT_ASSET_LIST",
     "NEW_ASSET_LIST",
-    "Border Color Palatte",
-    "Service List"
+    "Border Color Palatte"
   ]
 }
