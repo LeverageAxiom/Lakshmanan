@@ -58,7 +58,7 @@ VIEW_ASSET_LIST As screen:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent);Navigate(EDIT_ASSET_LIST,Fade)
+            OnSelect: =Select(Parent);Navigate(EDIT_ASSET_LIST,Fade);
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10

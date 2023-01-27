@@ -50,6 +50,7 @@
       "field_9": "PREPARED BY",
       "ID": "ID",
       "Modified": "Modified",
+      "PreviousCompany": "Previous Company",
       "Status": "Status",
       "Status#Id": "Status Id",
       "Title": "EQMNT NO:"
