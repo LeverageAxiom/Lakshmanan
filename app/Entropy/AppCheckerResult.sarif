@@ -54,32 +54,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.Update"
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.Update"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.Update",
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.Update",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
+                  "charLength": 15,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "DataCardValue3"
+                    "text": "DataCardValue66"
                   }
                 }
               },
               "properties": {
                 "member": "Update",
                 "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.Title_DataCard1"
+                "type": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'"
               }
             }
           ],
           "message": {
             "arguments": [
-              "DataCardValue3"
+              "DataCardValue66"
             ],
             "id": "issue"
           },
@@ -94,17 +94,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.Update"
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.Update"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.Update",
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.Update",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 14,
+                  "charOffset": 15,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -113,7 +113,7 @@
               "properties": {
                 "member": "Update",
                 "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.Title_DataCard1"
+                "type": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'"
               }
             }
           ],
@@ -131,308 +131,40 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3.Y"
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.ComboBox1.SearchItems"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue3"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue3"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".Y"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3.Y",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": "DataCardValue3"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Y",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue3"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3.Y"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3.Y",
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.ComboBox1.SearchItems",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 7,
-                  "charOffset": 33,
+                  "charOffset": 54,
                   "snippet": {
-                    "text": ".Height"
+                    "text": "\"Title\""
                   }
                 }
               },
               "properties": {
-                "member": "Y",
+                "member": "SearchItems",
                 "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.Title_DataCard1.ErrorMessage3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Location_DataCard1'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Location_DataCard1'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue5"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.'Customer Location_DataCard1'"
+                "type": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.ComboBox1"
               }
             }
           ],
           "message": {
             "arguments": [
-              "DataCardValue5"
+              "Search"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Location_DataCard1'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Location_DataCard1'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.'Customer Location_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Mobile No_DataCard1'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Mobile No_DataCard1'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue6"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.'Contact Person Mobile No_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue6"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Mobile No_DataCard1'.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Mobile No_DataCard1'.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.'Contact Person Mobile No_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1879,49 +1611,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77.AccessibleLabel"
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Previous Company_DataCard1'.DataCardValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77.AccessibleLabel",
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Previous Company_DataCard1'.DataCardValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EDIT_ASSET_LIST",
-                "type": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EDIT_ASSET_LIST",
-                "type": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74"
+                "type": "EDIT_ASSET_LIST.frmEditAssetList.'Previous Company_DataCard1'.DataCardValue1"
               }
             }
           ],
@@ -1982,6 +1684,66 @@
                 "member": "AccessibleLabel",
                 "module": "EDIT_ASSET_LIST",
                 "type": "EDIT_ASSET_LIST.frmEditAssetList.'Cust Phone Number_DataCard1'.DataCardValue76"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EDIT_ASSET_LIST",
+                "type": "EDIT_ASSET_LIST.frmEditAssetList.'Customer Address_DataCard1'.DataCardValue74"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EDIT_ASSET_LIST",
+                "type": "EDIT_ASSET_LIST.frmEditAssetList.'Customer City_DataCard1'.DataCardValue77"
               }
             }
           ],
@@ -2329,19 +2091,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Company Name_DataCard1'.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Company Name_DataCard1'.DataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Company Name_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Company Name_DataCard1'.DataCardValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.'Customer Company Name_DataCard1'.DataCardValue4"
+                "type": "FSR_FORM_1.frmSrDetails.'Customer Company Name_DataCard1'.DataCardValue2"
               }
             }
           ],
@@ -2359,19 +2121,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'SR Date_DataCard1'.DataCardValue66.AccessibleLabel"
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'FSR Date_DataCard1'.DataCardValue6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'SR Date_DataCard1'.DataCardValue66.AccessibleLabel",
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'FSR Date_DataCard1'.DataCardValue6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.'SR Date_DataCard1'.DataCardValue66"
+                "type": "FSR_FORM_1.frmSrDetails.'FSR Date_DataCard1'.DataCardValue6"
               }
             }
           ],
@@ -2389,19 +2151,139 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Email ID_DataCard1'.DataCardValue7.AccessibleLabel"
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.ComboBox1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Email ID_DataCard1'.DataCardValue7.AccessibleLabel",
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.ComboBox1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.'Contact Person Email ID_DataCard1'.DataCardValue7"
+                "type": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.ComboBox1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Location_DataCard1'.DataCardValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Customer Location_DataCard1'.DataCardValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FSR_FORM_1",
+                "type": "FSR_FORM_1.frmSrDetails.'Customer Location_DataCard1'.DataCardValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL Date_DataCard1'.DataCardValue65.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL Date_DataCard1'.DataCardValue65.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FSR_FORM_1",
+                "type": "FSR_FORM_1.frmSrDetails.'CL Date_DataCard1'.DataCardValue65"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Mobile No_DataCard1'.DataCardValue4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Mobile No_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FSR_FORM_1",
+                "type": "FSR_FORM_1.frmSrDetails.'Contact Person Mobile No_DataCard1'.DataCardValue4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Email ID_DataCard1'.DataCardValue5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'Contact Person Email ID_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "FSR_FORM_1",
+                "type": "FSR_FORM_1.frmSrDetails.'Contact Person Email ID_DataCard1'.DataCardValue5"
               }
             }
           ],
@@ -3901,6 +3783,36 @@
                 "member": "Item",
                 "module": "EDIT_ASSET_LIST",
                 "type": "EDIT_ASSET_LIST.frmViewAssetList"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.Update",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "FSR_FORM_1",
+                "type": "FSR_FORM_1.frmSrDetails.Title_DataCard1"
               }
             }
           ],

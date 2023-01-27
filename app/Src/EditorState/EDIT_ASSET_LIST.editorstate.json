@@ -983,7 +983,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Cust Email Id_DataCard1",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1143,7 +1143,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Cust Phone Number_DataCard1",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1303,7 +1303,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Customer Address_DataCard1",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1463,7 +1463,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Customer City_DataCard1",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1728,7 +1728,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "DataCard5",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14973,7 +14973,7 @@
       "LayoutName": "horizontal",
       "MetaDataIDKey": "",
       "Name": "Previous Company_DataCard1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17210,7 +17210,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Status_DataCard1",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
