@@ -504,78 +504,6 @@ EDIT_ASSET_LIST As screen:
                 Y: =DataCardKey75.Y
                 ZIndex: =4
 
-        "'Previous Company_DataCard1' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="PreviousCompany"
-            Default: =ThisItem.'Previous Company'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"PreviousCompany")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "PreviousCompany")
-            Required: =false
-            Update: =DataCardValue1.Text
-            Width: =640
-            X: =0
-            Y: =6
-            ZIndex: =1
-
-            DataCardKey1 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
-                X: =30
-                Y: =10 + (DataCardValue1.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            DataCardValue1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =70
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =21
-                Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey1.X + DataCardKey1.Width
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage1 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue1.Y + DataCardValue1.Height
-                ZIndex: =3
-
-            StarVisible1 As label:
-                Align: =Align.Center
-                Height: =DataCardKey1.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey1.Y
-                ZIndex: =4
-
         "'Cust Email Id_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="CustEmailId"
@@ -867,6 +795,99 @@ EDIT_ASSET_LIST As screen:
                 Y: =DataCardKey79.Y
                 ZIndex: =4
 
+        DataCard5 As typedDataCard.blankCard:
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =118
+            Width: =640
+            X: =0
+            Y: =8
+            ZIndex: =1
+
+            Button7 As button:
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Height: =70
+                OnSelect: =SubmitForm(frmEditAssetList);Notify("Information Saved Successfully",Success);Navigate(VIEW_ASSET_LIST)
+                Size: =18
+                Text: ="Save"
+                Width: =200
+                X: =220
+                Y: =24
+                ZIndex: =1
+
+        "'Previous Company_DataCard1' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="PreviousCompany"
+            Default: =ThisItem.'Previous Company'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"PreviousCompany")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "PreviousCompany")
+            Required: =false
+            Update: =DataCardValue1.Text
+            Width: =640
+            X: =0
+            Y: =5
+            ZIndex: =1
+
+            DataCardKey1 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                X: =30
+                Y: =10 + (DataCardValue1.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue1 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey1.X + DataCardKey1.Width
+                Y: =10
+                ZIndex: =2
+
+            ErrorMessage1 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue1.Y + DataCardValue1.Height
+                ZIndex: =3
+
+            StarVisible1 As label:
+                Align: =Align.Center
+                Height: =DataCardKey1.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey1.Y
+                ZIndex: =4
+
         Status_DataCard1 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Status"
@@ -879,7 +900,7 @@ EDIT_ASSET_LIST As screen:
             Update: =DataCardValue53.Selected
             Width: =640
             X: =0
-            Y: =5
+            Y: =6
             ZIndex: =1
 
             DataCardKey54 As label:
@@ -939,26 +960,75 @@ EDIT_ASSET_LIST As screen:
                 Y: =DataCardKey54.Y
                 ZIndex: =4
 
-        DataCard5 As typedDataCard.blankCard:
+        "'Installation Date_DataCard1' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
-            DisplayMode: =DisplayMode.Edit
+            DataField: ="InstallationDate"
+            Default: =ThisItem.'Installation Date'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"InstallationDate")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =118
+            Height: =50
+            Required: =false
+            Update: =DataCardValue7.SelectedDate
             Width: =640
             X: =0
             Y: =7
             ZIndex: =1
 
-            Button7 As button:
-                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-                Height: =70
-                OnSelect: =SubmitForm(frmEditAssetList);Notify("Information Saved Successfully",Success);Navigate(VIEW_ASSET_LIST)
-                Size: =18
-                Text: ="Save"
-                Width: =200
-                X: =220
-                Y: =24
+            DataCardKey8 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue7.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
+
+            DataCardValue7 As datepicker:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultDate: =Parent.Default
+                DisplayMode: =Parent.DisplayMode
+                EndYear: =Year(Today())+100
+                Height: =70
+                IsEditable: =true
+                PaddingBottom: =0
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                Size: =24
+                StartYear: =1899
+                Tooltip: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey8.X + DataCardKey8.Width
+                Y: =10
+                ZIndex: =2
+
+            ErrorMessage8 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue7.Y + DataCardValue7.Height
+                ZIndex: =3
+
+            StarVisible8 As label:
+                Align: =Align.Center
+                Height: =DataCardKey8.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey8.Y
+                ZIndex: =4
 
     Label10 As label:
         Color: =RGBA(255, 255, 255, 1)
