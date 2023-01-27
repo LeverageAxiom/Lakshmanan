@@ -388,7 +388,7 @@
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_2"
             Default: =ThisItem.'Customer Location'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"field_2")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -413,7 +413,7 @@
 
             DataCardValue3 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =ComboBox1.Selected.'Customer Location'
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
@@ -461,7 +461,7 @@
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_3"
             Default: =ThisItem.'Contact Person Mobile No'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"field_3")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -486,7 +486,7 @@
 
             DataCardValue4 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =ComboBox1.Selected.'Customer Number'
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
@@ -534,7 +534,7 @@
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_5"
             Default: =ThisItem.'Contact Person Email ID'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'FSR _Form'],DataSourceInfo.DisplayName,"field_5")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -559,7 +559,7 @@
 
             DataCardValue5 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =ComboBox1.Selected.'Customer Mail Id'
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
