@@ -107,6 +107,7 @@
 
     LblAppName1 As label:
         Align: =Align.Center
+        DisplayMode: =DisplayMode.View
         Height: =88
         Size: =27
         Text: ="Service List"
