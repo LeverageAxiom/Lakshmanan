@@ -18,7 +18,7 @@
                 StartsWith(
                     Title,
                     TextInput2_2.Text
-                ),
+                ) ||
                 StartsWith(
                     'Customer Company Name',
                     TextInput2_3.Text
@@ -142,6 +142,7 @@
             Text: |-
                 ="Priority : " &ThisItem.'Assigned To'
             VerticalAlign: =VerticalAlign.Top
+            Visible: =false
             Width: =295
             X: =327
             Y: =112
