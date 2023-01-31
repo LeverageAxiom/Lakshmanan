@@ -174,7 +174,7 @@
 
     TextInput2_2 As text:
         Default: =""
-        Height: =45
+        Height: =50
         HintText: ="Filter by CL No"
         Size: =16
         Width: =221
@@ -188,8 +188,8 @@
         HintText: ="Filter by Cust Name "
         Size: =16
         Width: =325
-        X: =276
-        Y: =171
+        X: =288
+        Y: =99
         ZIndex: =7
 
     DatePicker1 As datepicker:
@@ -199,4 +199,16 @@
         X: =30
         Y: =95
         ZIndex: =8
+
+    ComboBox6 As combobox:
+        DisplayFields: =["Title"]
+        Height: =50
+        Items: =LoginDB
+        SearchFields: =["Title"]
+        SearchItems: =Search(LoginDB,ComboBox6.SearchText,"Title")
+        Size: =21
+        Width: =325
+        X: =288
+        Y: =171
+        ZIndex: =9
 
