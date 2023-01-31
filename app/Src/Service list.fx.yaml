@@ -15,7 +15,7 @@
         Items: ='Manual Service Creation'
         Layout: =Layout.Vertical
         TemplatePadding: =0
-        TemplateSize: =Min(168, Self.Height - 60)
+        TemplateSize: =120
         Y: =213
         ZIndex: =1
 
@@ -41,11 +41,12 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Call Log Date'
+            Size: =16
+            Text: |-
+                ="CL Date : " &ThisItem.'Call Log Date'
             VerticalAlign: =VerticalAlign.Top
             Width: =196
-            X: =32
-            Y: =76
+            Y: =68
             ZIndex: =2
 
         Body2 As label:
@@ -89,7 +90,7 @@
 
         Body2_1 As label:
             FontWeight: =FontWeight.Semibold
-            Height: =47
+            Height: =39
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -98,8 +99,8 @@
             Text: |-
                 ="Location : " &ThisItem.'Customer Location'
             VerticalAlign: =VerticalAlign.Top
-            Width: =318
-            X: =190
+            Width: =295
+            X: =236
             Y: =61
             ZIndex: =6
 
