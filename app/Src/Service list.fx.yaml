@@ -203,9 +203,9 @@
     ComboBox6 As combobox:
         DisplayFields: =["Title"]
         Height: =50
-        Items: =Filter(LoginDB, Title = ComboBox5.Selected.Result)
-        SearchFields: =["Title"]
-        SearchItems: =Search(Filter(LoginDB, Title = ComboBox5.Selected.Result),ComboBox6.SearchText,"Title")
+        Items: =LoginDB
+        SearchFields: =["{VersionNumber}"]
+        SearchItems: =Search(LoginDB,ComboBox6.SearchText,"{VersionNumber}")
         Size: =21
         Width: =325
         X: =288
