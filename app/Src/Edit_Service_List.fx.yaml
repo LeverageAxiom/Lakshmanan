@@ -1149,3 +1149,16 @@ Edit_Service_List As screen:
             Y: =17
             ZIndex: =4
 
+    Button5 As button:
+        Height: =70
+        OnSelect: |-
+            =SubmitForm(Form2);
+            Notify("Assigned Successfully");
+            Navigate('Service List')
+        Size: =24
+        Text: ="Submit"
+        Width: =280
+        X: =116
+        Y: =1056
+        ZIndex: =6
+
