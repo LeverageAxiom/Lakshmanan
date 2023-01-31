@@ -520,15 +520,12 @@ Edit_Service_List As screen:
                 Y: =DataCardKey85.Y
                 ZIndex: =4
 
-            ComboBox7 As combobox:
-                DisplayFields: =["Title"]
+            Dropdown1 As dropdown:
                 Height: =70
                 Items: =LoginDB
-                SearchFields: =["ComplianceAssetId"]
-                SearchItems: =Search(LoginDB,ComboBox7.SearchText,"ComplianceAssetId")
                 Size: =21
                 Width: =575
-                X: =35
+                X: =30
                 Y: =63
                 ZIndex: =5
 
