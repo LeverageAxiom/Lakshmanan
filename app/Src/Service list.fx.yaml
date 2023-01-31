@@ -58,7 +58,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Text: |-
-                ="Company Name : " &ThisItem.'Customer Company Name'
+                ="Cust Name : " &ThisItem.'Customer Company Name'
             VerticalAlign: =VerticalAlign.Top
             Width: =503
             X: =132
