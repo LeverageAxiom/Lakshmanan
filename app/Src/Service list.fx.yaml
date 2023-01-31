@@ -227,3 +227,13 @@
         Y: =172
         ZIndex: =9
 
+    Button8 As button:
+        Height: =45
+        OnSelect: =Reset(TextInput2_2);Reset(TextInput2_3);
+        Size: =24
+        Text: ="Reset"
+        Width: =117
+        X: =459
+        Y: =176
+        ZIndex: =10
+
