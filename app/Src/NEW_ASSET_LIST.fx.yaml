@@ -10,27 +10,6 @@ NEW_ASSET_LIST As screen:
         Y: =75
         ZIndex: =5
 
-        DataCard6 As typedDataCard.blankCard:
-            BorderStyle: =BorderStyle.Solid
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =161
-            Width: =640
-            X: =0
-            Y: =14
-            ZIndex: =1
-
-            Button7_1 As button:
-                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-                Height: =70
-                OnSelect: =SubmitForm(frmEditAssetList);Notify("Information Saved Successfully",Success);Navigate(VIEW_ASSET_LIST)
-                Size: =18
-                Text: ="Save"
-                Width: =200
-                X: =196
-                Y: =40
-                ZIndex: =1
-
         "'DATE OF PURCHASE_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_13"
@@ -468,6 +447,27 @@ NEW_ASSET_LIST As screen:
                 Wrap: =false
                 Y: =DataCardKey71.Y
                 ZIndex: =4
+
+        DataCard6 As typedDataCard.blankCard:
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =161
+            Width: =640
+            X: =0
+            Y: =14
+            ZIndex: =1
+
+            Button7_1 As button:
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Height: =70
+                OnSelect: =SubmitForm(frmEditAssetList);Notify("Information Saved Successfully",Success);Navigate(VIEW_ASSET_LIST)
+                Size: =18
+                Text: ="Save"
+                Width: =200
+                X: =196
+                Y: =40
+                ZIndex: =1
 
         "'EQMNT NO:_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid

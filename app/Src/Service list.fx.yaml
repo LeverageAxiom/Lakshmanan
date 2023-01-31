@@ -1,4 +1,6 @@
 "'Service List' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+    BackgroundImage: ='white-gradient-blue-linear-1536x2048-c2-87cefa-ffffff-a-90-f-14'
+    ImagePosition: =ImagePosition.Fill
     OnVisible: |-
         =ClearCollect(Header,{CLNo:"CL No",CLDate:"CL Date",EqmntType:"Eqmnt Type",Eqmntno:"Eqmnt No",CCName:"Cust Name",CustLoca:"Cust Location",CustMobile:"Cust Mobile",CustEmailId:"Cust E-Id",EqmntName:"Eqmnt Name",EngNo:"Eng No",Prct:"Product",CLtype:"CL Type",Rmks:"Remarks",Prty:"Priority",Asgn:"Assigned To",CLStatus:"CL Status",CLAct:"Activity Initiated",CLCont:"Contract Person"})
 
@@ -7,6 +9,96 @@
         Width: =Parent.Width
         ZIndex: =1
 
+    "Gallery3 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        BorderColor: =RGBA(151, 0, 0, 1)
+        Height: =923
+        Items: ='Manual Service Creation'
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(168, Self.Height - 60)
+        Y: =213
+        ZIndex: =1
+
+        Title4 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =26
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =48
+            X: =32
+            Y: =16
+            ZIndex: =1
+
+        Subtitle4 As label:
+            Height: =32
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Call Log Date'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =196
+            X: =32
+            Y: =76
+            ZIndex: =2
+
+        Body2 As label:
+            Height: =64
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Customer Company Name'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =488
+            X: =87
+            Y: =12
+            ZIndex: =3
+
+        NextArrow4 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator4 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+        Body2_1 As label:
+            Height: =47
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Customer Location'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =318
+            X: =190
+            Y: =61
+            ZIndex: =6
+
     LblAppName1 As label:
         Align: =Align.Center
         Height: =88
@@ -14,41 +106,4 @@
         Text: ="Service List"
         Width: =Parent.Width
         ZIndex: =2
-
-    Canvas1 As fluidGrid.fluidGridWithBlankCard:
-        BorderThickness: =0
-        Height: =Parent.Height - Self.Y
-        Width: =Parent.Width
-        Y: =RectQuickActionBar1.Y + RectQuickActionBar1.Height
-        ZIndex: =3
-
-        DataCard4 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderStyle: =BorderStyle.Solid
-            BorderThickness: =0
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =1040
-            Width: =Parent.Width
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-    Gallery5 As gallery.galleryVertical:
-        Height: =1048
-        Items: =Header
-        Layout: =Layout.Vertical
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
-        Y: =88
-        ZIndex: =4
-
-        Label5 As label:
-            Height: =60
-            OnSelect: =Select(Parent)
-            Size: =21
-            Text: =ThisItem.Asgn
-            Width: =205
-            X: =2
-            Y: =10
-            ZIndex: =1
 
