@@ -4827,6 +4827,36 @@
           },
           "ruleId": "app-InefficientDelayLoading",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Edit_Service_List.Form2.Item"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Edit_Service_List.Form2.Item",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Item",
+                "module": "Edit_Service_List",
+                "type": "Edit_Service_List.Form2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 6
         }
       ],
       "tool": {

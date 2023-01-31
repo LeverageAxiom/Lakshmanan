@@ -1,8 +1,11 @@
 Edit_Service_List As screen:
+    BackgroundImage: ='white-gradient-blue-linear-1536x2048-c2-87cefa-ffffff-a-90-f-14'
+    ImagePosition: =ImagePosition.Fill
 
     Form2 As form:
         DataSource: ='Manual Service Creation'
-        Height: =1061
+        Height: =958
+        Item: =Gallery3.Selected
         Width: =640
         Y: =75
         ZIndex: =5
