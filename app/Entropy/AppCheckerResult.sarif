@@ -144,7 +144,7 @@
                 },
                 "region": {
                   "charLength": 7,
-                  "charOffset": 36,
+                  "charOffset": 79,
                   "snippet": {
                     "text": "\"Title\""
                   }
@@ -4236,6 +4236,66 @@
                 "member": "Update",
                 "module": "FSR_FORM_1",
                 "type": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service List'.ComboBox6.SearchItems"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service List'.ComboBox6.SearchItems",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "SearchItems",
+                "module": "Service List",
+                "type": "'Service List'.ComboBox6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service List'.ComboBox6.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service List'.ComboBox6.Items",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Service List",
+                "type": "'Service List'.ComboBox6"
               }
             }
           ],
