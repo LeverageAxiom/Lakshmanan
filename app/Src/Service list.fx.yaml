@@ -22,6 +22,10 @@
                 StartsWith(
                     'Customer Company Name',
                     TextInput2_3.Text
+                )    ||
+                StartsWith(
+                    'Assigned To',
+                    TextInput2_4.Text
                 )
             )
         Layout: =Layout.Vertical
@@ -212,15 +216,13 @@
         Y: =95
         ZIndex: =8
 
-    ComboBox6 As combobox:
-        DisplayFields: =["Title"]
+    TextInput2_4 As text:
+        Default: =""
         Height: =50
-        Items: =LoginDB
-        SearchFields: =["{VersionNumber}"]
-        SearchItems: =Search(LoginDB,ComboBox6.SearchText,"{VersionNumber}")
-        Size: =21
+        HintText: ="Filter by  Assigned"
+        Size: =16
         Width: =325
         X: =288
-        Y: =171
+        Y: =172
         ZIndex: =9
 
