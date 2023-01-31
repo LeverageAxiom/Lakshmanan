@@ -206,6 +206,7 @@
         ZIndex: =7
 
     DatePicker1 As datepicker:
+        DefaultDate: =Today()-1
         Height: =45
         Size: =24
         Width: =221
