@@ -18,14 +18,10 @@
                 StartsWith(
                     Title,
                     TextInput2_2.Text
-                ) ||
+                ),
                 StartsWith(
                     'Customer Company Name',
                     TextInput2_3.Text
-                )    ||
-                StartsWith(
-                    'Assigned To',
-                    TextInput2_4.Text
                 )
             )
         Layout: =Layout.Vertical
