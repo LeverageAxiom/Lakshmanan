@@ -536,7 +536,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.Title
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
