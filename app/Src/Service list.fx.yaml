@@ -129,7 +129,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Text: |-
-                ="Status : " &ThisItem.'Assigned To'
+                ="Priority : " &ThisItem.'Assigned To'
             VerticalAlign: =VerticalAlign.Top
             Width: =295
             X: =327
