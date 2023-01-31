@@ -14,7 +14,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="EngineNo"
             Default: =ThisItem.'Engine No'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"EngineNo")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -87,7 +87,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="FabNo0"
             Default: =ThisItem.'Eqmnt No'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"FabNo0")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -160,7 +160,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="EquipmentName"
             Default: =ThisItem.'Equipment Name'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"EquipmentName")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -233,7 +233,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="EquipmentType"
             Default: =ThisItem.'Equipment Type'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"EquipmentType")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -304,7 +304,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Capacity_x0028_Kva_x0029_"
             Default: =ThisItem.Product
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"Capacity_x0028_Kva_x0029_")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -377,7 +377,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Remarks"
             Default: =ThisItem.Remarks
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"Remarks")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -609,7 +609,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="FabNo"
             Default: =ThisItem.'Call Log Date'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"FabNo")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -679,7 +679,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="CustomerName"
             Default: =ThisItem.'Customer Company Name'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"CustomerName")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -752,7 +752,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="CustomerLocation"
             Default: =ThisItem.'Customer Location'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"CustomerLocation")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -825,7 +825,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="CustomerNumber"
             Default: =ThisItem.'Customer Number'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"CustomerNumber")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -898,7 +898,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="CustomerMailId"
             Default: =ThisItem.'Customer Mail Id'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"CustomerMailId")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -971,7 +971,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Complaint"
             Default: =ThisItem.'Call Log Type'
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"Complaint")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
@@ -1042,7 +1042,7 @@ Edit_Service_List As screen:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Priority"
             Default: =ThisItem.Priority
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =Parent.DisplayMode.View
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"Priority")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
