@@ -184,7 +184,7 @@
 
     TextInput2_3 As text:
         Default: =""
-        Height: =45
+        Height: =50
         HintText: ="Filter by Cust Name "
         Size: =16
         Width: =325
@@ -193,7 +193,7 @@
         ZIndex: =7
 
     DatePicker1 As datepicker:
-        Height: =48
+        Height: =50
         Size: =24
         Width: =221
         X: =30
