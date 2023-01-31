@@ -15,7 +15,7 @@
         Items: ='Manual Service Creation'
         Layout: =Layout.Vertical
         TemplatePadding: =0
-        TemplateSize: =120
+        TemplateSize: =165
         Y: =213
         ZIndex: =1
 
@@ -104,6 +104,37 @@
             X: =236
             Y: =61
             ZIndex: =6
+
+        Body2_2 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =39
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: |-
+                ="Assign : " &ThisItem.'Assigned To'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =295
+            Y: =118
+            ZIndex: =7
+
+        Body2_3 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =39
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: |-
+                ="Status : " &ThisItem.'Assigned To'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =295
+            X: =327
+            Y: =112
+            ZIndex: =8
 
     LblAppName1 As label:
         Align: =Align.Center

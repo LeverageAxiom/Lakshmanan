@@ -1,0 +1,11 @@
+Edit_Service_List As screen:
+
+    Label8 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =82
+        Size: =25
+        Text: ="Service List"
+        Width: =640
+        ZIndex: =1
+
