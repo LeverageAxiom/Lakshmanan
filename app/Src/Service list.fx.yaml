@@ -221,6 +221,7 @@
         Height: =50
         HintText: ="Filter by  Assigned"
         Size: =16
+        Visible: =false
         Width: =325
         X: =288
         Y: =172
