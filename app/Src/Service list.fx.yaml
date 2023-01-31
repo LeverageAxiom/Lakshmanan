@@ -226,7 +226,7 @@
 
     Button8 As button:
         Height: =45
-        OnSelect: =Reset(TextInput2_2);Reset(TextInput2_3);
+        OnSelect: =Reset(TextInput2_2);Reset(TextInput2_3);Reset(DatePicker1);
         Size: =24
         Text: ="Reset"
         Width: =117
