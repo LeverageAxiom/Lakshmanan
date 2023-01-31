@@ -456,7 +456,7 @@ Edit_Service_List As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "AssignedTo")
             Required: =false
-            Update: =DataCardValue84.Text
+            Update: =Dropdown1.Selected.Title
             Width: =640
             X: =0
             Y: =14
