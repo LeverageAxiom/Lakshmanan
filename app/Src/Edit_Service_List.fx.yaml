@@ -487,6 +487,7 @@ Edit_Service_List As screen:
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
+                Visible: =false
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey85.Y + DataCardKey85.Height + 5
@@ -527,8 +528,8 @@ Edit_Service_List As screen:
                 SearchItems: =Search(LoginDB,ComboBox7.SearchText,"ComplianceAssetId")
                 Size: =21
                 Width: =575
-                X: =30
-                Y: =58
+                X: =35
+                Y: =63
                 ZIndex: =5
 
         Title_DataCard2 As typedDataCard.textualEditCard:
