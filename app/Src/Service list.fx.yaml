@@ -22,7 +22,8 @@
                 StartsWith(
                     'Customer Company Name',
                     TextInput2_3.Text
-                )
+                ) &&
+                ('Call Log Date'=DatePicker1.SelectedDate)
             )
         Layout: =Layout.Vertical
         TemplatePadding: =0
