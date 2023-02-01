@@ -42,7 +42,7 @@
         RadiusTopLeft: =30
         RadiusTopRight: =30
         Size: =18
-        Text: ="Service Creation"
+        Text: ="Call Log Creation"
         Width: =254
         X: =49
         Y: =379
@@ -57,7 +57,7 @@
         RadiusTopLeft: =30
         RadiusTopRight: =30
         Size: =18
-        Text: ="Service List"
+        Text: ="Call Log List"
         Width: =254
         X: =49
         Y: =534
