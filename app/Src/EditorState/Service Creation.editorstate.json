@@ -329,7 +329,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Capacity(Kva)_DataCard1",
-      "ParentIndex": 9,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -781,7 +781,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Complaint_DataCard2",
-      "ParentIndex": 10,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -944,7 +944,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Contract Person_DataCard1",
-      "ParentIndex": 14,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1109,7 +1109,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Customer Company Name_DataCard2",
-      "ParentIndex": 4,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1269,7 +1269,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Customer Location_DataCard3",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1429,7 +1429,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Customer Number_DataCard2",
-      "ParentIndex": 6,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10733,7 +10733,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Engine No_DataCard1",
-      "ParentIndex": 8,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10893,7 +10893,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Equipment Name_DataCard1",
-      "ParentIndex": 7,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15415,7 +15415,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Fab No_DataCard1",
-      "ParentIndex": 3,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15964,7 +15964,14 @@
           "NameMapSourceSchema": "?"
         },
         "Role",
-        "Color",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Color",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledColor",
         "PressedColor",
         "HoverColor",
@@ -16572,7 +16579,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Priority_DataCard2",
-      "ParentIndex": 12,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16735,7 +16742,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Remarks_DataCard1",
-      "ParentIndex": 11,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16980,7 +16987,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Service Request Action_DataCard1",
-      "ParentIndex": 13,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
