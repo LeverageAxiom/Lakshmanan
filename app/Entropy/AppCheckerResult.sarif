@@ -3727,6 +3727,201 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.ComboBox6.SearchItems"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.ComboBox6.SearchItems",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 90,
+                  "snippet": {
+                    "text": "\"ComplianceAssetId\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "SearchItems",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.ComboBox6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Search"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 37,
+                  "snippet": {
+                    "text": "Dropdown5"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Dropdown5"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 46,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 55,
+                  "snippet": {
+                    "text": ".value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 35,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "VIEW_ASSET_LIST.ComboBox5.SearchItems"
                 }
               ],
@@ -3960,7 +4155,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColDNE-Name",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -4401,7 +4596,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 6
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -12973,19 +13168,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.Dropdown5.AccessibleLabel"
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.ComboBox6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.Dropdown5.AccessibleLabel",
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.ComboBox6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Service Creation",
-                "type": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.Dropdown5"
+                "type": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.ComboBox6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6"
               }
             }
           ],
@@ -13506,20 +13731,6 @@
               }
             },
             {
-              "id": "app-ErrColDNE-Name",
-              "messageStrings": {
-                "issue": {
-                  "text": "The specified column '{0}' does not exist."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
               "messageStrings": {
                 "issue": {
@@ -13532,6 +13743,20 @@
                   "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
                   "If you’re comparing records or tables, the field or column types must match exactly."
                 ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrColDNE-Name",
+              "messageStrings": {
+                "issue": {
+                  "text": "The specified column '{0}' does not exist."
+                }
+              },
+              "properties": {
+                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
