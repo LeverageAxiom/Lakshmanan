@@ -3,9 +3,9 @@ NEW_ASSET_LIST As screen:
     ImagePosition: =ImagePosition.Fill
 
     frmNewAssetList As form:
-        DataSource: ='Asset List_1'
+        DataSource: ='Asset List'
         Height: =1061
-        Item: =Defaults('Asset List_1')
+        Item: =Defaults('Asset List')
         Width: =640
         Y: =75
         ZIndex: =5
@@ -15,10 +15,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="field_13"
             Default: =ThisItem.'DATE OF PURCHASE'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"field_13")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"field_13")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_13")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "field_13")
             Required: =false
             Update: =DataCardValue21.Text
             Width: =640
@@ -88,10 +88,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="CustomerName"
             Default: =ThisItem.'Customer Name'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"CustomerName")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"CustomerName")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "CustomerName")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "CustomerName")
             Required: =false
             Update: =DataCardValue66.Text
             Width: =640
@@ -161,10 +161,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="CustomerAddress"
             Default: =ThisItem.'Cust Address'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"CustomerAddress")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"CustomerAddress")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "CustomerAddress")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "CustomerAddress")
             Required: =false
             Update: =DataCardValue67.Text
             Width: =640
@@ -234,10 +234,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="CustomerCity"
             Default: =ThisItem.'Cust City'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"CustomerCity")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"CustomerCity")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "CustomerCity")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "CustomerCity")
             Required: =false
             Update: =DataCardValue68.Text
             Width: =640
@@ -307,10 +307,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="CustEmailId"
             Default: =ThisItem.'Cust Email Id'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"CustEmailId")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"CustEmailId")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "CustEmailId")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "CustEmailId")
             Required: =false
             Update: =DataCardValue69.Text
             Width: =640
@@ -380,10 +380,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="CustPhoneNumber"
             Default: =ThisItem.'Cust Phone No'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"CustPhoneNumber")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"CustPhoneNumber")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "CustPhoneNumber")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "CustPhoneNumber")
             Required: =false
             Update: =DataCardValue70.Text
             Width: =640
@@ -475,10 +475,10 @@ NEW_ASSET_LIST As screen:
             Default: |-
                 =ThisItem.'EQMNT NO:'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"Title")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "Title")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =DataCardValue39.Text
             Width: =640
@@ -548,10 +548,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="field_1"
             Default: =ThisItem.'ENGINE MAKE'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"field_1")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"field_1")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_1")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "field_1")
             Required: =false
             Update: =DataCardValue40.Text
             Width: =640
@@ -622,10 +622,10 @@ NEW_ASSET_LIST As screen:
             Default: |-
                 =ThisItem.'ENGINE SR.NO:'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"field_2")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"field_2")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_2")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "field_2")
             Required: =false
             Update: =DataCardValue41.Text
             Width: =640
@@ -695,10 +695,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="field_3"
             Default: =ThisItem.'ALTERNATOR MAKE'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"field_3")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"field_3")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_3")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "field_3")
             Required: =false
             Update: =DataCardValue42.Text
             Width: =640
@@ -769,10 +769,10 @@ NEW_ASSET_LIST As screen:
             Default: |-
                 =ThisItem.'ALTERNATOR S.NO:'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"field_4")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"field_4")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_4")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "field_4")
             Required: =false
             Update: =DataCardValue43.Text
             Width: =640
@@ -842,10 +842,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="field_5"
             Default: =ThisItem.CAPACITY
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"field_5")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"field_5")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_5")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "field_5")
             Required: =false
             Update: =DataCardValue44.Text
             Width: =640
@@ -915,10 +915,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="field_6"
             Default: =ThisItem.'ENG MODEL'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"field_6")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"field_6")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_6")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "field_6")
             Required: =false
             Update: =DataCardValue45.Text
             Width: =640
@@ -988,10 +988,10 @@ NEW_ASSET_LIST As screen:
             DataField: ="field_7"
             Default: =ThisItem.'ALT MODEL'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,"field_7")
+            DisplayName: =DataSourceInfo([@'Asset List'],DataSourceInfo.DisplayName,"field_7")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, "field_7")
+            MaxLength: =DataSourceInfo([@'Asset List'], DataSourceInfo.MaxLength, "field_7")
             Required: =false
             Update: =DataCardValue46.Text
             Width: =640

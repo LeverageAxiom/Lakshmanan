@@ -14,46 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.Title_DataCard1.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "FSR_FORM_1",
-                "type": "FSR_FORM_1.frmSrDetails.Title_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "FSR_FORM_1.frmSrDetails.'CL No_DataCard1'.ComboBox1.SearchItems"
                 }
               ],
@@ -87,3445 +47,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.Item"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.Item",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 9,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Item",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.Item"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.Item",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 24,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Defaults('Asset List_1')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Item",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Defaults"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.DataSource"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.DataSource",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DataSource",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 68,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"Title\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'EQMNT NO:'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 68,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"Title\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'EQMNT NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"field_1\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'ENGINE MAKE'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"field_1\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"field_2\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'ENGINE SR.NO:'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"field_2\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENGINE SR.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"field_3\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'ALTERNATOR MAKE'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"field_3\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR MAKE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"field_4\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'ALTERNATOR S.NO:'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"field_4\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALTERNATOR S.NO:_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"field_5\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".CAPACITY"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"field_5\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.CAPACITY_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"field_6\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'ENG MODEL'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"field_6\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ENG MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"field_7\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'ALT MODEL'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 70,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"field_7\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'ALT MODEL_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 71,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"field_13\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'DATE OF PURCHASE'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 71,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"field_13\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'DATE OF PURCHASE_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 75,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"CustomerName\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Customer Name'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 75,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"CustomerName\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Customer Name_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 78,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"CustomerAddress\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Cust Address'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 78,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"CustomerAddress\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Address_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 75,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"CustomerCity\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Cust City'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 75,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"CustomerCity\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust City_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 74,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"CustEmailId\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Cust Email Id'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 74,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"CustEmailId\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Email Id_DataCard2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 78,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'],DataSourceInfo.DisplayName,\"CustPhoneNumber\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Cust Phone No'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "'Asset List_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Asset List_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 78,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@'Asset List_1'], DataSourceInfo.MaxLength, \"CustPhoneNumber\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "NEW_ASSET_LIST",
-                "type": "NEW_ASSET_LIST.frmNewAssetList.'Cust Phone No_DataCard1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3555,7 +77,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3585,7 +107,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3615,7 +137,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3645,7 +167,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3675,7 +197,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3705,7 +227,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3735,7 +257,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3765,7 +287,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3795,7 +317,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3825,7 +347,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3855,7 +377,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3885,7 +407,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3915,7 +437,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3945,7 +467,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3975,7 +497,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4005,7 +527,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4035,7 +557,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4065,7 +587,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4095,7 +617,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4125,7 +647,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4155,7 +677,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4185,7 +707,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4215,7 +737,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4245,7 +767,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4275,7 +797,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4305,7 +827,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4335,7 +857,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4365,7 +887,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4395,7 +917,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4425,7 +947,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4455,7 +977,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4485,7 +1007,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4515,7 +1037,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4545,7 +1067,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4575,7 +1097,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4605,7 +1127,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4635,7 +1157,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4665,7 +1187,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4695,7 +1217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4725,7 +1247,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4755,7 +1277,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4785,7 +1307,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4815,7 +1337,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4845,7 +1367,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4875,7 +1397,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4905,7 +1427,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4935,7 +1457,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4965,7 +1487,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -4995,7 +1517,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5025,7 +1547,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5055,7 +1577,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5085,7 +1607,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5115,7 +1637,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5145,7 +1667,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5175,7 +1697,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5205,7 +1727,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5235,7 +1757,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5265,7 +1787,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5295,7 +1817,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5325,7 +1847,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5355,7 +1877,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5385,7 +1907,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5415,7 +1937,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5445,7 +1967,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5475,7 +1997,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5505,7 +2027,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5535,7 +2057,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5565,7 +2087,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5595,7 +2117,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5625,7 +2147,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5655,7 +2177,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5685,7 +2207,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5715,7 +2237,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5745,7 +2267,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5775,7 +2297,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5805,7 +2327,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5835,7 +2357,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5865,7 +2387,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5895,7 +2417,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5925,7 +2447,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5955,7 +2477,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5985,7 +2507,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6015,7 +2537,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6045,7 +2567,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6075,7 +2597,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6105,7 +2627,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6135,7 +2657,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6165,7 +2687,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6195,7 +2717,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6225,7 +2747,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6255,7 +2777,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6285,7 +2807,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6315,7 +2837,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6345,7 +2867,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6375,7 +2897,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6405,7 +2927,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6435,7 +2957,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6465,7 +2987,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6495,7 +3017,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6525,7 +3047,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6555,7 +3077,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6585,7 +3107,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6615,7 +3137,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6645,7 +3167,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6675,7 +3197,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6705,7 +3227,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6735,7 +3257,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6765,7 +3287,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6795,7 +3317,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6825,7 +3347,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6855,7 +3377,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6885,7 +3407,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6915,7 +3437,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6945,7 +3467,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -6974,7 +3496,7 @@
             "level": "Low"
           },
           "ruleId": "acc-AlternativeInputNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -7004,7 +3526,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7034,7 +3556,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7064,7 +3586,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7094,7 +3616,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7124,7 +3646,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7154,7 +3676,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7184,7 +3706,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7214,7 +3736,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7244,7 +3766,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7274,7 +3796,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7304,7 +3826,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7334,7 +3856,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7364,7 +3886,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7394,7 +3916,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7424,7 +3946,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7454,7 +3976,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -7484,7 +4006,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7514,7 +4036,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7544,7 +4066,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7574,7 +4096,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7604,7 +4126,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7634,7 +4156,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7664,7 +4186,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7694,7 +4216,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7724,7 +4246,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7754,7 +4276,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7784,7 +4306,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7814,7 +4336,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7844,7 +4366,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7874,7 +4396,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -7904,7 +4426,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -7934,7 +4456,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -7964,7 +4486,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -7994,7 +4516,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8024,7 +4546,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8054,7 +4576,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8084,7 +4606,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8114,7 +4636,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8144,7 +4666,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8174,7 +4696,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8204,7 +4726,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -8234,7 +4756,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -8264,7 +4786,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -8294,7 +4816,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 8
+          "ruleIndex": 5
         }
       ],
       "tool": {
@@ -8302,23 +4824,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "app-SuggestRemoteExecutionHint",
               "messageStrings": {
@@ -8334,34 +4839,6 @@
                   "Try moving your data to a different data source."
                 ],
                 "level": "Medium",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }

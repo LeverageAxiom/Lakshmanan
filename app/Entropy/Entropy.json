@@ -601,7 +601,6 @@
     "TextInput2_4": 268,
     "TextInput3": 49,
     "Third Color": 310,
-    "Title_DataCard1": 9,
     "Title_DataCard2": 169,
     "Title_DataCard3": 74,
     "Title2": 53,
@@ -613,7 +612,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/02/2023 08:55:16",
+  "HeaderLastSavedDateTimeUTC": "02/02/2023 09:01:10",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "71e95593-2791-4577-94bb-f451d9939c3c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c69eda498a0f43e8a2fdb022fb2691f8\""
@@ -1332,7 +1331,6 @@
     "TextInput2_4": {},
     "TextInput3": {},
     "Third Color": {},
-    "Title_DataCard1": {},
     "Title_DataCard2": {},
     "Title_DataCard3": {},
     "Title2": {},
@@ -1755,7 +1753,7 @@
     "Group1_2": 418,
     "Group1_3": 438,
     "Group1_4": 9,
-    "Group1_5": 516,
+    "Group1_5": 513,
     "Group1_6": 316,
     "HOME_SCREEN": 286,
     "Icon1": 400,
@@ -1769,7 +1767,7 @@
     "Icon4_4": 419,
     "Icon4_5": 439,
     "Icon4_6": 10,
-    "Icon4_7": 513,
+    "Icon4_7": 514,
     "Icon4_8": 296,
     "Icon4_9": 317,
     "Icon5": 22,
@@ -1777,7 +1775,7 @@
     "Icon5_2": 405,
     "Icon5_3": 421,
     "Icon5_4": 441,
-    "Icon5_5": 515,
+    "Icon5_5": 516,
     "Icon5_6": 299,
     "Icon5_7": 319,
     "Icon6": 422,
@@ -1796,7 +1794,7 @@
     "Label2_3": 420,
     "Label2_4": 440,
     "Label2_5": 12,
-    "Label2_6": 514,
+    "Label2_6": 515,
     "Label2_7": 318,
     "Label4": 412,
     "Label5": 298,
@@ -1943,7 +1941,6 @@
     "TextInput2_4": 303,
     "TextInput3": 407,
     "Third Color": 593,
-    "Title_DataCard1": 25,
     "Title_DataCard2": 321,
     "Title_DataCard3": 206,
     "Title2": 411,
@@ -1996,7 +1993,7 @@
       "typedDataCard": 100
     },
     "DeserializationLoadTime": 4.8140601,
-    "ErrorCount": 89
+    "ErrorCount": 1
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
