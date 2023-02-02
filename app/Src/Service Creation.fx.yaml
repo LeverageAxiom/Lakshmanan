@@ -95,7 +95,6 @@
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Visible: =false
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey95.Y + DataCardKey95.Height + 5
@@ -127,15 +126,6 @@
                 Wrap: =false
                 Y: =DataCardKey95.Y
                 ZIndex: =4
-
-            Dropdown3 As dropdown:
-                Height: =70
-                Items: ='Asset List'
-                Size: =21
-                Width: =575
-                X: =32
-                Y: =63
-                ZIndex: =5
 
         "'Eqmnt No_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
