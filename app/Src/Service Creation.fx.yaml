@@ -131,6 +131,7 @@
             Dropdown4 As dropdown:
                 Height: =70
                 Items: =Sort(Distinct('Asset List','Eqmnt Type'),Result)
+                OnChange: =ClearCollect(Customer_Comp_Name,Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result).CustomerName)
                 Size: =21
                 Width: =575
                 X: =30
@@ -548,10 +549,10 @@
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                Items: =Choices([@'Manual Service Creation'].ServiceRequestAction)
+                Items: =Choices([@'Manual Service Creation'].'Activity initiated')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices('Manual Service Creation'.ServiceRequestAction,DataCardValue58.SearchText)
+                SearchItems: =Choices('Manual Service Creation'.'Activity initiated',DataCardValue58.SearchText)
                 SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
@@ -961,13 +962,10 @@
             ComboBox6 As combobox:
                 DisplayFields: =["CustomerName"]
                 Height: =70
-                IsSearchable: =false
-                Items: |-
-                    =Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result)
-                    
-                    //Sort(Distinct(Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result),'Customer Name'),Result)
+                Items: =Customer_Comp_Name
                 SearchFields: =["CustomerName"]
-                SearchItems: =[]
+                SearchItems: =Search(Customer_Comp_Name,ComboBox6.SearchText,"CustomerName")
+                SelectMultiple: =false
                 Size: =21
                 Width: =575
                 X: =30
@@ -1225,10 +1223,10 @@
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                Items: =Choices([@'Manual Service Creation'].Complaint)
+                Items: =Choices([@'Manual Service Creation'].'Call Log Type')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices('Manual Service Creation'.Complaint,DataCardValue55.SearchText)
+                SearchItems: =Choices('Manual Service Creation'.'Call Log Type',DataCardValue55.SearchText)
                 SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
