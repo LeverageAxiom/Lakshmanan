@@ -3736,10 +3736,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 19,
+                  "charLength": 14,
                   "charOffset": 90,
                   "snippet": {
-                    "text": "\"ComplianceAssetId\""
+                    "text": "\"CustomerName\""
                   }
                 }
               },

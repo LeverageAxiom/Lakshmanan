@@ -874,11 +874,11 @@
                 ZIndex: =4
 
             ComboBox6 As combobox:
-                DisplayFields: =["ComplianceAssetId"]
+                DisplayFields: =["CustomerName"]
                 Height: =70
                 Items: =Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result)
-                SearchFields: =["ComplianceAssetId"]
-                SearchItems: =Search(Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result),ComboBox6.SearchText,"ComplianceAssetId")
+                SearchFields: =["CustomerName"]
+                SearchItems: =Search(Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result),ComboBox6.SearchText,"CustomerName")
                 Size: =21
                 Width: =575
                 X: =30
