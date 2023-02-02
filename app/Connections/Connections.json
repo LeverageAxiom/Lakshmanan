@@ -11,7 +11,7 @@
     "datasets": {
       "https://pioneerindia.sharepoint.com/sites/ShakthimanRentalApp": {
         "dataSources": {
-          "Asset List_1": {
+          "Asset List": {
             "tableName": "29ff88b0-da9a-40cf-95ee-29857622e03f"
           },
           "Call Status Dropdown": {
@@ -50,7 +50,7 @@
       "Visitor Reg DB",
       "Manual Service Creation",
       "FSR _Form",
-      "Asset List_1"
+      "Asset List"
     ],
     "dependencies": {},
     "dependents": [],

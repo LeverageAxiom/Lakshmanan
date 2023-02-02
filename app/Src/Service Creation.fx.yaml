@@ -130,7 +130,7 @@
 
             Dropdown3 As dropdown:
                 Height: =70
-                Items: ='Asset List_1'
+                Items: ='Asset List'
                 Size: =21
                 Width: =575
                 X: =32
