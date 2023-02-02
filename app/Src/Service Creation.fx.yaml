@@ -213,7 +213,7 @@
 
             Dropdown6 As dropdown:
                 Height: =70
-                Items: =Filter('Asset List','Customer Name'= Dropdown5.Selected.value)
+                Items: =Filter('Asset List', 'Customer Name' = ComboBox6.Selected.'Customer Name')
                 Size: =21
                 Width: =575
                 X: =30
