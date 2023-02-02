@@ -229,7 +229,7 @@ Edit_Service_List As screen:
                 Y: =DataCardKey88.Y
                 ZIndex: =4
 
-        "'Equipment Type_DataCard3' As typedDataCard.comboBoxEditCard":
+        "'Equipment Type_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="EquipmentType"
             Default: =ThisItem.'Equipment Type'
@@ -237,14 +237,15 @@ Edit_Service_List As screen:
             DisplayName: =DataSourceInfo([@'Manual Service Creation'],DataSourceInfo.DisplayName,"EquipmentType")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
+            MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "EquipmentType")
             Required: =false
-            Update: =DataCardValue88.Selected
+            Update: =DataCardValue33.Text
             Width: =640
             X: =0
             Y: =10
             ZIndex: =1
 
-            DataCardKey89 As label:
+            DataCardKey35 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -255,28 +256,26 @@ Edit_Service_List As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue88 As combobox:
+            DataCardValue33 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["Value"]
+                Default: =Parent.Default
+                DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                IsSearchable: =false
-                Items: |-
-                    =Parent.Default
-                    //Choices([@'Manual Service Creation'].'Equipment Type')
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["Value"]
-                SearchItems: =[]
-                SelectMultiple: =false
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey89.Y + DataCardKey89.Height + 5
+                Y: =DataCardKey35.Y + DataCardKey35.Height + 5
                 ZIndex: =2
 
-            ErrorMessage81 As label:
+            ErrorMessage35 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -289,18 +288,18 @@ Edit_Service_List As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue88.Y + DataCardValue88.Height
+                Y: =DataCardValue33.Y + DataCardValue33.Height
                 ZIndex: =3
 
-            StarVisible81 As label:
+            StarVisible35 As label:
                 Align: =Align.Center
-                Height: =DataCardKey89.Height
+                Height: =DataCardKey35.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey89.Y
+                Y: =DataCardKey35.Y
                 ZIndex: =4
 
         Product_DataCard1 As typedDataCard.textualEditCard:
