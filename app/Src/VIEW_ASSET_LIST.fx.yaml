@@ -171,7 +171,7 @@ VIEW_ASSET_LIST As screen:
         Height: =60
         InputTextPlaceholder: ="Filter by Engine make"
         IsSearchable: =false
-        Items: =Sort(Distinct('Asset List_1','ENGINE MAKE'),Result,Ascending)
+        Items: =Sort(Distinct('Asset List','ENGINE MAKE'),Result,Ascending)
         SearchFields: =["Result"]
         SearchItems: =[]
         SelectMultiple: =false

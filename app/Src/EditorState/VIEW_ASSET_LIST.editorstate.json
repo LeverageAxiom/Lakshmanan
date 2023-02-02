@@ -329,7 +329,14 @@
         "MoreItemsButtonColor",
         "DisplayFields",
         "SearchFields",
-        "Items",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Sort(Distinct('Asset List_1','ENGINE MAKE'),Result,Ascending)",
+          "InvariantPropertyName": "Items",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "SelectionColor",
         "ChevronFill",
         "ChevronHoverFill",
