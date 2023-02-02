@@ -874,11 +874,14 @@
                 ZIndex: =4
 
             ComboBox6 As combobox:
-                DisplayFields: =["Result"]
+                DisplayFields: =["CustomerName"]
                 Height: =70
                 IsSearchable: =false
-                Items: =Sort(Distinct(Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result),'Customer Name'),Result)
-                SearchFields: =["Result"]
+                Items: |-
+                    =Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result)
+                    
+                    //Sort(Distinct(Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result),'Customer Name'),Result)
+                SearchFields: =["CustomerName"]
                 SearchItems: =[]
                 Size: =21
                 Width: =575
