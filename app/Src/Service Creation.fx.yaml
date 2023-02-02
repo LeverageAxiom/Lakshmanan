@@ -130,7 +130,7 @@
 
             Dropdown4 As dropdown:
                 Height: =70
-                Items: =Distinct('Asset List','Eqmnt Type')
+                Items: =Sort(Distinct('Asset List','Eqmnt Type'),Result)
                 Size: =21
                 Width: =575
                 X: =30
@@ -874,11 +874,12 @@
                 ZIndex: =4
 
             ComboBox6 As combobox:
-                DisplayFields: =["CustomerName"]
+                DisplayFields: =["Result"]
                 Height: =70
-                Items: =Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result)
-                SearchFields: =["CustomerName"]
-                SearchItems: =Search(Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result),ComboBox6.SearchText,"CustomerName")
+                IsSearchable: =false
+                Items: =Sort(Distinct(Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result),'Customer Name'),Result)
+                SearchFields: =["Result"]
+                SearchItems: =[]
                 Size: =21
                 Width: =575
                 X: =30

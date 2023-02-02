@@ -3727,46 +3727,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.ComboBox6.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.ComboBox6.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": "\"CustomerName\""
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Service Creation",
-                "type": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.ComboBox6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Search"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Service Creation'.Form1.'Eqmnt No_DataCard2'.Dropdown6.Items"
                 }
               ],
