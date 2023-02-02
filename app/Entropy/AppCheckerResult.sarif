@@ -4577,46 +4577,6 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 8,
-                  "charOffset": 13,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "VIEW_ASSET_LIST",
-                "type": "VIEW_ASSET_LIST.galAssetList.Title3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Title3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Title3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
                   "charLength": 12,
                   "charOffset": 21,
                   "snippet": {
@@ -4632,45 +4592,8 @@
             }
           ],
           "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Subtitle3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Subtitle3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 18,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "VIEW_ASSET_LIST",
-                "type": "VIEW_ASSET_LIST.galAssetList.Subtitle3"
-              }
-            }
-          ],
-          "message": {
             "arguments": [
-              "ThisItem"
+              "EQMNT NO:"
             ],
             "id": "issue"
           },
@@ -4709,45 +4632,8 @@
             }
           ],
           "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Subtitle3_2.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Subtitle3_2.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "VIEW_ASSET_LIST",
-                "type": "VIEW_ASSET_LIST.galAssetList.Subtitle3_2"
-              }
-            }
-          ],
-          "message": {
             "arguments": [
-              "ThisItem"
+              "ENGINE SR.NO:"
             ],
             "id": "issue"
           },
@@ -4786,45 +4672,8 @@
             }
           ],
           "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Subtitle3_1.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Subtitle3_1.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 16,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "VIEW_ASSET_LIST",
-                "type": "VIEW_ASSET_LIST.galAssetList.Subtitle3_1"
-              }
-            }
-          ],
-          "message": {
             "arguments": [
-              "ThisItem"
+              "ENGINE MAKE"
             ],
             "id": "issue"
           },
@@ -4863,45 +4712,8 @@
             }
           ],
           "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Subtitle3_3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VIEW_ASSET_LIST.galAssetList.Subtitle3_3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "VIEW_ASSET_LIST",
-                "type": "VIEW_ASSET_LIST.galAssetList.Subtitle3_3"
-              }
-            }
-          ],
-          "message": {
             "arguments": [
-              "ThisItem"
+              "CAPACITY"
             ],
             "id": "issue"
           },
@@ -4940,13 +4752,16 @@
             }
           ],
           "message": {
+            "arguments": [
+              "Customer Name"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -13141,6 +12956,36 @@
                 "member": "AccessibleLabel",
                 "module": "EDIT_ASSET_LIST",
                 "type": "EDIT_ASSET_LIST.frmViewAssetList.'ALT MODEL_DataCard2'.DataCardValue64"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.Dropdown5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.Dropdown5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Service Creation",
+                "type": "'Service Creation'.Form1.'Customer Company Name_DataCard2'.Dropdown5"
               }
             }
           ],

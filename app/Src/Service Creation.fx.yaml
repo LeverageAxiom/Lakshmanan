@@ -830,6 +830,7 @@
                 RadiusTopRight: =0
                 Size: =21
                 Tooltip: =Parent.DisplayName
+                Visible: =false
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey52.Y + DataCardKey52.Height + 5
@@ -861,6 +862,15 @@
                 Wrap: =false
                 Y: =DataCardKey52.Y
                 ZIndex: =4
+
+            Dropdown5 As dropdown:
+                Height: =70
+                Items: =Filter('Asset List','Eqmnt Type' = Dropdown4.Selected.Result)
+                Size: =21
+                Width: =575
+                X: =30
+                Y: =60
+                ZIndex: =5
 
         "'Customer Location_DataCard3' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
