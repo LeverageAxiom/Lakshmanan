@@ -261,10 +261,13 @@ Edit_Service_List As screen:
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
-                Items: =Choices([@'Manual Service Creation'].'Equipment Type')
+                IsSearchable: =false
+                Items: |-
+                    =Parent.Default
+                    //Choices([@'Manual Service Creation'].'Equipment Type')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices('Manual Service Creation'.'Equipment Type',DataCardValue88.SearchText)
+                SearchItems: =[]
                 SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
