@@ -613,7 +613,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/02/2023 08:45:40",
+  "HeaderLastSavedDateTimeUTC": "02/02/2023 08:46:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "71e95593-2791-4577-94bb-f451d9939c3c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c69eda498a0f43e8a2fdb022fb2691f8\""
@@ -1752,7 +1752,7 @@
     "galleryTemplate4": 306,
     "Group1": 23,
     "Group1_1": 406,
-    "Group1_2": 422,
+    "Group1_2": 418,
     "Group1_3": 441,
     "Group1_4": 9,
     "Group1_5": 516,
@@ -1766,7 +1766,7 @@
     "Icon4_1": 60,
     "Icon4_2": 204,
     "Icon4_3": 403,
-    "Icon4_4": 418,
+    "Icon4_4": 419,
     "Icon4_5": 438,
     "Icon4_6": 10,
     "Icon4_7": 513,
@@ -1775,12 +1775,12 @@
     "Icon5": 22,
     "Icon5_1": 203,
     "Icon5_2": 405,
-    "Icon5_3": 420,
+    "Icon5_3": 421,
     "Icon5_4": 440,
     "Icon5_5": 515,
     "Icon5_6": 299,
     "Icon5_7": 319,
-    "Icon6": 421,
+    "Icon6": 422,
     "Icon7": 297,
     "iconCheck1": 399,
     "iconCircle1": 398,
@@ -1793,7 +1793,7 @@
     "Label2": 21,
     "Label2_1": 61,
     "Label2_2": 404,
-    "Label2_3": 419,
+    "Label2_3": 420,
     "Label2_4": 439,
     "Label2_5": 12,
     "Label2_6": 514,
@@ -1996,7 +1996,7 @@
       "typedDataCard": 100
     },
     "DeserializationLoadTime": 4.8140601,
-    "ErrorCount": 205
+    "ErrorCount": 193
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

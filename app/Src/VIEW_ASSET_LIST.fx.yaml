@@ -6,7 +6,7 @@ VIEW_ASSET_LIST As screen:
         Height: =850
         Items: |-
             =Filter(
-                'Asset List_1',
+                'Asset List',
                 IsBlank(ComboBox5.SelectedItems) || IsEmpty(ComboBox5.SelectedItems) || 'ENGINE MAKE' = ComboBox5.Selected.Result,
                 StartsWith(
                     'EQMNT NO:',
