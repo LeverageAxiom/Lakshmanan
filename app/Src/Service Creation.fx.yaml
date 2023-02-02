@@ -64,7 +64,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "EquipmentType")
             Required: =false
-            Update: =DataCardValue94.Text
+            Update: =Dropdown4.Selected.Result
             Width: =640
             X: =0
             Y: =2
@@ -148,7 +148,9 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "FabNo0")
             Required: =false
-            Update: =DataCardValue92.Text
+            Update: |-
+                =Dropdown6.Selected.'EQMNT NO:'
+                //DataCardValue92.Text
             Width: =640
             X: =0
             Y: =4
@@ -895,7 +897,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Manual Service Creation'], DataSourceInfo.MaxLength, "CustomerName")
             Required: =false
-            Update: =DataCardValue51.Text
+            Update: =ComboBox6.Selected.'Customer Name'    //DataCardValue51.Text
             Width: =640
             X: =0
             Y: =3

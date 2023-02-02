@@ -900,10 +900,11 @@ EDIT_ASSET_LIST As screen:
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 InputTextPlaceholder: ="Select Status"
+                IsSearchable: =false
                 Items: =Choices([@'Asset List_1'].Status)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices('Asset List_1'.Status,DataCardValue53.SearchText)
+                SearchItems: =[]
                 SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
